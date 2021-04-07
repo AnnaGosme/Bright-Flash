@@ -4,8 +4,7 @@ const women = [
         name: "Frida Kahlo",
         title: "Artist, Feminist and Activist",
         contribution: "Inspired by the country's popular culture, she employed a naïve folk art style to explore questions of identity, postcolonialism, gender, class, and race in Mexican society.",
-        years: 1907-1954,
-        nationality: "Mexico", 
+        nationality: "Mexico",  
         image: ,
     }
 
