@@ -359,5 +359,22 @@ const women = [
         years: `1815-1852`,
         nationality: `English`, 
         image:
-    }
+    },
+    {
+        id: 41, 
+        name: `Mae Jemison`,
+        title: `Astronaut`,
+        contribution: `In addition to being the first Black woman to travel into space aboard space shuttle Endeavour, Mae Jemison was the first Black woman to be admitted to the NASA astronaut training program. After her career with NASA, she founded a consulting firm she named The Jemison Group Inc., which focuses on sociocultural issues in the STEM field and now holds 10 honorary doctorates.`,
+        years: `1956`,
+        nationality: `American`, 
+        image:   
+    },
+        id: 42, 
+        name: `Lise Meitner`,
+        title: `“The Mother of Nuclear Power”`,
+        contribution: `Lise Meitner is the Austrian Swedish physicist who co-discovered nuclear fission. Her partner, chemist Otto Hahn, was awarded a Nobel Prize for such findings and Meitner’s missed recognition is widely known as the “Nobel Mistake”. She also discovered the element protactinium and had an element named after her posthumously.`,
+        years: `1878-1968`,
+        nationality: `Austrian`, 
+        image:
+     }
 ];
