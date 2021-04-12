@@ -3,6 +3,6 @@ import React from "react";
 
 export default function ListOfWomen() {
     return (
-        //fetch api ?
+        //fetch api of women?
     )
 }

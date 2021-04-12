@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <TopNav />
-      <Home / Games / About / Women / />
+      <Home / Games / About / Women / // how to call each different component here? />
       <Footer />
     
     </div>

@@ -5,6 +5,6 @@ import Card from "./Card";
 
 export default function GameCardsList () {
     return (
-        // arrays function to call number of cards
+        // create array to call number of cards for each level?
     )
 }

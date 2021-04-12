@@ -4,7 +4,8 @@ import React from "react";
 
 export default function TopNav() {
     return (
-        <div>
+        //links to each page ?
+        <div> 
             <ul>
                 <li className="active" href="#home">Home Page</li>
                 <li href="#Games">Games</li>
