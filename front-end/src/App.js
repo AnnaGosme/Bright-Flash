@@ -1,4 +1,5 @@
-import logo from "./logo.svg";
+import React from "react";
+import ReactDOM from "react-dom";
 import "./App.css";
 
 function App() {
@@ -23,3 +24,5 @@ function App() {
 }
 
 export default App;
+
+ReactDOM.render(<App />, document.getElementById("root"));
