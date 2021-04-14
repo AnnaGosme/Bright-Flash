@@ -184,7 +184,7 @@ const women = [
 	{
 		id: 18,
 		name: "Jane Goodall",
-		title: "Internet Pioneer",
+		title: "Life-long observer of chimpanzees",
 		contribution:
 			"Jane Goodall is a primatologist most known for her long-term study of wild chimpanzees in Tanzania. The Gombe chimp observation, which Jane began in 1960, is the world’s longest running continuous wildlife research project.  Through her Jane Goodall Institute, she has become equally well known as a conservationist and a champion of human rights.",
 		years: "1934",
@@ -225,7 +225,6 @@ const women = [
 		id: 22,
 		name: "Ada Lovelace",
 		title: "World’s first computer programmer",
-		contribution:
 			"That brain of mine is something more than merely mortal, as time will show",
 		year: "1815 – 1852",
 		nationality: "English",
@@ -280,7 +279,7 @@ const women = [
 		id: 27,
 		name: "Annie Londonderry",
 		title: "Cyclist",
-		contribution: "Annie Londonderry was first woman to cycle around the world",
+		contribution: "Annie Londonderry was first woman to cycle around the world.",
 		year: "1870 – 1947",
 		nationality: "Latvian",
 		image:
@@ -315,7 +314,6 @@ const women = [
 			"Jeanne Paquin was a leading French fashion designer, known for her resolutely modern and innovative designs. She was the first major female couturier and one of the pioneers of the modern fashion business",
 		year: "1869–1936",
 		nationality: "French",
-		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id30_Paquin_dypu4q.jpg",
 	},
 	{
@@ -405,9 +403,19 @@ const women = [
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id38_Montessori_lnnkju.jpg",
 	},
+	{
+		id: 40,
+		name: "Rosalind Franklin",
+		title: "Chemist",
+		contribution:
+			"Rosalind Franklin work was central to the understanding of the molecular structures of DNA (deoxyribonucleic acid), RNA (ribonucleic acid), viruses, coal, and graphite.",
+		years: "1920-1958",
+		nationality: "English",
+		image: "",
+	},
 
 	{
-		id: 39,
+		id: 41,
 		name: "Mae Jemison",
 		title: "Astronaut",
 		contribution:
@@ -418,7 +426,7 @@ const women = [
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id39_Jemison_nnwljp.jpg",
 	},
 	{
-		id: 40,
+		id: 42,
 		name: "Lise Meitner",
 		title: "The Mother of Nuclear Power",
 		contribution:
@@ -429,7 +437,7 @@ const women = [
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398853/id40_Meitner_pprv2w.jpg",
 	},
 	{
-		id: 41,
+		id: 43,
 		name: "Gloria Steinem",
 		title: "Feminist Icon",
 		contribution:
@@ -438,11 +446,11 @@ const women = [
 		nationality: "American",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id41_Steinem_os6wyb.jpg",
-	},
+	}
 	{
-		id: 42,
+		id: 44,
 		name: "Rachel Levine",
-		title: "Feminist Icon",
+		title: "First transgender woman to hold Senate-confirmed office",
 		contribution:
 			"Rachel Leland Levine is an American pediatrician who has been the United States assistant secretary for health since March 26, 2021. She is a professor of pediatrics and psychiatry at the Penn State College of Medicine, and previously served as the Pennsylvania physician general from 2015 to 2017. She is one of only a few openly transgender government officials in the United States, and is the first to hold an office that requires Senate confirmation.",
 		years: "1957",
