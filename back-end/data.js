@@ -224,7 +224,7 @@ const women = [
   {
     id: 22,
     name: "Ada Lovelace",
-    title: "World’s first computer programmer.",
+    title: "World’s first computer programmer",
     contribution:
       "That brain of mine is something more than merely mortal, as time will show",
     year: "1815 – 1852",
@@ -398,7 +398,7 @@ const women = [
     nationality: "English",
     image: "",
   },
-  
+
   {
     id: 40,
     name: "Mae Jemison",
