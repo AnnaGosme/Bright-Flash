@@ -130,6 +130,7 @@ const women = [
 		years: "1951",
 		nationality: "American",
 		image: "https://res.cloudinary.com/octavian2111/image/upload/v1618408514/D3530914-D91B-481A-96C4-919516E39E66_1_201_a_sbuhut.jpg"
+	},
 	{
 		id: 13,
 		name: "Aletta Jacobs",
@@ -224,7 +225,7 @@ const women = [
 		id: 22,
 		name: "Ada Lovelace",
 		title: "World’s first computer programmer",
-			"That brain of mine is something more than merely mortal, as time will show",
+		contribution: "That brain of mine is something more than merely mortal, as time will show",
 		year: "1815 – 1852",
 		nationality: "English",
 		image:
@@ -313,7 +314,7 @@ const women = [
 			"Jeanne Paquin was a leading French fashion designer, known for her resolutely modern and innovative designs. She was the first major female couturier and one of the pioneers of the modern fashion business",
 		year: "1869–1936",
 		nationality: "French",
-			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id30_Paquin_dypu4q.jpg",
+		image: "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id30_Paquin_dypu4q.jpg",
 	},
 	{
 		id: 31,
@@ -412,7 +413,6 @@ const women = [
 		nationality: "English",
 		image: "",
 	},
-
 	{
 		id: 41,
 		name: "Mae Jemison",
@@ -445,7 +445,7 @@ const women = [
 		nationality: "American",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id41_Steinem_os6wyb.jpg",
-	}
+	},
 	{
 		id: 44,
 		name: "Rachel Levine",
