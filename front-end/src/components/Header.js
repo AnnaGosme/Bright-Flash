@@ -2,10 +2,12 @@ import React from "react";
 
 //import css
 
-export default function TopNav() {
+export default function Header() {
     return (
+    
         //links to each page ?
         <div> 
+             <img src = "https://picsum.photos/200/300"alt = "logo" ></img>
             <ul>
                 <li className="active" href="#home">Home Page</li>
                 <li href="#Games">Games</li>
