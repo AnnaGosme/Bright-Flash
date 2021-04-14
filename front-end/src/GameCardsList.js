@@ -7,6 +7,8 @@ import Footer from "./Footer";
 
 export default function GameCardsList () {
     return (
-        // create array to call number of cards for each level?
-    )
+       GameCardsList 
+    );
 }
+// create array to call number of cards for each level?
+        
