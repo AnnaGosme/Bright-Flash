@@ -4,7 +4,6 @@ import Footer from "./Footer";
 //import css
 
 export default function ListOfWomen() {
-    return (
-        //fetch api of women?
-    )
+	return null;
+	//fetch api of women?
 }
