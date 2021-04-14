@@ -380,7 +380,8 @@ const women = [
 			"Margaret Thatcher was the longest-serving British prime minister of the 20th century and the first woman to hold that office.",
 		years: "1920-2013",
 		nationality: "English",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618403528/id36_Thatcher_mvr5ka.jpg",
 	},
 	{
 		id: 37,
