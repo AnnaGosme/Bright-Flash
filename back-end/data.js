@@ -235,7 +235,7 @@ const women = [
     name: "Maya Angelou",
     title: "Afro American Human Rights activist",
     contribution:
-      "Author of `I Know Why the Caged Bird Sings`. American poet, memoirist, and civil rights activist.",
+      " American poet, memoirist, and civil rights activist she's the author of `I Know Why the Caged Bird Sings`, published in 1969 , is one of her awarded work. Her international recognition and acclaim are labeled to many of her autobiographical books. From the age of seventeen , Angelou had to face string of odd jobs .  She was respected for being a defence of Black Culture but mostly for women rights identity.",
     year: `1928 – 2014`,
     nationality: `American`,
     image:
@@ -246,7 +246,7 @@ const women = [
     name: "Ada Lovelace",
     title: "World’s first computer programmer",
     contribution:
-      "That brain of mine is something more than merely mortal, as time will show",
+      "`That brain of mine is something more than merely mortal, as time will show`.Referred to as 'prophet of the computer age, Ada Lovelace was a brilliant mathematician . The significance of her work lies in the fact that she was the first to write a computer programme, an algorithm to calculate a sequence of Bernoulli numbers, intended to be carried out by Charles Babbage's Analytical Engine. Great contribution considering year 1842.",
     year: "1815 – 1852",
     nationality: "English",
     image:
@@ -257,7 +257,7 @@ const women = [
     name: "Amelia Earhart",
     title: "First Woman aviator",
     contribution:
-      "Women must try to do things as men have tried. When they fail, their failure must be but a challenge to others.",
+      "'Women must try to do things as men have tried. When they fail, their failure must be but a challenge to others'. Amelia Eahart was the first woman to fly across the Atlantic and the Pacific Ocean in 1928",
     year: "1897 – 1939",
     nationality: "American",
     image:
@@ -290,7 +290,7 @@ const women = [
     name: "Peg Hughes",
     title: "Actress",
     contribution:
-      "Peg Hughes is often credited as the first professional actress on the English stage on 8 December 1660",
+      "Peg Hughes is often credited as the first professional actress on the English stage on 8 December 1660.During the Renaissance women had been virtually banned from appearing as actresses on the stage. So under a male name and role, leading females as  professional actress for the following  centuries !.",
     year: "1645 – 1719",
     nationality: "English",
     image:
@@ -301,7 +301,7 @@ const women = [
     name: "Annie Londonderry",
     title: "Cyclist",
     contribution:
-      "Annie Londonderry was first woman to cycle around the world.",
+      "Annie Londonderry was first woman to cycle around the world.On June 27, 1894, is the date of her departure, 11:00 am was  the time. A gun, a change of clothes and some travel books accompany her for the duration of the effort.The challenge started from Boston city  and goes through New York, Ohio, Illinois. But not only: it also touches France – Paris Lyon, Marseille.Alexandria of Egypt. From Israel to Yemen, from Sri Lanka to Singapore, from Vietnam to China. On 24 September 1895,she returns home, wining this arduous journey out of any expectation.",
     year: "1870 – 1947",
     nationality: "Latvian",
     image:
@@ -322,7 +322,8 @@ const women = [
     id: 29,
     name: "Billie Holiday",
     title: "Lady Day",
-    contribution: "Jazz singer and performer",
+    contribution:
+      "Jazz singer and performer.Holiday had an innovative influence on jazz music. Her vocal style, strongly inspired by jazz instrumentalists, pioneered a new way of manipulating phrasing and tempo that would lead to the pop music gender. She was known for her vocal delivery and improvisational skills too",
     year: "1915 – 1959",
     nationality: "American",
     image:
