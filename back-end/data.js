@@ -216,9 +216,9 @@ const women = [
 		name: "Maya Angelou",
 		title: "Afro American Human Rights activist",
 		contribution:
-			"Author of `I Know Why the Caged Bird Sings`. American poet, memoirist, and civil rights activist.",
-		year: `1928 – 2014`,
-		nationality: `American`,
+			"Author of 'I Know Why the Caged Bird Sings'. American poet, memoirist, and civil rights activist.",
+		year: "1928 – 2014",
+		nationality: "American",
 		image: "https://res.cloudinary.com/octavian2111/image/upload/v1618408514/96C18D88-8105-469D-8DDF-C44975E87E28_4_5005_c_vgygo5.jpg",
 	},
 	{
@@ -230,6 +230,7 @@ const women = [
 		nationality: "English",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id22_Lovelace_xejx8f.jpg",
+		quote: "'Your best and wisest refuge from all troubles is in your science.'- Ada Lovelace"
 	},
 	{
 		id: 23,
@@ -241,6 +242,7 @@ const women = [
 		nationality: "American",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618402561/id23_Earhart_hunndd.jpg",
+		quote: "'Women, like men, should try to do the impossible. And when they fail, their failure should be a challenge to others'- Amelia Earhart"
 	},
 	{
 		id: 24,
@@ -252,6 +254,7 @@ const women = [
 		nationality: "English",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id24_Franklin_qhr5lp.jpg",
+		quote: "'Science and everyday life cannot and should not be separated.'- Rosalind Franklin"
 	},
 	{
 		id: 25,
@@ -263,6 +266,7 @@ const women = [
 		nationality: "English",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id25_Butler_hlduhk.jpg",
+		quote: "'It is a fact, that numbers even of moral and religious people have permitted themselves to accept and condone in man what is fiercely condemned in woman.'- Josephine Butler"
 	},
 	{
 		id: 26,
@@ -274,6 +278,8 @@ const women = [
 		nationality: "English",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id26_Hughes_beotzn.jpg",
+		quote: "'I\'m tough, I\'m ambitious, and I know exactly what I want. If that makes me a bitch, okay.'― Madonna"
+
 	},
 	{
 		id: 27,
@@ -284,6 +290,7 @@ const women = [
 		nationality: "Latvian",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id27_Londonberry_kim8ga.jpg",
+		quote:"'I am a journalist and '\a new woman'\ if that term means that I believe I can do anything that any man can do.'- Annie Londonderry"
 	},
 	{
 		id: 28,
@@ -295,6 +302,7 @@ const women = [
 		nationality: "Japanese",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id28_Tabei_cjrb7w.jpg",
+		quote: "'Technique and ability alone do not get you to the top; it is the willpower that is most important.'- Junko Tabei"
 	},
 	{
 		id: 29,
@@ -305,6 +313,7 @@ const women = [
 		nationality: "American",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id29_Holiday_1947_gd7cxz.jpg",
+		quote: "'If you copy, it means you're working without any real feeling. No two people on earth are alike.'- Billie Holiday"
 	},
 	{
 		id: 30,
@@ -315,6 +324,7 @@ const women = [
 		year: "1869–1936",
 		nationality: "French",
 		image: "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id30_Paquin_dypu4q.jpg",
+		quote: "'I get inspiration everywhere. When I am travelling or walking in the street, when I see a sunset with beautiful blendings of color, I often get an inspiration that helps me to evolve[...]'- Jeanne Paquin"
 	},
 	{
 		id: 31,
@@ -325,6 +335,7 @@ const women = [
 		nationality: "Mexican",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id31_Kahlo_qiuqbj.jpg",
+		quote: "'I think that little by little I'll be able to solve my problems and survive.'- Frida Kahlo"
 	},
 	{
 		id: 32,
@@ -336,6 +347,7 @@ const women = [
 		nationality: "Polish",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id32_Curie_a357fs.jpg",
+		quote: "'Nothing in life is to be feared; it is only to be understood. '- Marie Curie"
 	},
 	{
 		id: 33,
@@ -358,6 +370,7 @@ const women = [
 		nationality: "Italian",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id34_Gentileschi_flzw61.jpg",
+		quote: "'My mustrious lordship, i'll show you what a woman can do.'- Artemisia Gentileschi"
 	},
 	{
 		id: 35,
@@ -369,6 +382,7 @@ const women = [
 		nationality: "Nigerian",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id35_Adichie_rjbyan.jpg",
+		quote: "'“You must never behave as if your life belongs to a man.[•••] “Your life belongs to you and you alone.”'- Chimamanda Ngozi Adichie"
 	},
 	{
 		id: 36,
@@ -380,6 +394,7 @@ const women = [
 		nationality: "English",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618403528/id36_Thatcher_mvr5ka.jpg",
+		quote: "'What is success? I think it is a mixture of having a flair for the thing that you are doing; knowing that it is not enough, that you have got to have hard work and a certain sense of purpose.'- Margaret Thatcher"
 	},
 	{
 		id: 37,
@@ -391,6 +406,7 @@ const women = [
 		nationality: "American",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id37_Hamilton_fssetl.jpg",
+		quote: "'Looking back, we were the luckiest people in the world. There was no choice but to be pioneers; no time to be beginners.'- Margaret Hamilton"
 	},
 	{
 		id: 38,
@@ -402,16 +418,18 @@ const women = [
 		nationality: "Italian",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id38_Montessori_lnnkju.jpg",
+		quote: "'The satisfaction which they find in their work has given them a grace and ease like that which comes from music.'- Maria Montessori"
 	},
 	{
 		id: 40,
-		name: "Rosalind Franklin",
-		title: "Chemist",
+		name: "Audre Lorde",
+		title: "Author and creator of the 'theory of difference",
 		contribution:
-			"Rosalind Franklin work was central to the understanding of the molecular structures of DNA (deoxyribonucleic acid), RNA (ribonucleic acid), viruses, coal, and graphite.",
-		years: "1920-1958",
-		nationality: "English",
-		image: "",
+			"Audre Lorde explored female identity and life as a Black lesbian and writing about issues that affected women across the country during the height Civil Rights movement. All of her work was based on her 'theory of difference', which we refer to as 'intersectionality' today.",
+		years: "1934-1992",
+		nationality: "American",
+		image: "https://res.cloudinary.com/octavian2111/image/upload/v1618518120/id40_Lorde_nypi5a.jpg",
+		quote: "'It is not our differences that divide us. It is our inability to recognize, accept, and celebrate those differences.'- Audre Lorde"
 	},
 	{
 		id: 41,
@@ -423,6 +441,7 @@ const women = [
 		nationality: "American",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id39_Jemison_nnwljp.jpg",
+		quote: "'Never limit yourself because of others' limited imagination; never limit others because of your own limited imagination'- Mae Jemison"
 	},
 	{
 		id: 42,
@@ -434,6 +453,7 @@ const women = [
 		nationality: "Austrian",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398853/id40_Meitner_pprv2w.jpg",
+		quote: "'Life need not be easy, provided only that it is not empty.'- Lise Meitner"
 	},
 	{
 		id: 43,
@@ -445,6 +465,7 @@ const women = [
 		nationality: "American",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id41_Steinem_os6wyb.jpg",
+		quote: "'Don't think about making women fit the world‬—‪think about making the world fit women.'- Gloria Steinham"
 	},
 	{
 		id: 44,
@@ -456,6 +477,7 @@ const women = [
 		nationality: "American",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618401262/id42_Levine_shvbed.jpg",
+		quote:"'We have made so much progress, but we still have a long way to go in terms of true fairness and equality for sexual and gender minorities.'- Rachel Levine"
 	},
 ];
 module.exports = women;
