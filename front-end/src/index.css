@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/*MOBILE*/
+@media screen and (max-width: 600px) {
+}
+
+/*DESKTOP*/
+#logo {
+	width: 7%;
+	margin-left: 10px;
+	/*background-color doesn't work and I can't change the background of the logo. Is it a png?*/
+	background-color: #b95c77;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #b95c77;
+}
+
+.navbar .menu-item {
+	justify-content: flex-end;
+}
+
+.menu-item {
+	margin-right: 25px;
+}
+
+.menu-item > a {
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+	font-family: Oswald;
+	font-weight: lighter;
+	font-size: 1rem;
+	color: #efedea;
 }
