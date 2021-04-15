@@ -82,7 +82,7 @@ const women = [
 	{
 		id: 9,
 		name: "Margherita Hack",
-		title: "Astrophysicist and scientific disseminator.",
+		title: "Astrophysicist and scientific disseminator",
 		contribution:
 			"Active also in the social and political field, Margherita Hack has been the first Italian woman to administrate the Trieste Astronomical Observatory from 1964 to 1987.",
 		years: "1923-2013",
@@ -224,12 +224,12 @@ const women = [
 	{
 		id: 22,
 		name: "Ada Lovelace",
-		title: "World’s first computer programmer.",
-		contribution:
+		title: "World’s first computer programmer",
 			"That brain of mine is something more than merely mortal, as time will show",
 		year: "1815 – 1852",
 		nationality: "English",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id22_Lovelace_xejx8f.jpg",
 	},
 	{
 		id: 23,
@@ -239,7 +239,8 @@ const women = [
 			"Women must try to do things as men have tried. When they fail, their failure must be but a challenge to others.",
 		year: "1897 – 1939",
 		nationality: "American",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618402561/id23_Earhart_hunndd.jpg",
 	},
 	{
 		id: 24,
@@ -249,7 +250,8 @@ const women = [
 			"Rosalind Franklin was a research associate at King’s College in London who became notable for her work on X-ray diffraction images of DNA which would eventually lead to the discovery of the DNA double helix.",
 		year: "1928 – 2014",
 		nationality: "English",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id24_Franklin_qhr5lp.jpg",
 	},
 	{
 		id: 25,
@@ -259,7 +261,8 @@ const women = [
 			"Josephine Butler campaigned for women's suffrage, the right of women to better education, the end of coverture in British law, the abolition of child prostitution, and an end to human trafficking of young women and children into European prostitution.",
 		year: "1828 – 1906",
 		nationality: "English",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id25_Butler_hlduhk.jpg",
 	},
 	{
 		id: 26,
@@ -269,16 +272,18 @@ const women = [
 			"Peg Hughes is often credited as the first professional actress on the English stage on 8 December 1660",
 		year: "1645 – 1719",
 		nationality: "English",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id26_Hughes_beotzn.jpg",
 	},
 	{
 		id: 27,
 		name: "Annie Londonderry",
 		title: "Cyclist",
-		contribution: "Annie Londonderry was first woman to cycle around the world",
+		contribution: "Annie Londonderry was first woman to cycle around the world.",
 		year: "1870 – 1947",
 		nationality: "Latvian",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id27_Londonberry_kim8ga.jpg",
 	},
 	{
 		id: 28,
@@ -288,7 +293,8 @@ const women = [
 			"Junko Tabei was the first woman to scale Mount Everest, on May 16, 1975. During 1990–91, Tabei reached the summit of Mt. Vinson, Antarctica's highest mountain.",
 		year: "1939 – 2019",
 		nationality: "Japanese",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id28_Tabei_cjrb7w.jpg",
 	},
 	{
 		id: 29,
@@ -297,7 +303,8 @@ const women = [
 		contribution: "Jazz singer and performer",
 		year: "1915 – 1959",
 		nationality: "American",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id29_Holiday_1947_gd7cxz.jpg",
 	},
 	{
 		id: 30,
@@ -307,7 +314,7 @@ const women = [
 			"Jeanne Paquin was a leading French fashion designer, known for her resolutely modern and innovative designs. She was the first major female couturier and one of the pioneers of the modern fashion business",
 		year: "1869–1936",
 		nationality: "French",
-		image: "",
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id30_Paquin_dypu4q.jpg",
 	},
 	{
 		id: 31,
@@ -316,7 +323,8 @@ const women = [
 		contribution:
 			"Inspired by the country's popular culture, Frida Kahlo employed a naïve folk art style to explore questions of identity, postcolonialism, gender, class, and race in Mexican society.",
 		nationality: "Mexican",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id31_Kahlo_qiuqbj.jpg",
 	},
 	{
 		id: 32,
@@ -326,7 +334,8 @@ const women = [
 			"Marie Curie was a pioneer Scientist in radioactivity. she was the first woman to win a Nobel Prize, the first and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields.",
 		years: "1867-1934",
 		nationality: "Polish",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id32_Curie_a357fs.jpg",
 	},
 	{
 		id: 33,
@@ -336,7 +345,8 @@ const women = [
 			"Virginia Woolf was considered one of the most important modernist 20th-century authors and also a pioneer in the use of stream of consciousness as a narrative device.",
 		years: "1982-1941",
 		nationality: "English",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id33_Woolf_vxr9jp.jpg",
 	},
 	{
 		id: 34,
@@ -346,7 +356,8 @@ const women = [
 			"In an era when women had few opportunities to pursue artistic training or work as professional artists, Gentileschi was the first woman to become a member of the Accademia di Arte del Disegno in Florence.",
 		years: "1593-1656",
 		nationality: "Italian",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id34_Gentileschi_flzw61.jpg",
 	},
 	{
 		id: 35,
@@ -356,7 +367,8 @@ const women = [
 			"Chimamanda Ngozi Adichie has helped inspire new, cross-generational communication about the Biafran war. She seeks to instill dignity into the finest details of each character, whether poor, middle class or rich.",
 		years: "1977",
 		nationality: "Nigerian",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id35_Adichie_rjbyan.jpg",
 	},
 	{
 		id: 36,
@@ -366,7 +378,8 @@ const women = [
 			"Margaret Thatcher was the longest-serving British prime minister of the 20th century and the first woman to hold that office.",
 		years: "1920-2013",
 		nationality: "English",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618403528/id36_Thatcher_mvr5ka.jpg",
 	},
 	{
 		id: 37,
@@ -376,7 +389,8 @@ const women = [
 			"Margaret Hamilton was director of the Software Engineering Division of the MIT Instrumentation Laboratory, which developed on-board flight software for NASA's Apollo program. She founded Higher Order Software in 1976 and Hamilton Technologies in 1986",
 		years: "1936",
 		nationality: "American",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id37_Hamilton_fssetl.jpg",
 	},
 	{
 		id: 38,
@@ -386,10 +400,11 @@ const women = [
 			"Best known for the philosophy of education that bears her name, and her writing on scientific pedagogy.Her educational method is in use today in many public and private schools globally.",
 		years: "1870-1952",
 		nationality: "Italian",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id38_Montessori_lnnkju.jpg",
 	},
 	{
-		id: 39,
+		id: 40,
 		name: "Rosalind Franklin",
 		title: "Chemist",
 		contribution:
@@ -400,44 +415,48 @@ const women = [
 	},
 
 	{
-		id: 40,
+		id: 41,
 		name: "Mae Jemison",
 		title: "Astronaut",
 		contribution:
 			"In addition to being the first Black woman to travel into space aboard space shuttle Endeavour, Mae Jemison was the first Black woman to be admitted to the NASA astronaut training program. After her career with NASA, she founded a consulting firm she named The Jemison Group Inc., which focuses on sociocultural issues in the STEM field and now holds 10 honorary doctorates.",
 		years: "1956",
 		nationality: "American",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id39_Jemison_nnwljp.jpg",
 	},
 	{
-		id: 41,
+		id: 42,
 		name: "Lise Meitner",
 		title: "The Mother of Nuclear Power",
 		contribution:
 			"Lise Meitner is the Austrian Swedish physicist who co-discovered nuclear fission. Her partner, chemist Otto Hahn, was awarded a Nobel Prize for such findings and Meitner’s missed recognition is widely known as the “Nobel Mistake”. She also discovered the element protactinium and had an element named after her posthumously.",
 		years: "1878-1968",
 		nationality: "Austrian",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398853/id40_Meitner_pprv2w.jpg",
 	},
 	{
-		id: 42,
+		id: 43,
 		name: "Gloria Steinem",
 		title: "Feminist Icon",
 		contribution:
 			"In 1969, Steinem published an article, 'After Black Power, Women's Liberation', which brought her to national fame as a feminist leader. In 1971, she co-founded the National Women's Political Caucus which provides training and support for women who seek elected and appointed offices in government. Also in 1971, she co-founded the Women's Action Alliance which, until 1997, provided support to a network of feminist activists and worked to advance feminist causes and legislation. In the 1990s, Steinem helped establish Take Our Daughters to Work Day, an occasion for young girls to learn about future career opportunities.",
 		years: "1934",
 		nationality: "American",
-		image: "",
-	},
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id41_Steinem_os6wyb.jpg",
+	}
 	{
-		id: 43,
+		id: 44,
 		name: "Rachel Levine",
-		title: "Feminist Icon",
+		title: "First transgender woman to hold Senate-confirmed office",
 		contribution:
 			"Rachel Leland Levine is an American pediatrician who has been the United States assistant secretary for health since March 26, 2021. She is a professor of pediatrics and psychiatry at the Penn State College of Medicine, and previously served as the Pennsylvania physician general from 2015 to 2017. She is one of only a few openly transgender government officials in the United States, and is the first to hold an office that requires Senate confirmation.",
 		years: "1957",
 		nationality: "American",
-		image: "",
+		image:
+			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618401262/id42_Levine_shvbed.jpg",
 	},
 ];
 module.exports = women;
