@@ -225,6 +225,7 @@ const women = [
 		id: 22,
 		name: "Ada Lovelace",
 		title: "World’s first computer programmer",
+		contribution:
 			"That brain of mine is something more than merely mortal, as time will show",
 		year: "1815 – 1852",
 		nationality: "English",
@@ -279,7 +280,8 @@ const women = [
 		id: 27,
 		name: "Annie Londonderry",
 		title: "Cyclist",
-		contribution: "Annie Londonderry was first woman to cycle around the world.",
+		contribution:
+			"Annie Londonderry was first woman to cycle around the world.",
 		year: "1870 – 1947",
 		nationality: "Latvian",
 		image:
@@ -314,6 +316,7 @@ const women = [
 			"Jeanne Paquin was a leading French fashion designer, known for her resolutely modern and innovative designs. She was the first major female couturier and one of the pioneers of the modern fashion business",
 		year: "1869–1936",
 		nationality: "French",
+		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id30_Paquin_dypu4q.jpg",
 	},
 	{
@@ -446,7 +449,7 @@ const women = [
 		nationality: "American",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id41_Steinem_os6wyb.jpg",
-	}
+	},
 	{
 		id: 44,
 		name: "Rachel Levine",
