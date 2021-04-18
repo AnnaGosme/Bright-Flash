@@ -1,14 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./App.css";
-
+import "./index.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import GameIntroPage from "./components/GameIntroPage";
 import Memory from "./components/Memory";
-//import About from "./components/About";
+import About from "./components/About";
 //import Women from "./components/Women";
-//import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -18,9 +17,9 @@ function App() {
 			<Home />
 			<GameIntroPage />
 			<Memory />
-			{/*<About />
-			<Women />
-			<Contact />*/}
+			<About />
+			{/*<Women />*/}
+			<Contact />
 			<Footer />
 		</div>
 	);
