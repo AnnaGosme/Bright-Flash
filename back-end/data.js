@@ -561,4 +561,5 @@ const women = [
       "We have made so much progress, but we still have a long way to go in terms of true fairness and equality for sexual and gender minorities.",
   },
 ];
+
 module.exports = women;
