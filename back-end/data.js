@@ -2,7 +2,7 @@ const women = [
   {
     id: 1,
     name: "Toni Morrison",
-    title: "Writer",
+    title: "Free and rebellious author",
     contribution:
       "Toni Morrison's creative and critical effort aimed to highlight what was omitted in the history of American literature and culture. Her writing deals primarily with notion of blackness and womanhood, exposing the latent racism of the nation. Her most famous book, Beloved, gained international recognition and earned her the Nobel prize for literature in 1993.",
     years: "1931-2019",
@@ -15,7 +15,7 @@ const women = [
   {
     id: 2,
     name: "Alexandria Ocasio-Cortez",
-    title: "Politician",
+    title: "Politician - the prodigious child from the Bronx",
     contribution:
       "Growing up in New York's Bronx, politician Alexandria Ocasio-Cortez has experienced from a young age the city's income inequality, which motivated her to organise her community. She run for office in 2019, becoming the youngest woman ever to be elected in the US Congress.",
     years: "1989",
@@ -28,7 +28,7 @@ const women = [
   {
     id: 3,
     name: "Rita Levi Montalcini",
-    title: "Neurobiologist",
+    title: "Nobel prize-winning Neurobiologist",
     contribution:
       "Rita Levi Montalcini won the Nobel Prize in 1986 for the discovery of the nerve growth factor (NGF), a neuropeptide that is involved in the maintenance, proliferation and survival of neurons.",
     years: "1909-2012",
@@ -41,7 +41,7 @@ const women = [
   {
     id: 4,
     name: "Tsai Ing-wen",
-    title: "Politician",
+    title: "Taiwan's First Femaile Leader",
     contribution:
       "Tsai Ing-wen is the first women to be elected president of Taiwan, Republic of China (2016). During her mandate she endorsed LGBT rights, making Taiwan the first country in Asia to legalise same-sex marriage in 2019.",
     years: "1956",
@@ -54,9 +54,9 @@ const women = [
   {
     id: 5,
     name: "Grace Hopper",
-    title: "Computer Scientist",
+    title: "A legacy of innovation in Computer Science",
     contribution:
-      "Grace Hopper was one of the programmers of Harvard Mark I, a general purpose electromechanical computer used during World War II. A pioneer of computer programming, Grace Hopper was the first to devise the theory of machine-independent programming languages.",
+      ", Known as 'Amazing Grace', Grace Hopper was one of the programmers of Harvard Mark I, a general purpose electromechanical computer used during World War II. A pioneer of computer programming, Grace Hopper was the first to devise the theory of machine-independent programming languages.",
     years: "1906-1992",
     nationality: "American",
     image:
@@ -67,7 +67,7 @@ const women = [
   {
     id: 6,
     name: "Simone de Beauvoir",
-    title: "Writer",
+    title: "Pionneer of Feminist Theory",
     contribution:
       "Simone de Beauvoir's books had a significant influence on both feminist existentialism and feminist theory. The Second Sex, in particular, which deals with woman's oppression, is considered a foundational tract of contemporary feminism.",
     years: "1908-1986",
@@ -79,9 +79,9 @@ const women = [
   {
     id: 7,
     name: "Maryam Mirzakhani",
-    title: "Mathematician",
+    title: "Pioneering Mathematician and Winner of the Fields Medal",
     contribution:
-      "A mathematician and a professor of Mathematics at Stanford University, Maryam Mirzakhani's research topics included Teichmüller theory and ergodic theory. In 2014 Mirzakhani was awarded with the Fields Medal, the most prestigious awards in mathematics, becoming the first and only woman to be honored with the award.",
+      "A mathematician and a professor of Mathematics at Stanford University, Maryam Mirzakhani's phD solved two unsolvable mathematical problems. In 2014 Mirzakhani was awarded with the Fields Medal, the most prestigious awards in mathematics, becoming the first and only woman to be honored with the award.",
     years: "1977-2017",
     nationality: "Iranian",
     image:
@@ -92,7 +92,7 @@ const women = [
   {
     id: 8,
     name: "Kamala Harris",
-    title: "Politician and attorney",
+    title: "From Prosecutor to Politician",
     contribution:
       "Besides being the first woman, Kamala Harris is also the first African American and first Asian American to be elected vice president of the United States in 2020.",
     years: "1964",
@@ -118,9 +118,10 @@ const women = [
   {
     id: 10,
     name: "Samantha Cristoforetti",
-    title: "Pilot, astronaut and engineer",
+    title:
+      "Record-holder for the longest uninterrupted spaceflight by a European astronaut",
     contribution:
-      "Samantha Cristoforetti is the first Italian women in space, participating to 2014's European Space Agency expedition. She is scheduled to return to the International Space Station in 2022.",
+      "Samantha Cristoforetti is the first Italian women in space, participating to 2014's European Space Agency expedition. She is scheduled to return to the International Space Station in 2022. She holds the record for the longest uninterrupted spaceflight by a European astronaut (199 days, 16 hours).",
     years: "1977",
     nationality: "Italian",
     image:
@@ -131,7 +132,7 @@ const women = [
   {
     id: 11,
     name: "Katherine Johnson",
-    title: "NASA research mathematician",
+    title: "A NASA heroine of the USA",
     contribution:
       "Katherine's calculations of orbital mechanics as a NASA employee were critical to the success of the first and subsequent U.S. crewed spaceflights. During her 33-year career at NASA and its predecessor, she earned a reputation for mastering complex manual calculations and helped pioneer the use of computers to perform the tasks. The space agency noted her 'historical role as one of the first African-American women to work as a NASA scientist.",
     years: "1918-2020",
@@ -269,9 +270,9 @@ const women = [
     name: "Maya Angelou",
     title: "Afro American Human Rights activist",
     contribution:
-      " American poet, memoirist, and civil rights activist she's the author of `I Know Why the Caged Bird Sings`, published in 1969 , is one of her awarded work. Her international recognition and acclaim are labeled to many of her autobiographical books. From the age of seventeen , Angelou had to face string of odd jobs .  She was respected for being a defence of Black Culture but mostly for women rights identity.",
-    year: `1928 – 2014`,
-    nationality: `American`,
+      "Author of 'I Know Why the Caged Bird Sings'. American poet, memoirist, and civil rights activist.",
+    year: "1928 – 2014",
+    nationality: "American",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408514/96C18D88-8105-469D-8DDF-C44975E87E28_4_5005_c_vgygo5.jpg",
     quote:
@@ -282,125 +283,145 @@ const women = [
     name: "Ada Lovelace",
     title: "World’s first computer programmer",
     contribution:
-      "`That brain of mine is something more than merely mortal, as time will show`.Referred to as 'prophet of the computer age, Ada Lovelace was a brilliant mathematician . The significance of her work lies in the fact that she was the first to write a computer programme, an algorithm to calculate a sequence of Bernoulli numbers, intended to be carried out by Charles Babbage's Analytical Engine. Great contribution considering year 1842.",
+      "That brain of mine is something more than merely mortal, as time will show",
     year: "1815 – 1852",
     nationality: "English",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id22_Lovelace_xejx8f.jpg",
+    quote: "Your best and wisest refuge from all troubles is in your science.",
   },
   {
     id: 23,
     name: "Amelia Earhart",
     title: "First Woman aviator",
     contribution:
-      "'Women must try to do things as men have tried. When they fail, their failure must be but a challenge to others'. Amelia Eahart was the first woman to fly across the Atlantic and the Pacific Ocean in 1928",
+      "Women must try to do things as men have tried. When they fail, their failure must be but a challenge to others.",
     year: "1897 – 1939",
     nationality: "American",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618402561/id23_Earhart_hunndd.jpg",
+    quote:
+      "Women, like men, should try to do the impossible. And when they fail, their failure should be a challenge to others",
   },
   {
     id: 24,
     name: "Rosalind Franklin",
-    title: "Doctor",
+    title: "Forgotten Pionneer of DNA",
     contribution:
       "Rosalind Franklin was a research associate at King’s College in London who became notable for her work on X-ray diffraction images of DNA which would eventually lead to the discovery of the DNA double helix.",
     year: "1928 – 2014",
     nationality: "English",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id24_Franklin_qhr5lp.jpg",
+    quote: "Science and everyday life cannot and should not be separated.",
   },
   {
     id: 25,
     name: "Josephine Butler",
-    title: "Human Rights activist",
+    title:
+      "Feminist activist and Reformer for the welfare of prostitutes and other vulnerable women",
     contribution:
       "Josephine Butler campaigned for women's suffrage, the right of women to better education, the end of coverture in British law, the abolition of child prostitution, and an end to human trafficking of young women and children into European prostitution.",
     year: "1828 – 1906",
     nationality: "English",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id25_Butler_hlduhk.jpg",
+    quote:
+      "It is a fact, that numbers even of moral and religious people have permitted themselves to accept and condone in man what is fiercely condemned in woman.",
   },
   {
     id: 26,
     name: "Peg Hughes",
-    title: "Actress",
+    title: "First ever professional Actress in the western world",
     contribution:
-      "Peg Hughes is often credited as the first professional actress on the English stage on 8 December 1660.During the Renaissance women had been virtually banned from appearing as actresses on the stage. So under a male name and role, leading females as  professional actress for the following  centuries !.",
+      "Peg Hughes is often credited as the first professional actress on the English stage on 8 December 1660",
     year: "1645 – 1719",
     nationality: "English",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id26_Hughes_beotzn.jpg",
+    quote:
+      "I'm tough, I'm ambitious, and I know exactly what I want. If that makes me a bitch, okay.",
   },
   {
     id: 27,
     name: "Annie Londonderry",
-    title: "Cyclist",
+    title: "Adventurer on a bicycle",
     contribution:
-      "Annie Londonderry was first woman to cycle around the world.On June 27, 1894, is the date of her departure, 11:00 am was  the time. A gun, a change of clothes and some travel books accompany her for the duration of the effort.The challenge started from Boston city  and goes through New York, Ohio, Illinois. But not only: it also touches France – Paris Lyon, Marseille.Alexandria of Egypt. From Israel to Yemen, from Sri Lanka to Singapore, from Vietnam to China. On 24 September 1895,she returns home, wining this arduous journey out of any expectation.",
+      "Annie Londonderry was first woman to cycle around the world.",
     year: "1870 – 1947",
     nationality: "Latvian",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398850/id27_Londonberry_kim8ga.jpg",
+    quote:
+      "I am a journalist and 'a new woman' if that term means that I believe I can do anything that any man can do.",
   },
   {
     id: 28,
     name: "Junko Tabei",
-    title: "Climber",
+    title: "The first woman to conquer Mount Everest",
     contribution:
       "Junko Tabei was the first woman to scale Mount Everest, on May 16, 1975. During 1990–91, Tabei reached the summit of Mt. Vinson, Antarctica's highest mountain.",
     year: "1939 – 2019",
     nationality: "Japanese",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id28_Tabei_cjrb7w.jpg",
+    quote:
+      "Technique and ability alone do not get you to the top; it is the willpower that is most important.",
   },
   {
     id: 29,
     name: "Billie Holiday",
     title: "Lady Day",
-    contribution:
-      "Jazz singer and performer.Holiday had an innovative influence on jazz music. Her vocal style, strongly inspired by jazz instrumentalists, pioneered a new way of manipulating phrasing and tempo that would lead to the pop music gender. She was known for her vocal delivery and improvisational skills too",
+    contribution: "Jazz singer and performer",
     year: "1915 – 1959",
     nationality: "American",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id29_Holiday_1947_gd7cxz.jpg",
+    quote:
+      "If you copy, it means you're working without any real feeling. No two people on earth are alike.",
   },
   {
     id: 30,
     name: "Jeanne Paquin",
-    title: "Fashion designer",
+    title: "leading French Fashion designer",
     contribution:
       "Jeanne Paquin was a leading French fashion designer, known for her resolutely modern and innovative designs. She was the first major female couturier and one of the pioneers of the modern fashion business",
     year: "1869–1936",
     nationality: "French",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id30_Paquin_dypu4q.jpg",
+    quote:
+      "I get inspiration everywhere. When I am travelling or walking in the street, when I see a sunset with beautiful blendings of color, I often get an inspiration that helps me to evolve[...]",
   },
   {
     id: 31,
     name: "Frida Kahlo",
-    title: "Artist, Feminist and Activist",
+    title: "Rebel Artist, Mexican Legend",
     contribution:
       "Inspired by the country's popular culture, Frida Kahlo employed a naïve folk art style to explore questions of identity, postcolonialism, gender, class, and race in Mexican society.",
     nationality: "Mexican",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id31_Kahlo_qiuqbj.jpg",
+    quote:
+      "I think that little by little I'll be able to solve my problems and survive.",
   },
   {
     id: 32,
     name: "Marie Curie",
-    title: "Scientist",
+    title: "A woman dedicated to science",
     contribution:
       "Marie Curie was a pioneer Scientist in radioactivity. she was the first woman to win a Nobel Prize, the first and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields.",
     years: "1867-1934",
     nationality: "Polish",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id32_Curie_a357fs.jpg",
+    quote:
+      "'Nothing in life is to be feared; it is only to be understood. '- Marie Curie",
   },
   {
     id: 33,
     name: "Virginia Woolf",
-    title: "Writer",
+    title: "Writer, Savant, Philosopher",
     contribution:
       "Virginia Woolf was considered one of the most important modernist 20th-century authors and also a pioneer in the use of stream of consciousness as a narrative device.",
     years: "1982-1941",
@@ -411,35 +432,42 @@ const women = [
   {
     id: 34,
     name: "Artemisia Gentileschi",
-    title: "Painter",
+    title: "First Feminist Icon in Western history",
     contribution:
       "In an era when women had few opportunities to pursue artistic training or work as professional artists, Gentileschi was the first woman to become a member of the Accademia di Arte del Disegno in Florence.",
     years: "1593-1656",
     nationality: "Italian",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id34_Gentileschi_flzw61.jpg",
+    quote:
+      "'My mustrious lordship, i'll show you what a woman can do.'- Artemisia Gentileschi",
   },
   {
     id: 35,
     name: "Chimamanda Ngozi Adichie",
-    title: "Writer",
+    title: "Writer and Feminist Icon",
     contribution:
       "Chimamanda Ngozi Adichie has helped inspire new, cross-generational communication about the Biafran war. She seeks to instill dignity into the finest details of each character, whether poor, middle class or rich.",
     years: "1977",
     nationality: "Nigerian",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id35_Adichie_rjbyan.jpg",
+    quote:
+      "You must never behave as if your life belongs to a man.[•••] “Your life belongs to you and you alone.",
   },
   {
     id: 36,
     name: "Margaret Thatcher",
-    title: "Prime Minister of the United Kingdom",
+    title:
+      "First (and to-date only) Female Prime Minister of the United Kingdom",
     contribution:
       "Margaret Thatcher was the longest-serving British prime minister of the 20th century and the first woman to hold that office.",
     years: "1920-2013",
     nationality: "English",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618403528/id36_Thatcher_mvr5ka.jpg",
+    quote:
+      "What is success? I think it is a mixture of having a flair for the thing that you are doing; knowing that it is not enough, that you have got to have hard work and a certain sense of purpose.",
   },
   {
     id: 37,
@@ -451,38 +479,48 @@ const women = [
     nationality: "American",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id37_Hamilton_fssetl.jpg",
+    quote:
+      "Looking back, we were the luckiest people in the world. There was no choice but to be pioneers; no time to be beginners.",
   },
   {
     id: 38,
     name: "Maria Montessori",
-    title: "Physician and Educator",
+    title:
+      "Creator of the Montessori Method and first Italian woman to ever receive a degree in medicine.",
     contribution:
       "Best known for the philosophy of education that bears her name, and her writing on scientific pedagogy.Her educational method is in use today in many public and private schools globally.",
     years: "1870-1952",
     nationality: "Italian",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id38_Montessori_lnnkju.jpg",
+    quote:
+      "The satisfaction which they find in their work has given them a grace and ease like that which comes from music.",
   },
   {
     id: 40,
-    name: "Rosalind Franklin",
-    title: "Chemist",
+    name: "Audre Lorde",
+    title: "Author and creator of the 'theory of difference'",
     contribution:
-      "Rosalind Franklin work was central to the understanding of the molecular structures of DNA (deoxyribonucleic acid), RNA (ribonucleic acid), viruses, coal, and graphite.",
-    years: "1920-1958",
-    nationality: "English",
-    image: "",
+      "Audre Lorde explored female identity and life as a Black lesbian and writing about issues that affected women across the country during the height Civil Rights movement. All of her work was based on her 'theory of difference', which we refer to as 'intersectionality' today.",
+    years: "1934-1992",
+    nationality: "American",
+    image:
+      "https://res.cloudinary.com/octavian2111/image/upload/v1618518120/id40_Lorde_nypi5a.jpg",
+    quote:
+      "It is not our differences that divide us. It is our inability to recognize, accept, and celebrate those differences.",
   },
   {
     id: 41,
     name: "Mae Jemison",
-    title: "Astronaut",
+    title: "First Afro-American Astronaut in space",
     contribution:
       "In addition to being the first Black woman to travel into space aboard space shuttle Endeavour, Mae Jemison was the first Black woman to be admitted to the NASA astronaut training program. After her career with NASA, she founded a consulting firm she named The Jemison Group Inc., which focuses on sociocultural issues in the STEM field and now holds 10 honorary doctorates.",
     years: "1956",
     nationality: "American",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id39_Jemison_nnwljp.jpg",
+    quote:
+      "Never limit yourself because of others' limited imagination; never limit others because of your own limited imagination.",
   },
   {
     id: 42,
@@ -494,6 +532,7 @@ const women = [
     nationality: "Austrian",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398853/id40_Meitner_pprv2w.jpg",
+    quote: "Life need not be easy, provided only that it is not empty.",
   },
   {
     id: 43,
@@ -505,6 +544,8 @@ const women = [
     nationality: "American",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id41_Steinem_os6wyb.jpg",
+    quote:
+      "Don't think about making women fit the world‬—‪think about making the world fit women.",
   },
   {
     id: 44,
@@ -516,6 +557,8 @@ const women = [
     nationality: "American",
     image:
       "https://res.cloudinary.com/dg5lakmem/image/upload/v1618401262/id42_Levine_shvbed.jpg",
+    quote:
+      "We have made so much progress, but we still have a long way to go in terms of true fairness and equality for sexual and gender minorities.",
   },
 ];
 module.exports = women;
