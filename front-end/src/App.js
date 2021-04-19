@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 import Home from "./components/Home";
 import GameIntroPage from "./components/GameIntroPage";
 import Memory from "./components/Memory";
