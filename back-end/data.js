@@ -9,6 +9,8 @@ const women = [
     nationality: "American",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408512/C1506EEE-5281-442D-9615-54151C70B1A6_1_201_a_lyt3y9.jpg",
+    quote:
+      "If there's a book that you want to read, but it hasn't been written yet, then you must write it.",
   },
   {
     id: 2,
@@ -20,6 +22,8 @@ const women = [
     nationality: "American",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408512/853C7C4C-D2FF-4CEA-8DDF-94938A8EB947_1_201_a_lywnpd.jpg",
+    quote:
+      "The best thing we could do is work as hard as we can for what is right and what is good.",
   },
   {
     id: 3,
@@ -31,6 +35,8 @@ const women = [
     nationality: "Italian",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408512/B67DF1FC-527F-4F21-BB17-F355C5F48690_4_5005_c_p7ircl.jpg",
+    quote:
+      "My experience in childhood and adolescence of the subordinate role played by the female in a society run entirely by men had convinced me that I was not cut out to be a wife.",
   },
   {
     id: 4,
@@ -42,6 +48,8 @@ const women = [
     nationality: "Taiwanese",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408513/3AEE3984-5AFC-4D84-8CD9-AE01E869B024_4_5005_c_qdkfkk.jpg",
+    quote:
+      "In the face of love, everyone is equal. Let everyone have the freedom to love and to pursue their happiness. I am Tsai Ing-wen, and I support marriage equality.",
   },
   {
     id: 5,
@@ -53,6 +61,8 @@ const women = [
     nationality: "American",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408513/E4C1CFF1-A843-4A0E-BA50-8E894428458F_vctws2.jpg",
+    quote:
+      "If it is a good idea, go ahead and do it. It is much easier to apologize than to get permission.",
   },
   {
     id: 6,
@@ -64,6 +74,7 @@ const women = [
     nationality: "French",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408513/0E102899-6913-4DCB-9BC1-047CE45D1677_4_5005_c_vllegq.jpg",
+    quote: "One is not born a woman, one becomes one.",
   },
   {
     id: 7,
@@ -75,6 +86,8 @@ const women = [
     nationality: "Iranian",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408513/732F3A41-1B9E-45D6-85CF-1D44DCB64365_4_5005_c_kbbzqt.jpg",
+    quote:
+      "I hope that this award will inspire lots more girls and young women, in this country and around the world, to believe in their own abilities and aim to be the fields medallists of the future.",
   },
   {
     id: 8,
@@ -86,6 +99,8 @@ const women = [
     nationality: "American",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408513/B27073E7-BFD8-42DB-800E-0CC72714E3AB_1_201_a_v04p1g.jpg",
+    quote:
+      "What I want young women and girls to know is: You are powerful and your voice matters.",
   },
   {
     id: 9,
@@ -97,6 +112,8 @@ const women = [
     nationality: "Italian",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408512/B67DF1FC-527F-4F21-BB17-F355C5F48690_4_5005_c_p7ircl.jpg",
+    quote:
+      "Eva’s only fault has been the one of wanting to know more, to experiment and search with her own sources the laws of the Universe, of her own body and to refuse the teachings from “above”. Eva, basically, represents the curiosity of science against the passive acceptance that belongs to faith.",
   },
   {
     id: 10,
@@ -108,6 +125,8 @@ const women = [
     nationality: "Italian",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408513/5504938E-D694-4FF6-90E4-512E617D2CA9_1_201_a_c5x2zc.jpg",
+    quote:
+      "When you discover new things every minute and your mind is absorbing so many experiences, it feels like time expands.",
   },
   {
     id: 11,
@@ -119,6 +138,8 @@ const women = [
     nationality: "American",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408513/1B931A0A-C04C-4EF5-933E-05DA1C07F333_eznz4i.jpg",
+    quote:
+      "Take all the courses in your curriculum. Do the research. Ask questions. Find someone doing what you are interested in! Be curious!",
   },
   {
     id: 12,
@@ -142,6 +163,7 @@ const women = [
     nationality: "American",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408514/D3530914-D91B-481A-96C4-919516E39E66_1_201_a_sbuhut.jpg",
+    quote: "",
   },
   {
     id: 13,
@@ -153,6 +175,7 @@ const women = [
     nationality: "Dutch",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408514/E8E18506-5731-4E05-861F-2301684B9391_1_201_a_k1xbp5.jpg",
+    quote: "",
   },
   {
     id: 14,
@@ -164,6 +187,7 @@ const women = [
     nationality: "Somali",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408513/76C32D74-1A86-4E30-9C91-696815C50AF8_1_201_a_m4uyja.jpg",
+    quote: "Women can build stability. We can make peace.",
   },
   {
     id: 15,
@@ -175,6 +199,8 @@ const women = [
     nationality: "American",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408513/5AEFFB63-708A-4CD7-A535-7C1FD8F87B80_1_201_a_fcoihv.jpg",
+    quote:
+      " Teach one girl how to code, she'll teach four. The replication effect is so powerful.",
   },
   {
     id: 16,
@@ -186,6 +212,7 @@ const women = [
     nationality: "American",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408513/36C4CBD3-181E-4F32-81D3-045EC6D0A3C2_4_5005_c_s7acqo.jpg",
+    quote: "",
   },
   {
     id: 17,
@@ -197,6 +224,8 @@ const women = [
     nationality: "Kenyan",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408513/7D995237-1FAB-4A23-B0CE-C2B2A00BCC46_4_5005_c_c8hzzb.jpg",
+    quote:
+      "Human rights are not things that are put on the table for people to enjoy. These are things you fight for and then you protect.",
   },
   {
     id: 18,
@@ -208,6 +237,8 @@ const women = [
     nationality: "British",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408514/37C875ED-3BA8-448F-9F48-D07381257DFA_1_201_a_k1xpmc.heic",
+    quote:
+      "What you do makes a difference, and you have to decide what kind of difference you want to make.",
   },
   {
     id: 19,
@@ -219,6 +250,8 @@ const women = [
     nationality: "American",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408514/C2E00E3F-66CC-47A7-8B8C-E2E61122A170_4_5005_c_kgtvl0.jpg",
+    quote:
+      "I suggestesd to everyone: Look in the mirror. Ask yourself: Who are you? What are your talents? Use them and do what you love.",
   },
   {
     id: 20,
@@ -229,6 +262,7 @@ const women = [
     years: "1945",
     nationality: "American",
     image: "",
+    quote: "Don't ask whether you can do something, but how to do it.",
   },
   {
     id: 21,
@@ -240,6 +274,8 @@ const women = [
     nationality: `American`,
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408514/96C18D88-8105-469D-8DDF-C44975E87E28_4_5005_c_vgygo5.jpg",
+    quote:
+      "If you don't like something, change it. If you can't change it, change your attitude.",
   },
   {
     id: 22,
