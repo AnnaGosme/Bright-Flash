@@ -19,7 +19,7 @@ export default function NavBar() {
 					/>
 				</div>
 				<div className="menu-icon" onClick={showHide}>
-					{!menuList ? <GoIcons.GoThreeBars /> : <AiIcons.AiOutlineClose c />}
+					{!menuList ? <GoIcons.GoThreeBars /> : <AiIcons.AiOutlineClose />}
 				</div>
 				<div className="menu-list">
 					<ul className={menuList ? "nav-menu active" : "nav-menu"}>
