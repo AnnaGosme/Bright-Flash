@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./header.css";
 
 import Games from "../Memory";
-import Home from "../Home";
+//import Home from "../Home/Home";
 import ListOfWomen from "../ListOfWomen";
 import About from "../About";
 import Contact from "../Contact";

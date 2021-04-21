@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./index.css";
 
 import Header from "./components/Header/Header";
-import Home from "./components/Home";
+//import Home from "front-end/src/components/Home/Home.js";
 import GameIntroPage from "./components/GameIntroPage";
 import Games from "./components/Memory";
 import About from "./components/About";
@@ -32,7 +32,7 @@ function App() {
 						<Route path="/women" component={ListOfWomen} />
 						<Route path="/about" component={About} />
 						<Route path="/contact" component={Contact} />
-						<Route exact path="/" component={Home} />
+						{/* <Route exact path="/" component={Home} /> */}
 					</Switch>
 					<Footer />
 				</div>
