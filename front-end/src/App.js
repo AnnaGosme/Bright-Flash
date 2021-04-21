@@ -14,31 +14,33 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-	const getData = () => {
-		fetch("http://localhost:5000/")
-			.then((res) => res.json())
-			.then((data) => console.log(data));
-	};
+  const getData = () => {
+    fetch("http://localhost:5000/")
+      .then((res) => res.json())
+      .then((data) => console.log(data));
+  };
 
-	getData();
+  getData();
 
-	return (
-		<div className="App">
-			<Router>
-				<div>
-					<Header />
-					<Switch>
-						<Route path="/games" component={Games} />
-						<Route path="/women" component={ListOfWomen} />
-						<Route path="/about" component={About} />
-						<Route path="/contact" component={Contact} />
-						<Route exact path="/" component={Home} />
-					</Switch>
-					<Footer />
-				</div>
-			</Router>
-		</div>
-	);
+  return (
+    <div className="App">
+      <Router>
+        <div>
+          <Header />
+          <Switch>
+            <Route path="/introgame" component={GameIntroPage} />
+            <Route path="/games" component={Games} />
+            <Route path="/women" component={ListOfWomen} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route exact path="/" component={Home} />
+          </Switch>
+
+          <Footer />
+        </div>
+      </Router>
+    </div>
+  );
 }
 
 export default App;

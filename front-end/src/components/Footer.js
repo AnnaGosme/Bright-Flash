@@ -9,13 +9,14 @@ function Footer() {
       <h1 className="quotes">
         "When uniques voices are united in a common cause, they make history"
       </h1>
+
       <div className="container">
         <img
-          className="icons"
+          className="icon_1"
           src="https://res.cloudinary.com/dnefeccae/image/upload/v1618531048/Bright%20flash/instagram-logo_eqmuft.png"
         />
         <img
-          className="icons"
+          className="icon_2"
           src="https://res.cloudinary.com/dnefeccae/image/upload/v1618531084/Bright%20flash/email-logo_q0ectn.png"
         />
         <h2 className="nav_about">ABOUT US</h2>
