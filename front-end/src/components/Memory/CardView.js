@@ -19,7 +19,7 @@ class CardView extends Component {
     if (this.props.imageUp == true) {
       imPath = this.props.image;
     } else {
-      imPath = "./images/card-logo.jpg";
+      imPath = "https://i.imgur.com/fRBk5YK.jpg";
       //imPath = logo
     }
 
