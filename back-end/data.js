@@ -2,7 +2,7 @@ const women = [
 	{
 		id: 1,
 		name: "Toni Morrison",
-		title: "Free and rebellious author",
+		title: "Free and Rebellious Author",
 		contribution:
 			"Toni Morrison's creative and critical effort aimed to highlight what was omitted in the history of American literature and culture. Her writing deals primarily with notion of blackness and womanhood, exposing the latent racism of the nation. Her most famous book, Beloved, gained international recognition and earned her the Nobel prize for literature in 1993.",
 		years: "1931-2019",
@@ -15,7 +15,7 @@ const women = [
 	{
 		id: 2,
 		name: "Alexandria Ocasio-Cortez",
-		title: "Politician - the prodigious child from the Bronx",
+		title: "Politician - the Prodigious Child from the Bronx",
 		contribution:
 			"Growing up in New York's Bronx, politician Alexandria Ocasio-Cortez has experienced from a young age the city's income inequality, which motivated her to organise her community. She run for office in 2019, becoming the youngest woman ever to be elected in the US Congress.",
 		years: "1989",
@@ -28,7 +28,7 @@ const women = [
 	{
 		id: 3,
 		name: "Rita Levi Montalcini",
-		title: "Nobel prize-winning Neurobiologist",
+		title: "Nobel Prize-winning Neurobiologist",
 		contribution:
 			"Rita Levi Montalcini won the Nobel Prize in 1986 for the discovery of the nerve growth factor (NGF), a neuropeptide that is involved in the maintenance, proliferation and survival of neurons.",
 		years: "1909-2012",
@@ -41,7 +41,7 @@ const women = [
 	{
 		id: 4,
 		name: "Tsai Ing-wen",
-		title: "Taiwan's First Femaile Leader",
+		title: "Taiwan's First Female Leader",
 		contribution:
 			"Tsai Ing-wen is the first women to be elected president of Taiwan, Republic of China (2016). During her mandate she endorsed LGBT rights, making Taiwan the first country in Asia to legalise same-sex marriage in 2019.",
 		years: "1956",
@@ -54,9 +54,9 @@ const women = [
 	{
 		id: 5,
 		name: "Grace Hopper",
-		title: "A legacy of innovation in Computer Science",
+		title: "A Legacy of Innovation in Computer Science",
 		contribution:
-			", Known as 'Amazing Grace', Grace Hopper was one of the programmers of Harvard Mark I, a general purpose electromechanical computer used during World War II. A pioneer of computer programming, Grace Hopper was the first to devise the theory of machine-independent programming languages.",
+			"Known as 'Amazing Grace', Grace Hopper was one of the programmers of Harvard Mark I, a general purpose electromechanical computer used during World War II. A pioneer of computer programming, Grace Hopper was the first to devise the theory of machine-independent programming languages.",
 		years: "1906-1992",
 		nationality: "American",
 		image:
@@ -94,18 +94,18 @@ const women = [
 		name: "Kamala Harris",
 		title: "From Prosecutor to Politician",
 		contribution:
-			"Besides being the first woman, Kamala Harris is also the first African American and first Asian American to be elected vice president of the United States in 2020.",
+			"Besides being the first female Vice-President, Kamala Harris is also the first African American and first Asian American to be elected vice president of the United States in 2020.",
 		years: "1964",
 		nationality: "American",
 		image:
 			"https://res.cloudinary.com/octavian2111/image/upload/v1618408513/B27073E7-BFD8-42DB-800E-0CC72714E3AB_1_201_a_v04p1g.jpg",
 		quote:
-			"What I want young women and girls to know is: You are powerful and your voice matters.",
+			"What I want young women and girls to know is: you are powerful and your voice matters.",
 	},
 	{
 		id: 9,
 		name: "Margherita Hack",
-		title: "Astrophysicist and scientific disseminator",
+		title: "Astrophysicist and Scientific Disseminator",
 		contribution:
 			"Active also in the social and political field, Margherita Hack has been the first Italian woman to administrate the Trieste Astronomical Observatory from 1964 to 1987.",
 		years: "1923-2013",
@@ -119,7 +119,7 @@ const women = [
 		id: 10,
 		name: "Samantha Cristoforetti",
 		title:
-			"Record-holder for the longest uninterrupted spaceflight by a European astronaut",
+			"Record-holder for the Longest Uninterrupted Spaceflight by a European Astronaut",
 		contribution:
 			"Samantha Cristoforetti is the first Italian women in space, participating to 2014's European Space Agency expedition. She is scheduled to return to the International Space Station in 2022. She holds the record for the longest uninterrupted spaceflight by a European astronaut (199 days, 16 hours).",
 		years: "1977",
@@ -134,7 +134,7 @@ const women = [
 		name: "Katherine Johnson",
 		title: "A NASA heroine of the USA",
 		contribution:
-			"Katherine's calculations of orbital mechanics as a NASA employee were critical to the success of the first and subsequent U.S. crewed spaceflights. During her 33-year career at NASA and its predecessor, she earned a reputation for mastering complex manual calculations and helped pioneer the use of computers to perform the tasks. The space agency noted her 'historical role as one of the first African-American women to work as a NASA scientist.",
+			"Katherine Johnson's calculations of orbital mechanics as a NASA employee were critical to the success of the first and subsequent U.S. crewed spaceflights. During her 33-year career at NASA and its predecessor, she earned a reputation for mastering complex manual calculations and helped pioneer the use of computers to perform the tasks. The space agency noted her 'historical role as one of the first African-American women to work as a NASA scientist.",
 		years: "1918-2020",
 		nationality: "American",
 		image:
@@ -146,7 +146,7 @@ const women = [
 		id: 12,
 		name: "Radia Perlman",
 		title: "Internet Pioneer",
-		contribution: `Perlman invented the spanning tree algorithm and the Spanning Tree Protocol (STP), which are best explained in a poem she wrote:
+		contribution: `Radia Perlman invented the spanning tree algorithm and the Spanning Tree Protocol (STP), which are best explained in a poem she wrote:
         Algorhyme
         I think that I shall never see
         A graph more lovely than a tree.
@@ -164,24 +164,24 @@ const women = [
 		nationality: "American",
 		image:
 			"https://res.cloudinary.com/octavian2111/image/upload/v1618408514/D3530914-D91B-481A-96C4-919516E39E66_1_201_a_sbuhut.jpg",
-		quote: "",
+		quote: "Start out with finding the right problem to solve.",
 	},
 	{
 		id: 13,
 		name: "Aletta Jacobs",
-		title: "Physician and women's suffrage activist",
+		title: "Physician and Women's Suffrage Activist",
 		contribution:
-			"Aletta was one of the first female physicians in the Netherlands. In 1882, she founded the world's first birth control clinic and was a leader in both the Dutch and international women's movements. She led campaigns aimed at deregulating prostitution, improving women's working conditions, promoting peace and calling for women's right to vote.",
+			"Aletta Jacobs was one of the first female physicians in the Netherlands. In 1882, she founded the world's first birth control clinic and was a leader in both the Dutch and international women's movements. She led campaigns aimed at deregulating prostitution, improving women's working conditions, promoting peace and calling for women's right to vote.",
 		years: "1854-1929",
 		nationality: "Dutch",
 		image:
 			"https://res.cloudinary.com/octavian2111/image/upload/v1618408514/E8E18506-5731-4E05-861F-2301684B9391_1_201_a_k1xbp5.jpg",
-		quote: "",
+		quote: "Fortunately I had never doubted my actions; otherwise I might indeed have followed their advice. But I was too deeply influenced by what I had seen and by my belief that this work would benefit humanity.",
 	},
 	{
 		id: 14,
 		name: "Dr. Hawa Abdi",
-		title: "Somalia’s first gynaecologist",
+		title: "Somalia’s First Gynaecologist",
 		contribution:
 			"Affectionately known as Mama Hawa, Dr. Hawa Abdi dedicated her life to providing high-quality healthcare, education, and shelter to vulnerable people, even in times of war and famine. She was Somalia’s first female obstetrician, as well as a lawyer and humanitarian. She created the Dr. Hawa Abdi Hope Village - a community for displaced Somalis with a 400-bed hospital, primary and secondary schools, and an innovative community justice system. Recognized as one of the world's great humanitarians, Dr. Hawa was nominated for the Nobel Peace Prize and earned numerous awards, including the Roosevelt Medal and honorary doctorates from Harvard University and the University of Pennsylvania.",
 		years: "1947-2020",
@@ -193,7 +193,7 @@ const women = [
 	{
 		id: 15,
 		name: "Reshma Saujani",
-		title: "Education activist",
+		title: "Education Activist",
 		contribution:
 			"Reshma Saujani is the author of 'Brave, Not Perfect' and founder of Girls Who Code, the international nonprofit organization working to close the gender gap in technology and change the image of what a computer programmer looks like and does.Reshma’s TED talk, “Teach girls, bravery not perfection,” has more than four million views and has sparked a worldwide conversation about how we’re raising our girls.",
 		years: "1975",
@@ -206,7 +206,7 @@ const women = [
 	{
 		id: 16,
 		name: "Alice Catherine Evans",
-		title: "The pioneer of safe milk",
+		title: "The Pioneer of Safe Milk",
 		contribution:
 			"Alice C. Evans became a researcher at the US Department of Agriculture. She investigated bacteriology in milk and cheese, demonstrating that Bacillus abortus causes the disease Brucellosis (undulant fever or Malta fever) in both cattle and humans. Her landmark discovery found acceptance despite resistance from those who were suspicious of a woman without a doctorate or medical degree.",
 		years: "1881-1975",
@@ -231,7 +231,7 @@ const women = [
 	{
 		id: 18,
 		name: "Jane Goodall",
-		title: "Life-long observer of chimpanzees",
+		title: "Life-long Observer of Chimpanzees",
 		contribution:
 			"Jane Goodall is a primatologist most known for her long-term study of wild chimpanzees in Tanzania. The Gombe chimp observation, which Jane began in 1960, is the world’s longest running continuous wildlife research project.  Through her Jane Goodall Institute, she has become equally well known as a conservationist and a champion of human rights.",
 		years: "1934",
@@ -244,9 +244,9 @@ const women = [
 	{
 		id: 19,
 		name: "Sylvia Earle",
-		title: "Explorer of oceans",
+		title: "Explorer of Oceans",
 		contribution:
-			"Sylvia Earle was the first female chief scientist of the U.S. National Oceanic and Atmospheric Administration, and was named by Time Magazine as its first Hero for the Planet in 1998. She is also part of the group Ocean Elders, which is dedicated to protecting the ocean and its wildlife.",
+			"Sylvia Earle is the first female chief scientist of the U.S. National Oceanic and Atmospheric Administration, and was named by Time Magazine as its first Hero for the Planet in 1998. She is also part of the group Ocean Elders, which is dedicated to protecting the ocean and its wildlife.",
 		years: "1935",
 		nationality: "American",
 		image:
@@ -262,13 +262,13 @@ const women = [
 			"'Don’t ask whether you can do something, but how to do it.' This quote is from Adele Goldberg, one of the computer science pioneers from Xerox PARC. Along with Alan Kay, she developed Smalltalk. Smalltalk was used to prototype the WIMP (windows, icons, menus, pointers) interface at Xerox PARC, the cornerstone for today’s modern graphical user interfaces.",
 		years: "1945",
 		nationality: "American",
-		image: "",
+		image: "https://res.cloudinary.com/octavian2111/image/upload/v1618408514/96C18D88-8105-469D-8DDF-C44975E87E28_4_5005_c_vgygo5.jpg",
 		quote: "Don't ask whether you can do something, but how to do it.",
 	},
 	{
 		id: 21,
 		name: "Maya Angelou",
-		title: "Afro American Human Rights activist",
+		title: "Afro-American Human Rights activist",
 		contribution:
 			"Author of 'I Know Why the Caged Bird Sings'. American poet, memoirist, and civil rights activist.",
 		year: "1928 – 2014",
@@ -281,9 +281,9 @@ const women = [
 	{
 		id: 22,
 		name: "Ada Lovelace",
-		title: "World’s first computer programmer",
+		title: "World’s First Computer Programmer",
 		contribution:
-			"That brain of mine is something more than merely mortal, as time will show",
+			"Ada Lovelace was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine",
 		year: "1815 – 1852",
 		nationality: "English",
 		image:
@@ -293,7 +293,7 @@ const women = [
 	{
 		id: 23,
 		name: "Amelia Earhart",
-		title: "First Woman aviator",
+		title: "First Female Aviator",
 		contribution:
 			"Women must try to do things as men have tried. When they fail, their failure must be but a challenge to others.",
 		year: "1897 – 1939",
@@ -319,7 +319,7 @@ const women = [
 		id: 25,
 		name: "Josephine Butler",
 		title:
-			"Feminist activist and Reformer for the welfare of prostitutes and other vulnerable women",
+			"Feminist activist and Reformer for the Welfare of Prostitutes and Other Vulnerable Women",
 		contribution:
 			"Josephine Butler campaigned for women's suffrage, the right of women to better education, the end of coverture in British law, the abolition of child prostitution, and an end to human trafficking of young women and children into European prostitution.",
 		year: "1828 – 1906",
@@ -332,7 +332,7 @@ const women = [
 	{
 		id: 26,
 		name: "Peg Hughes",
-		title: "First ever professional Actress in the western world",
+		title: "First Professional Actress in the Western World",
 		contribution:
 			"Peg Hughes is often credited as the first professional actress on the English stage on 8 December 1660",
 		year: "1645 – 1719",
@@ -345,7 +345,7 @@ const women = [
 	{
 		id: 27,
 		name: "Annie Londonderry",
-		title: "Adventurer on a bicycle",
+		title: "Adventurer on a Bicycle",
 		contribution:
 			"Annie Londonderry was first woman to cycle around the world.",
 		year: "1870 – 1947",
@@ -358,7 +358,7 @@ const women = [
 	{
 		id: 28,
 		name: "Junko Tabei",
-		title: "The first woman to conquer Mount Everest",
+		title: "The first Woman to Conquer Mount Everest",
 		contribution:
 			"Junko Tabei was the first woman to scale Mount Everest, on May 16, 1975. During 1990–91, Tabei reached the summit of Mt. Vinson, Antarctica's highest mountain.",
 		year: "1939 – 2019",
@@ -383,7 +383,7 @@ const women = [
 	{
 		id: 30,
 		name: "Jeanne Paquin",
-		title: "leading French Fashion designer",
+		title: "Leading French Fashion Designer",
 		contribution:
 			"Jeanne Paquin was a leading French fashion designer, known for her resolutely modern and innovative designs. She was the first major female couturier and one of the pioneers of the modern fashion business",
 		year: "1869–1936",
@@ -408,7 +408,7 @@ const women = [
 	{
 		id: 32,
 		name: "Marie Curie",
-		title: "A woman dedicated to science",
+		title: "A Woman Dedicated to Science",
 		contribution:
 			"Marie Curie was a pioneer Scientist in radioactivity. she was the first woman to win a Nobel Prize, the first and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields.",
 		years: "1867-1934",
@@ -416,7 +416,7 @@ const women = [
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id32_Curie_a357fs.jpg",
 		quote:
-			"'Nothing in life is to be feared; it is only to be understood. '- Marie Curie",
+			"Nothing in life is to be feared; it is only to be understood.",
 	},
 	{
 		id: 33,
@@ -428,11 +428,12 @@ const women = [
 		nationality: "English",
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398851/id33_Woolf_vxr9jp.jpg",
+		quote: "I would venture to guess that Anon, who wrote so many poems without signing them, was often a woman."
 	},
 	{
 		id: 34,
 		name: "Artemisia Gentileschi",
-		title: "First Feminist Icon in Western history",
+		title: "First Feminist Icon in Western History",
 		contribution:
 			"In an era when women had few opportunities to pursue artistic training or work as professional artists, Gentileschi was the first woman to become a member of the Accademia di Arte del Disegno in Florence.",
 		years: "1593-1656",
@@ -440,7 +441,7 @@ const women = [
 		image:
 			"https://res.cloudinary.com/dg5lakmem/image/upload/v1618398852/id34_Gentileschi_flzw61.jpg",
 		quote:
-			"'My mustrious lordship, i'll show you what a woman can do.'- Artemisia Gentileschi",
+			"My mustrious lordship, I'll show you what a woman can do.",
 	},
 	{
 		id: 35,
@@ -459,7 +460,7 @@ const women = [
 		id: 36,
 		name: "Margaret Thatcher",
 		title:
-			"First (and to-date only) Female Prime Minister of the United Kingdom",
+			"First Female Prime Minister of the United Kingdom",
 		contribution:
 			"Margaret Thatcher was the longest-serving British prime minister of the 20th century and the first woman to hold that office.",
 		years: "1920-2013",
@@ -486,7 +487,7 @@ const women = [
 		id: 38,
 		name: "Maria Montessori",
 		title:
-			"Creator of the Montessori Method and first Italian woman to ever receive a degree in medicine.",
+			"Creator of the Montessori Method and First Italian Woman to Ever receive a Degree in Medicine.",
 		contribution:
 			"Best known for the philosophy of education that bears her name, and her writing on scientific pedagogy.Her educational method is in use today in many public and private schools globally.",
 		years: "1870-1952",
@@ -499,9 +500,9 @@ const women = [
 	{
 		id: 40,
 		name: "Audre Lorde",
-		title: "Author and creator of the 'theory of difference'",
+		title: "Author and Creator of the 'Theory of Difference'",
 		contribution:
-			"Audre Lorde explored female identity and life as a Black lesbian and writing about issues that affected women across the country during the height Civil Rights movement. All of her work was based on her 'theory of difference', which we refer to as 'intersectionality' today.",
+			"Audre Lorde explored female identity and life as a Black lesbian and wrote about issues that affected women across the country during the height Civil Rights movement. All of her work was based on her 'theory of difference', which we refer to as 'intersectionality' today.",
 		years: "1934-1992",
 		nationality: "American",
 		image:
@@ -512,7 +513,7 @@ const women = [
 	{
 		id: 41,
 		name: "Mae Jemison",
-		title: "First Afro-American Astronaut in space",
+		title: "First Afro-American Astronaut in Space",
 		contribution:
 			"In addition to being the first Black woman to travel into space aboard space shuttle Endeavour, Mae Jemison was the first Black woman to be admitted to the NASA astronaut training program. After her career with NASA, she founded a consulting firm she named The Jemison Group Inc., which focuses on sociocultural issues in the STEM field and now holds 10 honorary doctorates.",
 		years: "1956",
@@ -550,7 +551,7 @@ const women = [
 	{
 		id: 44,
 		name: "Rachel Levine",
-		title: "First transgender woman to hold Senate-confirmed office",
+		title: "First Transgender Woman to Hold Senate-confirmed Office",
 		contribution:
 			"Rachel Leland Levine is an American pediatrician who has been the United States assistant secretary for health since March 26, 2021. She is a professor of pediatrics and psychiatry at the Penn State College of Medicine, and previously served as the Pennsylvania physician general from 2015 to 2017. She is one of only a few openly transgender government officials in the United States, and is the first to hold an office that requires Senate confirmation.",
 		years: "1957",
