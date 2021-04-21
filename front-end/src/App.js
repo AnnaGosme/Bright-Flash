@@ -2,12 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+
 import "./index.css";
 
 import Header from "./components/Header/Header";
 import Home from "./components/Home";
 import GameIntroPage from "./components/GameIntroPage";
-import Games from "./components/Memory";
+import Memory from "./components/Memory/Memory";
 import About from "./components/About";
 import ListOfWomen from "./components/ListOfWomen";
 import Contact from "./components/Contact";
@@ -28,7 +29,7 @@ function App() {
 				<div>
 					<Header />
 					<Switch>
-						<Route path="/games" component={Games} />
+						<Route path="/memory" component={Memory} />
 						<Route path="/women" component={ListOfWomen} />
 						<Route path="/about" component={About} />
 						<Route path="/contact" component={Contact} />
