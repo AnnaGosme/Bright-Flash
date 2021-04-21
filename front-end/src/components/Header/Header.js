@@ -34,11 +34,13 @@ export default function NavBar() {
 						{MenuItems.map((item, index) => {
 							return (
 								<li key={index}>
-									{/* <a className={item.cName} href={item.url}> */}
-									<Link to={item.url} className={item.cName}>
+									<Link
+										to={item.url}
+										className={item.cName}
+										onClick={() => showHide(menuList)}
+									>
 										{item.title}
 									</Link>
-									{/* </a> */}
 								</li>
 							);
 						})}
