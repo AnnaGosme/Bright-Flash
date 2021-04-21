@@ -1,20 +1,27 @@
 import React from "react";
-//import TopNav
+import Header from "./Header/Header";
+import "./Footer.css";
 //import css
 
-export default function Footer() {
-	return (
-		// to appear on each page with fa fa
-		<div>
-			<div class="facebookIcon">
-				<i class="fa fa-facebook" aria-hidden="true" />
-			</div>
-			<div class="instaIcon">
-				<i class="fa fa-instagram" aria-hidden="true" />
-			</div>
-			<div class="twitterIcon">
-				<i class="fa fa-twitter" aria-hidden="true" />
-			</div>
-		</div>
-	);
+function Footer() {
+  return (
+    <div className="main-footer">
+      <h1 className="quotes">
+        "When uniques voices are united in a common cause, they make history"
+      </h1>
+      <div className="container">
+        <img
+          className="icons"
+          src="https://res.cloudinary.com/dnefeccae/image/upload/v1618531048/Bright%20flash/instagram-logo_eqmuft.png"
+        />
+        <img
+          className="icons"
+          src="https://res.cloudinary.com/dnefeccae/image/upload/v1618531084/Bright%20flash/email-logo_q0ectn.png"
+        />
+        <h2 className="nav_about">ABOUT US</h2>
+      </div>
+    </div>
+  );
 }
+
+export default Footer;

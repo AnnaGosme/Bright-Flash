@@ -1,15 +1,15 @@
 import React from "react";
-import Header from "./Header";
+import Header from "./Header/Header";
 import Footer from "./Footer";
 
 export default function Home() {
 	return (
 		<div>
-			<img
+			{/*<img
 				className="fullbleed"
 				src="https://picsum.photos/536/354"
 				alt="Great women minds at table"
-			></img>
+			></img>*/}
 			<p className="introtext">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
