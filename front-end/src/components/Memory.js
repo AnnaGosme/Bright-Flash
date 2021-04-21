@@ -1,6 +1,6 @@
 import Card from "./Card";
 import Header from "./Header/Header";
-import Footer from "./Footer";
+import Footer from "../Footer";
 import "./Memory.css";
 
 function Games() {
@@ -8,7 +8,12 @@ function Games() {
 		<div>
 			<br />
 			<div className="button-container">
-				<button className="button" id="replay" type="button">
+				<button
+					className="button"
+					id="replay"
+					type="button"
+					onClick={() => window.location.reload(false)}
+				>
 					Play again
 				</button>
 
