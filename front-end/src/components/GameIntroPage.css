@@ -12,13 +12,23 @@
   border-radius: 21px;
 }
 h5 {
-  font-family: Oswald;
+font-family: Oswald;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: center;
+color: #c56379;
+
+
+  /*font-family: Oswald;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 53px;
   text-align: center;
-  color: #c56379;
+  color: #c56379;*/
 }
 
 .btn-one {
