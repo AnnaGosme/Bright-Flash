@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 body {
 margin-top: 0px;
 margin-left: 0px;
@@ -9,14 +12,14 @@ background: url("https://res.cloudinary.com/octavian2111/image/upload/v161856274
 }
 .HomePage {
   position: relative;
-  margin: 2em 3em;
+  margin: 0.5em 24em;
 }
 
 .m-item {
 position: absolute;
     top: 0;
 
-    width: 5.5em;
+    width: 12em;
     background-color: #301A4B;
     box-shadow: 1px 2px 2px #301A4B;
 
@@ -27,7 +30,8 @@ position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 1.5em;
     color: #EDFFEC;
     cursor: pointer;
@@ -41,25 +45,26 @@ position: absolute;
 
 .m-logo{
     z-index: 1;
+    /*background-color: transparent;*/
 }
 
 .open-1{
     top: 1.8em;
-    background-color: #9b5de5;
+    background-color: #C56379;
 }
 .open-2{
     top: 3.6em;
-    background-color: #f15bb5;
+    background-color: #C56379;
 }
 .open-3{
     top: 5.4em;
-    background-color: #00BBF9;
+    background-color: #C56379;
 }
 .open-4{
     top: 7.2em;
-    background-color: #00BBF9;
+    background-color: #C56379;
 }
 .open-5{
     top: 9em;
-    background-color: #00BBF9;
+    background-color: #C56379;
 }
