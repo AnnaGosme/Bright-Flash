@@ -15,7 +15,6 @@ import Contact from "./components/Contact";
 import Footer from "./Footer";
 import { AiFillWindows } from "react-icons/ai";
 
-
 function App() {
 	const [data, setData] = useState([]);
 	const getData = () => {
