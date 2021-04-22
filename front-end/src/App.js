@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { FormspreeProvider } from "@formspree/react";
 
 import "./index.css";
 
@@ -24,6 +25,7 @@ function App() {
 
 	return (
 		<div className="App">
+			<FormspreeProvider project="mayanlly" />
 			<Router>
 				<div>
 					<Header />
