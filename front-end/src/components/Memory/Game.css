@@ -23,6 +23,7 @@
   font-weight: bolder;
   display: inline-flex;
   background-color: #eedf5b;
+  -webkit-border-radius: 30px;
 }
 
 .Game-intro {
