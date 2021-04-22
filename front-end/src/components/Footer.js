@@ -9,7 +9,6 @@ function Footer() {
       <h1 className="quotes">
         "When uniques voices are united in a common cause, they make history"
       </h1>
-
       <div className="container">
         <img
           className="icon_1"
