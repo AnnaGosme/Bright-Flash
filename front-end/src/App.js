@@ -16,13 +16,14 @@ import Footer from "./Footer";
 import { AiFillWindows } from "react-icons/ai";
 
 function App() {
+	const [data, setData] = useState([]);
 	const getData = () => {
 		fetch("http://localhost:5000/")
 			.then((res) => res.json())
-			.then((data) => console.log(data));
+			.then((data) => setData(data));
 	};
 
-	getData();
+	useEffect(getData, []);
 
 	return (
 		<div className="App">
@@ -31,14 +32,19 @@ function App() {
 				<div>
 					<Header />
 					<Switch>
-						<Route path="/memory" component={Memory} />
-						<Route path="/introgame" component={GameIntroPage} />
+						<Route path="/memory">
+							<Memory data={data} />
+						</Route>
+						<Route
+							path="/introgame"
+							render={() => <GameIntroPage data={data} />}
+						/>
 						<Route path="/women" component={ListOfWomen} />
 						<Route path="/about" component={About} />
 						<Route path="/contact" component={Contact} />
 						<Route exact path="/" component={Home} />
 					</Switch>
-					<Footer />
+					<Footer data={data} />
 				</div>
 			</Router>
 		</div>
