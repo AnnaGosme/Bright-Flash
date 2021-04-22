@@ -4,8 +4,8 @@ import App from "../../App";
 class MemoryCards {
   constructor() {
     this.cards = [];
-    this.data = []
-    this.NUM_IMAGES = 10;
+    this.data = [];
+    this.NUM_IMAGES = 4;
   }
 
   generateCardSetData() {
@@ -15,16 +15,16 @@ class MemoryCards {
     this.cards = [];
     for (let i = 0; i < 2 * this.NUM_IMAGES; i++) {
       let card1 = {
-          id: i+1,
-          image: this.data[i].image,
-          imageUp: false,
-          matched: false
+        id: i + 1,
+        image: this.data[i].image,
+        imageUp: false,
+        matched: false,
       };
       let card2 = {
-          id: i+2,
-          image: this.data[i].image,
-          imageUp: false,
-          matched: false
+        id: i + 2,
+        image: this.data[i].image,
+        imageUp: false,
+        matched: false,
       };
       this.cards.push(card1);
       this.cards.push(card2);

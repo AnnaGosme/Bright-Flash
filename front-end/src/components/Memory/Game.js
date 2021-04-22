@@ -13,16 +13,18 @@ class Game extends Component {
     this.onPlayAgain = this.onPlayAgain.bind(this); //TO BE FIXED: reset the game to play again
     this.memoryCards = new MemoryCards(); //logic card game initialized
   }
+
+  componentDidMount() {
+    //first method that is executed.
+    this.getData();
+  }
   getData = () => {
     //TO MOVE OUT: calls the API
     fetch("http://localhost:5000/")
       .then((res) => res.json())
       .then((data) => this.initGame(data)); //when the data arrives, inits the game
   };
-  componentDidMount() {
-    //first method that is executed.
-    this.getData();
-  }
+
   //initialize the game
   initGame(data) {
     this.memoryCards.data = data;
@@ -117,7 +119,7 @@ class Game extends Component {
       </div>
     );
 
-    if (this.state.pairsFound === this.memoryCards.NUM_IMAGES) {
+    if (this.state.pairsFound === this.memoryCards.NUM_IMAGES) { //if you match all the cards
       gameStatus = (
         <div className="Game-status">
           <div>GAME COMPLETE!</div>
