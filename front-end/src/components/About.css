@@ -1,0 +1,56 @@
+body {
+  background-color: white;
+}
+
+.container-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.about-us {
+  width: 100%;
+  height: auto;
+  padding: 18px;
+}
+
+.us-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+img {
+  width: 40%;
+  padding: 5px;
+}
+/*.Anna {
+  width: 20%;
+}
+.Alessandra {
+  width: 20%;
+}
+.Helen {
+  width: 20%;
+}
+.Silvia {
+  width: 20%;
+}*/
+
+.biography {
+  position: absolute;
+  width: 321px;
+  height: 210px;
+  left: 44px;
+  top: 689px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #000000;
+}
