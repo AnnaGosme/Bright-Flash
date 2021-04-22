@@ -14,14 +14,14 @@ class Game extends Component {
 
   componentDidMount() {
     //first method that is executed.
-    this.getData();
+  this.props.data.length && this.initGame(this.props);
   }
-  getData = () => {
-    //TO MOVE OUT: calls the API
-    fetch("http://localhost:5000/")
-      .then((res) => res.json())
-      .then((data) => this.initGame(data)); //when the data arrives, inits the game
-  };
+  // getData = () => {
+  //   //TO MOVE OUT: calls the API
+  //   fetch("http://localhost:5000/")
+  //     .then((res) => res.json())
+  //     .then((data) => this.initGame(data)); //when the data arrives, inits the game
+  // };
 
   //initialize the game
   initGame(data) {
@@ -116,12 +116,13 @@ class Game extends Component {
   };
   //displays in the screen
   render() {
+    console.log(this.props.data);
     const { turnNo, pairsFound } = this.state;
     const cardViews = this.getCardViews();
     let gameStatus = (
       <div className="Game-status">
         <div>TURN: {turnNo} </div>
-       
+
         <div>PAIRS FOUND: {pairsFound}</div>
       </div>
     );

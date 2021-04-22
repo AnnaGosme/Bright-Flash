@@ -4,10 +4,10 @@ import Footer from "../../Footer";
 import "./Memory.css";
 import Game from "./Game"
 
-function Memory() {
+function Memory({data}) {
   return (
     <div>
-		<Game />
+		<Game data={data}/>
       <br />
       <div className="button-container">
         <button
