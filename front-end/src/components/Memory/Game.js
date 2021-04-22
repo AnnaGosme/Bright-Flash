@@ -5,43 +5,46 @@ import MemoryCards from "./MemoryCards";
 import axios from "axios";
 
 class Game extends Component {
-  state = {};
+  state = {}; //the state stores the info about the player actions
 
   constructor(props) {
     super(props);
-    this.onCardClicked = this.onCardClicked.bind(this);
-    this.onPlayAgain = this.onPlayAgain.bind(this);
-    this.memoryCards = new MemoryCards();
+    this.onCardClicked = this.onCardClicked.bind(this); //what to do when a player clicks on a card
+    this.onPlayAgain = this.onPlayAgain.bind(this); //TO BE FIXED: reset the game to play again
+    this.memoryCards = new MemoryCards(); //logic card game initialized
   }
   getData = () => {
+    //TO MOVE OUT: calls the API
     fetch("http://localhost:5000/")
-        .then((res) => res.json())
-        .then((data) => this.initGame(data));
-};
+      .then((res) => res.json())
+      .then((data) => this.initGame(data)); //when the data arrives, inits the game
+  };
   componentDidMount() {
+    //first method that is executed.
     this.getData();
-}
-
-initGame(data) {
-    this.memoryCards.data = data
-    this.memoryCards.generateCardSetData();
+  }
+  //initialize the game
+  initGame(data) {
+    this.memoryCards.data = data;
+    this.memoryCards.generateCardSetData(); //creates the array of cards
     this.setState({
-        turnNo: 1,
-        pairsFound: 0,
-        numClicksWithinTurn: 0,
-        firstId: undefined,
-        secondId: undefined
+      //set initial state
+      turnNo: 1, //first turn
+      pairsFound: 0, //no pairs found
+      numClicksWithinTurn: 0, //player has not clicked any
+      firstId: undefined, //this is save the first card clicked
+      secondId: undefined, //this is to save the second card clciked
     });
-}
-
+  }
+  //executed by render to visualize the cards
   getCardViews() {
     const cardViews = this.memoryCards.cards.map((c) => (
       <CardView
         key={c.id}
         id={c.id}
         image={c.image}
-        imageUp="false"
-        matched="false"
+        imageUp={c.imageUp}
+        matched={c.matched}
         onClick={this.onCardClicked}
       />
     ));
@@ -102,14 +105,14 @@ initGame(data) {
   }
 
   onPlayAgain() {
-    this.initGame();
+    this.initGame(); //TO BE FIXED: what is it missing to make it work?
   }
-
+  //displays in the screen
   render() {
     const cardViews = this.getCardViews();
     let gameStatus = (
       <div className="Game-status">
-        <div>Turn: {this.state.turnNo}</div>
+        <div>Turn: {this.state.turnNo} </div>
         <div>Pairs found: {this.state.pairsFound}</div>
       </div>
     );

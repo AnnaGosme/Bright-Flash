@@ -9,7 +9,8 @@ class CardView extends Component {
   }
 
   onClick() {
-    if (!this.props.matched && !this.props.imageUp) {
+    if (this.props.matched == false && this.props.imageUp == false) {
+      //carta boca abajo
       this.props.onClick(this.props.id, this.props.image);
     }
   }
@@ -19,8 +20,7 @@ class CardView extends Component {
     if (this.props.imageUp == true) {
       imPath = this.props.image;
     } else {
-      imPath = "https://i.imgur.com/fRBk5YK.jpg";
-      //imPath = logo
+      imPath = "https://i.imgur.com/fRBk5YK.jpg"; //logo
     }
 
     let className = "Card";
