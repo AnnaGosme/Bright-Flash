@@ -59,8 +59,8 @@
 .main-footer {
   color: white;
   background-color: #b95c77;
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding: 18px;
+
   position: fixed;
   bottom: 0;
   width: 100%;
