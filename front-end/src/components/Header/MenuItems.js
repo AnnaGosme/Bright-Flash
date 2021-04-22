@@ -1,12 +1,17 @@
 export const MenuItems = [
 	{
 		title: "Home",
-		url: "./",
+		url: "/",
 		cName: "nav-links",
 	},
 	{
-		title: "Games",
-		url: "/games",
+		title: "Select a level",
+		url: "/introgame",
+		cName: "nav-links",
+	},
+	{
+		title: "Memory Game",
+		url: "/memory",
 		cName: "nav-links",
 	},
 	{

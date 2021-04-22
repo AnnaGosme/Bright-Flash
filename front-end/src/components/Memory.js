@@ -3,7 +3,7 @@ import Header from "./Header/Header";
 import Footer from "../Footer";
 import "./Memory.css";
 
-function Games() {
+function Memory() {
 	return (
 		<div>
 			<br />
@@ -25,4 +25,4 @@ function Games() {
 	);
 }
 
-export default Games;
+export default Memory;
