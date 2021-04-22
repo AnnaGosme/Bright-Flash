@@ -9,8 +9,6 @@ class Game extends Component {
 
   constructor(props) {
     super(props);
-    this.onCardClicked = this.onCardClicked.bind(this); //what to do when a player clicks on a card
-    this.onPlayAgain = this.onPlayAgain.bind(this); //TO BE FIXED: reset the game to play again
     this.memoryCards = new MemoryCards(); //logic card game initialized
   }
 
@@ -54,76 +52,85 @@ class Game extends Component {
   }
 
   clearCards(id1, id2) {
-    if (this.state.numClicksWithinTurn !== 2) {
+    const { numClicksWithinTurn, firstId, secondId, turnNo } = this.state;
+    if (numClicksWithinTurn !== 2) {
       return;
     }
-    this.memoryCards.flipCard(this.state.firstId, false);
-    this.memoryCards.flipCard(this.state.secondId, false);
+    this.memoryCards.flipCard(firstId, false);
+    this.memoryCards.flipCard(secondId, false);
     this.setState({
       firstId: undefined,
       secondId: undefined,
       numClicksWithinTurn: 0,
-      turnNo: this.state.turnNo + 1,
+      turnNo: turnNo + 1,
     });
   }
 
-  onCardClicked(id, image) {
-    if (
-      this.state.numClicksWithinTurn === 0 ||
-      this.state.numClicksWithinTurn === 2
-    ) {
-      if (this.state.numClicksWithinTurn === 2) {
+  onCardClicked = (id, image) => {
+    const {
+      numClicksWithinTurn,
+      firstId,
+      secondId,
+      pairsFound,
+      turnNo,
+    } = this.state;
+    //what to do when a player clicks on a card
+    if (numClicksWithinTurn === 0 || numClicksWithinTurn === 2) {
+      if (numClicksWithinTurn === 2) {
         clearTimeout(this.timeout);
-        this.clearCards(this.state.firstId, this.state.secondId);
+        this.clearCards(firstId, secondId);
       }
       this.memoryCards.flipCard(id, true);
       this.setState({
         firstId: id,
         numClicksWithinTurn: 1,
       });
-    } else if (this.state.numClicksWithinTurn === 1) {
+    } else if (numClicksWithinTurn === 1) {
       this.memoryCards.flipCard(id, true);
       this.setState({
         secondId: id,
         numClicksWithinTurn: 2,
       });
 
-      if (this.memoryCards.cardsHaveIdenticalImages(id, this.state.firstId)) {
-        this.memoryCards.setCardAsMatched(this.state.firstId, true);
+      if (this.memoryCards.cardsHaveIdenticalImages(id, firstId)) {
+        this.memoryCards.setCardAsMatched(firstId, true);
         this.memoryCards.setCardAsMatched(id, true);
         this.setState({
-          pairsFound: this.state.pairsFound + 1,
+          pairsFound: pairsFound + 1,
           firstId: undefined,
           secondId: undefined,
-          turnNo: this.state.turnNo + 1,
+          turnNo: turnNo + 1,
           numClicksWithinTurn: 0,
         });
       } else {
         this.timeout = setTimeout(() => {
-          this.clearCards(this.state.firstId, this.state.secondId);
+          this.clearCards(firstId, secondId);
         }, 5000);
       }
     }
-  }
+  };
 
-  onPlayAgain() {
+  onPlayAgain = () => {
+    //TO BE FIXED: reset the game to play again
     this.initGame(); //TO BE FIXED: what is it missing to make it work?
-  }
+  };
   //displays in the screen
   render() {
+    const { turnNo, pairsFound } = this.state;
     const cardViews = this.getCardViews();
     let gameStatus = (
       <div className="Game-status">
-        <div>Turn: {this.state.turnNo} </div>
-        <div>Pairs found: {this.state.pairsFound}</div>
+        <div>Turn: {turnNo} </div>
+        <div>Pairs found: {pairsFound}</div>
       </div>
     );
 
-    if (this.state.pairsFound === this.memoryCards.NUM_IMAGES) { //if you match all the cards
+    if (pairsFound === this.memoryCards.NUM_IMAGES) {
+      //if you match all the cards
       gameStatus = (
         <div className="Game-status">
           <div>GAME COMPLETE!</div>
-          <div>You used {this.state.turnNo - 1} turns</div>
+          <div>You used {turnNo - 1} turns</div>
           <div>
             <button onClick={this.onPlayAgain}>Play again?</button>
           </div>
