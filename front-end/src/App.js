@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { FormspreeProvider } from "@formspree/react";
@@ -8,11 +8,12 @@ import "./index.css";
 import Header from "./components/Header/Header";
 import Home from "./components/Home";
 import GameIntroPage from "./components/GameIntroPage";
-import Games from "./components/Memory";
+import Memory from "./components/Memory";
 import About from "./components/About";
 import ListOfWomen from "./components/ListOfWomen";
 import Contact from "./components/Contact";
 import Footer from "./Footer";
+import { AiFillWindows } from "react-icons/ai";
 
 function App() {
 	const getData = () => {
@@ -25,12 +26,13 @@ function App() {
 
 	return (
 		<div className="App">
-			<FormspreeProvider project="mayanlly" />
+			<FormspreeProvider project="1661932041131785320" />
 			<Router>
 				<div>
 					<Header />
 					<Switch>
-						<Route path="/games" component={Games} />
+						<Route path="/memory" component={Memory} />
+						<Route path="/introgame" component={GameIntroPage} />
 						<Route path="/women" component={ListOfWomen} />
 						<Route path="/about" component={About} />
 						<Route path="/contact" component={Contact} />
@@ -44,5 +46,3 @@ function App() {
 }
 
 export default App;
-
-ReactDOM.render(<App />, document.getElementById("root"));

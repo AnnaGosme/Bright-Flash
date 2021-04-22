@@ -5,16 +5,16 @@ import { useForm, ValidationError } from "@formspree/react";
 import "./Contact.css";
 
 export default function Contact() {
-	const [state, handleSubmit] = useForm("mayanlly");
+	const [state, handleSubmit] = useForm("1661932041131785320");
 	if (state.succeeded) {
-		return <p>"Thanks for writing us!")</p>;
+		return <p>"Thanks for writing us!"</p>;
 	}
 
 	return (
 		<div className="form-page">
 			<div className="image-container">
 				<img
-					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618995584/Bright%20Flash/Contact_dyb94q.jpg"
+					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1619095195/Bright%20Flash/Contact-cropped_eg41xz.jpg"
 					className="contact-image"
 				/>
 			</div>
@@ -33,9 +33,10 @@ export default function Contact() {
 					className="form-box"
 					onSubmit={handleSubmit}
 					action="https://formspree.io/f/mayanlly"
+					method="POST"
 				>
 					<>
-						<label for="name">Name</label>
+						<label htmlFor="name">Name</label>
 						<input type="text" id="name" name="name" placeholder="Your name" />
 					</>
 					<>
