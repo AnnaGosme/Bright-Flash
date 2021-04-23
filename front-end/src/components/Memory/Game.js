@@ -14,7 +14,7 @@ class Game extends Component {
 
   componentDidMount() {
     //first method that is executed.
-  this.props.data.length && this.initGame(this.props);
+    this.props.data.length && this.initGame(this.props);
   }
   // getData = () => {
   //   //TO MOVE OUT: calls the API
