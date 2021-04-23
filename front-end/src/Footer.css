@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 /*----Mobile-----*/
 @media screen and (max-width: 600px) {
+  .page-container {
+    position: relative;
+    height: 80vh;
+  }
   .main-footer {
     color: white;
     background-color: #b95c77;
