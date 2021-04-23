@@ -5,7 +5,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="page-container">
+    <div className="footerpage-container">
       <footer className="main-footer">
         <h1 className="quotes">
           "When uniques voices are united in a common cause, they make history"
