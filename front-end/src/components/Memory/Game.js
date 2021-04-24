@@ -9,12 +9,12 @@ class Game extends Component {
 
   constructor(props) {
     super(props);
-    this.memoryCards = new MemoryCards(); //logic card game initialized
+    this.memoryCards = new MemoryCards(props.data); //logic card game initialized
   }
 
   componentDidMount() {
     //first method that is executed.
-    this.props.data.length && this.initGame(this.props);
+    if (this.props.data.length > 0) this.initGame();
   }
   // getData = () => {
   //   //TO MOVE OUT: calls the API
@@ -24,8 +24,7 @@ class Game extends Component {
   // };
 
   //initialize the game
-  initGame(data) {
-    this.memoryCards.data = data;
+  initGame() {
     this.memoryCards.generateCardSetData(); //creates the array of cards
     this.setState({
       //set initial state
@@ -116,7 +115,6 @@ class Game extends Component {
   };
   //displays in the screen
   render() {
-    console.log(this.props.data);
     const { turnNo, pairsFound } = this.state;
     const cardViews = this.getCardViews();
     let gameStatus = (
@@ -127,7 +125,7 @@ class Game extends Component {
       </div>
     );
 
-    if (pairsFound === this.memoryCards.NUM_IMAGES) {
+    if (pairsFound === this.memoryCards.NUM_IMAGES) { // the game ends once you match all the cards
       //if you match all the cards
       gameStatus = (
         <div className="Game-status">

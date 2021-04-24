@@ -2,9 +2,9 @@ import shuffle from "shuffle-array";
 import App from "../../App";
 
 class MemoryCards {
-  constructor() {
+  constructor(data) {
     this.cards = [];
-    this.data = []
+    this.data = data
     this.NUM_IMAGES = 4;
   }
 
@@ -13,24 +13,26 @@ class MemoryCards {
     // Generate a set of cards with image pairs
     //
     this.cards = [];
-    for (let i = 0; i < 2 * this.NUM_IMAGES; i++) {
-      let card1 = {
-          id: i+1,
-          image: this.data[i].image,
-          imageUp: false,
-          matched: false
-      };
-      let card2 = {
-          id: i+2,
-          image: this.data[i].image,
-          imageUp: false,
-          matched: false
-      };
-      this.cards.push(card1);
-      this.cards.push(card2);
-      i++;
+    if(this.data && this.data.length > 0){
+      for (let i = 0; i < 2 * this.NUM_IMAGES; i++) {
+        let card1 = {
+            id: i+1,
+            image: this.data[i].image,
+            imageUp: false,
+            matched: false
+        };
+        let card2 = {
+            id: i+2,
+            image: this.data[i].image,
+            imageUp: false,
+            matched: false
+        };
+        this.cards.push(card1);
+        this.cards.push(card2);
+        i++;
+      }
+      shuffle(this.cards);
     }
-    shuffle(this.cards);
   }
   getCard(id) {
     for (let i = 0; i < 2 * this.NUM_IMAGES; i++) {

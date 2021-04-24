@@ -2,12 +2,12 @@ import Card from "../Card";
 import Header from "../Header/Header";
 import Footer from "../../Footer";
 import "./Memory.css";
-import Game from "./Game"
+import Game from "./Game";
 
-function Memory({data}) {
+function Memory({ data }) {
   return (
     <div>
-		<Game data={data}/>
+      <Game data={data} />
       <br />
       <div className="button-container">
         <button
@@ -16,7 +16,7 @@ function Memory({data}) {
           type="button"
           onClick={() => window.location.reload(false)}
         >
-          Play again
+          RESET
         </button>
 
         <button className="button" id="go-on" type="button">
