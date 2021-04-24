@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { FormspreeProvider } from "@formspree/react";
 
 import "./index.css";
 
@@ -28,6 +30,8 @@ function App() {
   };
 
   useEffect(getData, []);
+
+
 
   return (
     <div className="App">
