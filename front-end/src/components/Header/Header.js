@@ -12,7 +12,7 @@ import {
 
 import "./header.css";
 
-import Games from "../Memory";
+import Memory from "../Memory/Memory";
 import Home from "../Home";
 import ListOfWomen from "../ListOfWomen";
 import About from "../About";
