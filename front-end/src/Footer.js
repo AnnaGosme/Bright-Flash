@@ -4,13 +4,12 @@ import "./Footer.css";
 import FooterQuotes from "./components/Quotes/Quotes";
 //import css
 
-function Footer() {
+function Footer({ data }) {
   return (
     <div className="footerpage-container">
       <footer className="main-footer">
-        <h1 className="quotes">
-          "When uniques voices are united in a common cause, they make history"
-        </h1>
+        <p className="Quote" quote={data.quote}></p>
+        <p className="QuoteName" name={data.name}></p>
         <div className="container">
           <img
             className="icon"
