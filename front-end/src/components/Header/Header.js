@@ -6,8 +6,13 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import "./header.css";
 
+<<<<<<< HEAD
 import Games from "../Memory";
 import Home from "../Home/Home";
+=======
+import Memory from "../Memory/Memory";
+import Home from "../Home";
+>>>>>>> 08d261cb9b121fce3c83cdb830fd5c384bed35a2
 import ListOfWomen from "../ListOfWomen";
 import About from "../About";
 import Contact from "../Contact";
