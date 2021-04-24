@@ -6,7 +6,7 @@ import { FormspreeProvider } from "@formspree/react";
 import "./index.css";
 
 import Header from "./components/Header/Header";
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
 import GameIntroPage from "./components/GameIntroPage";
 import Memory from "./components/Memory";
 import About from "./components/About";
