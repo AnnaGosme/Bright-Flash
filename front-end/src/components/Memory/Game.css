@@ -23,7 +23,7 @@
   font-weight: bolder;
   display: inline-flex;
   background-color: #eedf5b;
-  -webkit-border-radius: 30px;
+  /* -webkit-border-radius: 30px; */
 }
 
 .Game-intro {
@@ -56,5 +56,5 @@ img {
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
-  user-drag: none;
+  /* user-drag: none; */
 }
