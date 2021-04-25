@@ -100,7 +100,6 @@ h2 {
   top: 946px;*/
 		border-radius: 0px;
 	}
-
 	.container {
 		display: flex;
 		font-weight: bold;
@@ -113,11 +112,9 @@ h2 {
 		justify-content: space-evenly;
 		align-items: center;
 	}
-
 	.container > .icon {
 		padding: 3px;
 	}
-
 	h2 {
 		display: inline-block;
 		line-height: 0.5;

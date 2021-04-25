@@ -12,8 +12,8 @@ import {
 
 import "./header.css";
 
-import Games from "../Memory";
-import Home from "../Home/Home";
+import Memory from "../Memory/Memory";
+import Home from "../Home";
 import ListOfWomen from "../ListOfWomen";
 import About from "../About";
 import Contact from "../Contact";
