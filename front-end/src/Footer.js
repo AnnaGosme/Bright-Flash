@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header/Header";
 import "./Footer.css";
+
 //import css
 
 function Footer() {
