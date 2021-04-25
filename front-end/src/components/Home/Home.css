@@ -14,17 +14,12 @@ span {
 	cursor: pointer;
 }
 
-.wrapper {
-	display: grid;
-	justify-content: center;
-	align-items: center;
-}
-
 .dropdown-menu {
 	display: grid;
 	position: relative;
 	grid-template-columns: repeat(5, auto);
 	top: 30px;
+	text-align: center;
 }
 
 .item-image {
