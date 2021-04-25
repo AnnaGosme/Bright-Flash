@@ -125,7 +125,8 @@ class Game extends Component {
       </div>
     );
 
-    if (pairsFound === this.memoryCards.NUM_IMAGES) { // the game ends once you match all the cards
+    if (pairsFound === this.memoryCards.NUM_IMAGES) {
+      // the game ends once you match all the cards
       //if you match all the cards
       gameStatus = (
         <div className="Game-status">
