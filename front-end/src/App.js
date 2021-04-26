@@ -12,7 +12,7 @@ import Memory from "./components/Memory/Memory";
 import About from "./components/About";
 import ListOfWomen from "./components/ListOfWomen";
 import Contact from "./components/Contact";
-import Footer from "./Footer";
+import Footer from "./components/Footer/Footer";
 import { AiFillWindows } from "react-icons/ai";
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
       .then((res) => res.json())
       .then((data) => {
         setData(data);
-        console.log('hi')
+        console.log("hi");
         setIsLoading(false);
       });
   };

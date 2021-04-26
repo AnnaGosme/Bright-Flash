@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export default function FetchQuote() {
+export default function FooterQuote() {
   const [quote, setQuote] = useState("");
   const [loading, setLoading] = useState(true);
   const [name, setName] = useState("");

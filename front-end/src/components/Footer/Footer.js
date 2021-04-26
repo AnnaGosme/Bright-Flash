@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import Header from "../Header/Header";
+import FooterQuote from "./FooterQuote";
 import "./Footer.css";
 //import css
 
