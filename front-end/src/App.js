@@ -25,6 +25,7 @@ function App() {
       .then((res) => res.json())
       .then((data) => {
         setData(data);
+        console.log('hi')
         setIsLoading(false);
       });
   };
@@ -54,7 +55,7 @@ function App() {
               <Route path="/contact" component={Contact} />
               <Route exact path="/" component={Home} />
             </Switch>
-            <Footer data={data} />
+            <Footer quote={data} name={data} />
           </div>
         </Router>
       )}

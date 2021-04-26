@@ -1,18 +1,16 @@
 import { useLocation } from "react-router-dom";
-import Header from "./components/Header/Header";
+import Header from "../Header/Header";
 import "./Footer.css";
 //import css
 
-function Footer() {
+function Footer({data}) {
 	let location = useLocation();
 	return (
 		location.pathname !== "/" && (
 			<div className="footerpage-container">
 				<footer className="main-footer">
-					<h1 className="quotes">
-						"When uniques voices are united in a common cause, they make
-						history"
-					</h1>
+					<FooterQuote />
+
 					<div className="container">
 						<img
 							className="icon"

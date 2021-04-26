@@ -7,7 +7,7 @@ import "./Contact.css";
 export default function Contact() {
 	const [state, handleSubmit] = useForm("1661932041131785320");
 	if (state.succeeded) {
-		return <p>"Thanks for writing us!"</p>;
+		return <p>"Thanks for writing to us! We'll get back to you very soon!"</p>;
 	}
 
 	return (
