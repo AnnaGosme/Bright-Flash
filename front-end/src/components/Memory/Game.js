@@ -9,7 +9,7 @@ class Game extends Component {
 
   constructor(props) {
     super(props);
-    this.memoryCards = new MemoryCards(props.data); //logic card game initialized
+    this.memoryCards = new MemoryCards(props.data, props.level); //logic card game initialized
   }
 
   componentDidMount() {
