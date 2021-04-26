@@ -1,8 +1,14 @@
-import { useState } from "react";
 import Header from "../Header/Header";
 import Footer from "../../Footer";
-//import css
 
-export default function ListOfWomen() {
-	return null;
+import "./listOfWomen.css";
+
+export default function ListOfWomen({ data }) {
+	return (
+		<div>
+			{data.map((img) => (
+				<img className="women-cards" src={img.image} />
+			))}
+		</div>
+	);
 }

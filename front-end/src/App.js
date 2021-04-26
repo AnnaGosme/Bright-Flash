@@ -49,7 +49,7 @@ function App() {
 								path="/introgame"
 								render={() => <GameIntroPage data={data} />}
 							/>
-							<Route path="/women" component={ListOfWomen} />
+							<Route path="/women" render={() => <ListOfWomen data={data} />} />
 							<Route path="/about" component={About} />
 							<Route path="/contact" component={Contact} />
 							<Route exact path="/" component={Home} />
