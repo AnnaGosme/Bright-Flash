@@ -15,6 +15,10 @@
 	padding: 18px;
 }
 
+.hide {
+	display: none;
+}
+
 .navbar-logo {
 	justify-self: start;
 	margin-left: 5px;
@@ -65,6 +69,10 @@
 	.navbar-items {
 		position: relative;
 		padding: 40px;
+	}
+
+	.hide {
+		display: block;
 	}
 
 	.nav-menu {
