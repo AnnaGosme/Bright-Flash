@@ -30,6 +30,11 @@ function App() {
   };
 
   useEffect(getData, []);
+  function getQuotes (event){
+    const womenQuotes = getData.find(
+      (data)=> data.quote===event.target.value
+    );
+  }
 
   return (
     <div className="App">
