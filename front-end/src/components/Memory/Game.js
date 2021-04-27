@@ -7,10 +7,10 @@ import axios from "axios";
 class Game extends Component {
 	state = {}; //the state stores the info about the player actions
 
-	constructor(props) {
-		super(props);
-		this.memoryCards = new MemoryCards(props.data); //logic card game initialized
-	}
+  constructor(props) {
+    super(props);
+    this.memoryCards = new MemoryCards(props.data, props.level); //logic card game initialized
+  }
 
 	componentDidMount() {
 		//first method that is executed.
