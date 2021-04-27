@@ -42,8 +42,8 @@ function App() {
           <div>
             <Header />
             <Switch>
-              <Route path="/memory">
-                <Memory data={data} />
+              <Route path="/memory/:level"> {/* level added as parameter in the path */}
+                <Memory data={data} /> 
               </Route>
               <Route
                 path="/introgame"

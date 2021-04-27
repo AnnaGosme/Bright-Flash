@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header/Header";
 import Footer from "../Footer";
 import Home from "./Home/Home";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import "./GameIntroPage.css";
 // import css
 
@@ -13,7 +14,9 @@ function GameIntroPage() {
       </div>
       <div className="mt-3">
         <div>
-          <button className="btn btn-one m-2">LEVEL 1</button>
+          <Link to="/memory/1" className="btn btn-one m-2">
+            LEVEL 1
+          </Link>
         </div>
         <div>
           <button className="btn btn-two m-2">LEVEL 2</button>

@@ -2,10 +2,11 @@ import shuffle from "shuffle-array";
 import App from "../../App";
 
 class MemoryCards {
-  constructor(data) {
+  constructor(data, selectedLevel) { // new parameter in the constructor
     this.cards = [];
     this.data = data
-    this.NUM_IMAGES = 4;
+    this.level = selectedLevel; // level as object property
+    this.NUM_IMAGES = 4; // default level 1 number of images
   }
 
   generateCardSetData() {
@@ -13,6 +14,15 @@ class MemoryCards {
     // Generate a set of cards with image pairs
     //
     this.cards = [];
+   
+  if(this.level == 2){ // set number images depending on the level
+      this.NUM_IMAGES += 2
+    }else if(this.level == 3) {
+      this.NUM_IMAGES += 5
+    }else if(this.level == 4) {
+      this.NUM_IMAGES += 10
+    }
+    
     if(this.data && this.data.length > 0){
       for (let i = 0; i < 2 * this.NUM_IMAGES; i++) {
         let card1 = {
