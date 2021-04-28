@@ -1,9 +1,5 @@
-import React from "react";
-import Header from "./Header/Header";
-import Home from "./Home/Home";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import "./GameIntroPage.css";
-// import css
 
 function GameIntroPage() {
   return (

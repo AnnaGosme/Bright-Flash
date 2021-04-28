@@ -1,5 +1,5 @@
-import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
+// import Header from "./Header/Header";
+// import Footer from "./Footer/Footer";
 import "./About.css";
 
 export default function About() {
@@ -7,27 +7,27 @@ export default function About() {
     <div className="container-title">
       <img
         className="about-us"
-        src="https://res.cloudinary.com/dnefeccae/image/upload/v1619042510/helenpictures/about_qwcnhh.png"
+        src="https://res.cloudinary.com/dnefeccae/image/upload/v1619042510/helenpictures/about_qwcnhh.png" alt="about us"
       />
       <div className="us-cards">
         <img
           className="Anna"
-          src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110721/helenpictures/anna_ke0ith.png"
+          src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110721/helenpictures/anna_ke0ith.png" alt="Anna"
         />
 
         <img
           className="Alessandra"
-          src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110720/helenpictures/alessandra_ty7yg5.png"
+          src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110720/helenpictures/alessandra_ty7yg5.png" alt="Alessandra"
         />
 
         <img
           className="Helen"
-          src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110725/helenpictures/helen_owvi3i.png"
+          src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110725/helenpictures/helen_owvi3i.png" alt="Helen"
         />
 
         <img
           className="Silvia"
-          src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110728/helenpictures/silvia_gxz7wh.png"
+          src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110728/helenpictures/silvia_gxz7wh.png" alt="Silvia"
         />
         <div className="biography">
           <p>

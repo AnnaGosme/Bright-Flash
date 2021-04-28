@@ -1,5 +1,3 @@
-import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
 import { useForm, ValidationError } from "@formspree/react";
 
 import "./Contact.css";
@@ -14,14 +12,14 @@ export default function Contact() {
 		<div className="form-page">
 			<div className="image-container">
 				<img
-					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1619095195/Bright%20Flash/Contact-cropped_eg41xz.jpg"
+					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1619095195/Bright%20Flash/Contact-cropped_eg41xz.jpg" alt=""
 					className="contact-image"
 				/>
 			</div>
 			<></>
 			<div className="form-container">
 				<img
-					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618995903/Bright%20Flash/Contact-us_wazpuz.png"
+					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618995903/Bright%20Flash/Contact-us_wazpuz.png" alt=""
 					className="contact-caption"
 				/>
 				<div className="text-container">

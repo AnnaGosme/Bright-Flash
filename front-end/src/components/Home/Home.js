@@ -51,7 +51,7 @@ const HomePage = () => {
 			<div>
 				<img
 					className="mobile-pic"
-					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618422713/Bright%20Flash/Women-bright-flash_ozg2mg.jpg"
+					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618422713/Bright%20Flash/Women-bright-flash_ozg2mg.jpg" alt=""
 				/>
 			</div>
 			<h1 className="mobile-title">MOBILE TITLE</h1>

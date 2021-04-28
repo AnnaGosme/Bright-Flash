@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { FormspreeProvider } from "@formspree/react";
 
@@ -13,7 +13,7 @@ import About from "./components/About";
 import ListOfWomen from "./components/ListOfWomen";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer/Footer";
-import { AiFillWindows } from "react-icons/ai";
+
 
 function App() {
   //State is defined here
@@ -55,7 +55,7 @@ function App() {
               <Route path="/contact" component={Contact} />
               <Route exact path="/" component={Home} />
             </Switch>
-            <Footer quote={data} name={data} />
+            <Footer info={data} />
           </div>
         </Router>
       )}
