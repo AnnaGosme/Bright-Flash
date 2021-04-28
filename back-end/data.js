@@ -214,7 +214,8 @@ const women = [
     nationality: "American",
     image:
       "https://res.cloudinary.com/octavian2111/image/upload/v1618408513/36C4CBD3-181E-4F32-81D3-045EC6D0A3C2_4_5005_c_s7acqo.jpg",
-    quote: "",
+    quote:
+      "In the poverty of your imagination it is easier to believe that the printed word is gospel truth. I went beyond the realms of your perceptions",
   },
   {
     id: 17,
