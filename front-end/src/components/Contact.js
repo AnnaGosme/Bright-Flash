@@ -1,79 +1,94 @@
-import { useForm, ValidationError } from "@formspree/react";
-
+import emailjs from "emailjs-com";
 import "./Contact.css";
 
 export default function Contact() {
-	const [state, handleSubmit] = useForm("1661932041131785320");
-	if (state.succeeded) {
-		return <p>"Thanks for writing to us! We'll get back to you very soon!"</p>;
-	}
+  function sendEmail(e) {
+    e.preventDefault();
 
-	return (
-		<div className="form-page">
-			<div className="image-container">
-				<img
-					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1619095195/Bright%20Flash/Contact-cropped_eg41xz.jpg" alt=""
-					className="contact-image"
-				/>
-			</div>
-			<></>
-			<div className="form-container">
-				<img
-					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618995903/Bright%20Flash/Contact-us_wazpuz.png" alt=""
-					className="contact-caption"
-				/>
-				<div className="text-container">
-					<p className="contact-us-call">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					</p>
-				</div>
-				<form
-					className="form-box"
-					onSubmit={handleSubmit}
-					action="https://formspree.io/f/mayanlly"
-					method="POST"
-				>
-					<>
-						<label htmlFor="name">Name</label>
-						<input type="text" id="name" name="name" placeholder="Your name" />
-					</>
-					<>
-						<label for="email">Email</label>
-						<input
-							type="text"
-							id="email"
-							name="email"
-							placeholder="Your email"
-						/>
-						<ValidationError
-							prefix="Email"
-							field="email"
-							errors={state.errors}
-						/>
-					</>
-					<>
-						<label for="message">Message</label>
-						<textarea
-							id="message"
-							name="message"
-							placeholder="Write something.."
-						/>
-						<ValidationError
-							prefix="Message"
-							field="message"
-							errors={state.errors}
-						/>
-					</>
-				</form>
-				<button
-					className="button"
-					id="submit"
-					type="button"
-					disabled={state.submitting}
-				>
-					Submit
-				</button>
-			</div>
-		</div>
-	);
+    emailjs
+      .sendForm("gmail", "bright_flash", e.target, "user_tiJzqT1DSJDfcaGluuKTG")
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
+
+  function Clicked() {
+    function confirmEmail(e) {
+      e.preventDefault();
+    }
+    alert(
+      "Yay! Your email was sent! We will get back to you as soon as possible!"
+    );
+  }
+
+  return (
+    <div>
+      <div className="container">
+        <div className="image-container">
+          <img
+            src="https://res.cloudinary.com/dg5lakmem/image/upload/v1619095195/Bright%20Flash/Contact-cropped_eg41xz.jpg"
+            alt=""
+            className="contact-image"
+          />
+        </div>
+        <div className="form-page">
+          <form onSubmit={Contact} onSubmit={Clicked}>
+            <img
+              src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618995903/Bright%20Flash/Contact-us_wazpuz.png"
+              alt=""
+              className="contact-caption"
+            />
+            <div className="row pt-5 mx-auto">
+              <div className="input">
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="What's your name beautiful?"
+                  name="name"
+                />
+              </div>
+              <div className="input">
+                <input
+                  type="email"
+                  className="form-control"
+                  placeholder="Where can I write to you?"
+                  name="email"
+                />
+              </div>
+              <div className="input">
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="What's up?"
+                  name="subject"
+                />
+              </div>
+              <div className="input">
+                <textarea
+                  className="form-control"
+                  id=""
+                  cols="30"
+                  rows="8"
+                  placeholder="Tell me everything"
+                  name="message"
+                />
+              </div>
+              <div className="col-8 form-group mx-auto">
+                <input
+                  type="submit"
+                  className="btn btn-info"
+                  value="Send Message"
+                ></input>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
 }
