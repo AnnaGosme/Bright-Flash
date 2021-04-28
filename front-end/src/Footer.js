@@ -2,7 +2,6 @@ import { useLocation } from "react-router-dom";
 import Header from "./components/Header/Header";
 import { useEffect, data } from "react";
 
-
 import "./Footer.css";
 //import css
 
@@ -26,9 +25,11 @@ function Footer({ data }) {
               className="icon"
               src="https://res.cloudinary.com/dnefeccae/image/upload/v1618531084/Bright%20flash/email-logo_q0ectn.png"
             />
+             
             <div className="nav_about">
-              <h2>ABOUT US</h2>
+                <h2>ABOUT US</h2>
             </div>
+             
           </div>
         </footer>
       </div>

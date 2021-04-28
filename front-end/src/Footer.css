@@ -64,7 +64,7 @@ h2 {
 @media screen and (max-width: 600px) {
   .footerpage-container {
     position: relative;
-    height: 70vh;
+    height: 15vh;
   }
 
   .main-footer {
