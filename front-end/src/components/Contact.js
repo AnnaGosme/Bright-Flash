@@ -32,7 +32,7 @@ export default function Contact() {
 				<form
 					className="form-box"
 					onSubmit={handleSubmit}
-					action="https://formspree.io/f/mayanlly"
+					action="https://formspree.io/f/1661932041131785320"
 					method="POST"
 				>
 					<>
