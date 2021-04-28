@@ -1,6 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { ImageMap } from "@qiuz/react-image-map";
-// import { useMediaQuery } from "react-responsive";
+
+import Header from "../Header/Header";
+import Footer from "../../Footer";
 
 import LandingPageMenu from "./LandingPageMenu";
 
@@ -23,17 +25,8 @@ const HomePage = () => {
 		setShowMenu(!showMenu);
 	};
 
-	// const isDesktop = useMediaQuery({
-	// 	query: "(min-device-width: 1224px)",
-	// });
-
-	// const isMobile = useMediaQuery({
-	// 	query: "(max-device-width: 600px)",
-	// });
 	return (
 		<div>
-			{/* {isDesktop && (
-				<> */}
 			<div className="body-cover">
 				{showMenu ? <LandingPageMenu /> : ""}
 
@@ -44,11 +37,11 @@ const HomePage = () => {
 					onMapClick={onMapClick}
 				/>
 			</div>
-			{/* </>
-			)} */}
 
 			{/* MOBILE VERSION. Desktop CSS all the display are = none. They are activated again in mediaquery. */}
+
 			<div>
+				<Header />
 				<img
 					className="mobile-pic"
 					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618422713/Bright%20Flash/Women-bright-flash_ozg2mg.jpg"
@@ -69,6 +62,7 @@ const HomePage = () => {
 			<div className="button-container">
 				<button className="play-now">Play now!</button>
 			</div>
+			<Footer />
 		</div>
 	);
 };
