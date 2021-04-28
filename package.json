@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@qiuz/react-image-map": "^1.1.0",
-    "react-responsive": "^8.2.0"
-  }
-}
