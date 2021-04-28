@@ -30,6 +30,7 @@ function App() {
 			});
 	};
 
+
 	useEffect(getData, []);
 
 	return (
@@ -71,6 +72,7 @@ function App() {
 			)}
 		</div>
 	);
+
 }
 
 export default App;

@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
   .page-gameintro {
     position: relative;
-    height: 40vh;
+    height: 15vh;
     background-image: url("https://res.cloudinary.com/dg5lakmem/image/upload/v1618912507/Bright%20Flash/background.jpg");
   }
 
@@ -9,8 +9,9 @@
     position: relative;
     width: 277px;
     height: 128px;
-    left: 74px;
-    top: 193px;
+    align-items: center;
+    margin: auto;
+    top: 100px;
     background: #f1df68;
     border-radius: 21px;
   }
@@ -35,20 +36,20 @@
 
   .btn-one {
     position: absolute;
-    width: 233px;
+    width: 240px;
     height: 53px;
-    left: 97px;
-    top: 382px;
+    left: 70px;
+    top: 350px;
     background: #f1eaea;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
   }
   .btn-two {
     position: absolute;
-    width: 233px;
+    width: 240px;
     height: 53px;
-    left: 94px;
-    top: 472px;
+    left: 70px;
+    top: 450px;
 
     background: #f0edea;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -56,10 +57,10 @@
   }
   .btn-three {
     position: absolute;
-    width: 233px;
+    width: 240px;
     height: 53px;
-    left: 94px;
-    top: 557px;
+    left: 70px;
+    top: 550px;
 
     background: #f0edea;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -67,10 +68,188 @@
   }
   .btn-four {
     position: absolute;
-    width: 233px;
+    width: 240px;
     height: 53px;
-    left: 91px;
-    top: 642px;
+    left: 70px;
+    top: 650px;
+
+    background: #f0edea;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+}
+
+.page-gameintro {
+  position: relative;
+  height: 100vh;
+  background-image: url("https://res.cloudinary.com/dg5lakmem/image/upload/v1618912507/Bright%20Flash/background.jpg");
+}
+
+.selection-lev {
+  position: relative;
+  width: 277px;
+  height: 128px;
+  align-items: center;
+  margin: auto;
+  top: 100px;
+  background: #f1df68;
+  border-radius: 21px;
+}
+h5 {
+  font-family: Oswald;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #c56379;
+
+  /*font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #c56379;*/
+}
+
+.btn-one {
+  position: absolute;
+  width: 240px;
+  height: 53px;
+  left: 70px;
+  top: 350px;
+  background: #f1eaea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.btn-two {
+  position: absolute;
+  width: 240px;
+  height: 53px;
+  left: 70px;
+  top: 450px;
+
+  background: #f0edea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.btn-three {
+  position: absolute;
+  width: 240px;
+  height: 53px;
+  left: 70px;
+  top: 550px;
+
+  background: #f0edea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.btn-four {
+  position: absolute;
+  width: 240px;
+  height: 53px;
+  left: 70px;
+  top: 650px;
+
+  background: #f0edea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+/*-------desktop version----------*/
+@media (min-width: 1281px) {
+  .page-gameintro {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-auto-flow: dense;
+    position: relative;
+    height: 100vh;
+    background-image: url("https://res.cloudinary.com/dg5lakmem/image/upload/v1618912507/Bright%20Flash/background.jpg");
+  }
+
+  .selection-lev {
+    display: grid;
+    grid-template-columns: 1;
+    position: absolute;
+    width: 277px;
+    height: 128px;
+    align-items: center;
+    margin: 150px;
+    top: 100px;
+    background: #f1df68;
+    border-radius: 21px;
+  }
+  h5 {
+    font-family: Oswald;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #c56379;
+
+    /*font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #c56379;*/
+  }
+
+  .btn-one {
+    display: grid;
+    grid-column-start: 2;
+    align-items: center;
+    position: absolute;
+    width: 240px;
+    height: 53px;
+    left: 70px;
+    top: 200px;
+    background: #f1eaea;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+  .btn-two {
+    display: grid;
+    grid-column-start: 2;
+    align-items: center;
+    position: absolute;
+    width: 240px;
+    height: 53px;
+    left: 70px;
+    top: 300px;
+
+    background: #f0edea;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+  .btn-three {
+    display: grid;
+    grid-column-start: 2;
+    align-items: center;
+    position: absolute;
+    width: 240px;
+    height: 53px;
+    left: 70px;
+    top: 400px;
+
+    background: #f0edea;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+  .btn-four {
+    display: grid;
+    grid-column-start: 2;
+    align-items: center;
+    position: absolute;
+    width: 240px;
+    height: 53px;
+    left: 70px;
+    top: 500px;
 
     background: #f0edea;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

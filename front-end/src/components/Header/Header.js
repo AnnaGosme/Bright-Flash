@@ -3,11 +3,11 @@ import * as GoIcons from "react-icons/go";
 import * as AiIcons from "react-icons/ai";
 import { MenuItems } from "./MenuItems";
 import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	Link,
-	useLocation,
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useLocation,
 } from "react-router-dom";
 
 import "./header.css";
@@ -19,6 +19,7 @@ import About from "../About";
 import Contact from "../Contact";
 
 export default function Header() {
+
 	const [menuList, setMenuList] = useState(false);
 	const [isHome, setIsHome] = useState(false);
 
