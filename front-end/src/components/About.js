@@ -14,22 +14,26 @@ export default function About() {
           <img
             className="Anna"
             src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110721/helenpictures/anna_ke0ith.png"
+            alt="Anna"
           />
 
           <img
             className="Alessandra"
             src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110720/helenpictures/alessandra_ty7yg5.png"
+            alt="Alessandra"
           />
         </div>
         <div className="us-cards2">
           <img
             className="Helen"
             src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110725/helenpictures/helen_owvi3i.png"
+            alt="Helen"
           />
 
           <img
             className="Silvia"
             src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110728/helenpictures/silvia_gxz7wh.png"
+            alt="Silvia"
           />
         </div>
       </div>
