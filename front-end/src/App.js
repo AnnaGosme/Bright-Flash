@@ -10,7 +10,8 @@ import Home from "./components/Home/Home";
 import GameIntroPage from "./components/GameIntroPage";
 import Memory from "./components/Memory/Memory";
 import About from "./components/About";
-import ListOfWomen from "./components/Women-Info/ListOfWomen";
+import WomenList from "./components/Women-Info/WomenList";
+import WomanDetails from "./components/Women-Info/WomanDetails";
 import Contact from "./components/Contact";
 import Footer from "./Footer";
 import { AiFillWindows } from "react-icons/ai";
@@ -49,7 +50,17 @@ function App() {
 								path="/introgame"
 								render={() => <GameIntroPage data={data} />}
 							/>
-							<Route path="/women" render={() => <ListOfWomen data={data} />} />
+							<Route
+								path="/women/:id"
+								render={(routeProps) => (
+									<WomanDetails routeProps={routeProps} data={data} />
+								)}
+							/>
+							<Route
+								exact
+								path="/women"
+								render={() => <WomenList data={data} />}
+							/>
 							<Route path="/about" component={About} />
 							<Route path="/contact" component={Contact} />
 							<Route exact path="/" component={Home} />

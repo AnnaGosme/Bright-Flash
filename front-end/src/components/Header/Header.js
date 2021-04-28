@@ -14,7 +14,7 @@ import "./header.css";
 
 import Memory from "../Memory/Memory";
 import Home from "../Home/Home";
-import ListOfWomen from "../Women-Info/ListOfWomen";
+import WomenList from "../Women-Info/WomenList";
 import About from "../About";
 import Contact from "../Contact";
 
