@@ -31,18 +31,23 @@ export default function Contact() {
       <div className="container">
         <div className="image-container">
           <img
-            src="https://res.cloudinary.com/dg5lakmem/image/upload/v1619095195/Bright%20Flash/Contact-cropped_eg41xz.jpg"
+            src="https://res.cloudinary.com/octavian2111/image/upload/v1619646356/contact_jxt00y.jpg"
             alt=""
             className="contact-image"
           />
         </div>
         <div className="form-page">
+          <img
+            src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618995903/Bright%20Flash/Contact-us_wazpuz.png"
+            alt=""
+            className="contact-caption"
+          />
+          <h2 className="contact-text">
+            Share your thoughts, tell us about inspiring women you know, or just
+            say hi!
+          </h2>
+          <br></br>
           <form onSubmit={Contact} onSubmit={Clicked}>
-            <img
-              src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618995903/Bright%20Flash/Contact-us_wazpuz.png"
-              alt=""
-              className="contact-caption"
-            />
             <div className="row pt-5 mx-auto">
               <div className="input">
                 <input
@@ -56,7 +61,7 @@ export default function Contact() {
                 <input
                   type="email"
                   className="form-control"
-                  placeholder="Where can I write to you?"
+                  placeholder="What's your email superstar??"
                   name="email"
                 />
               </div>
@@ -74,16 +79,14 @@ export default function Contact() {
                   id=""
                   cols="30"
                   rows="8"
-                  placeholder="Tell me everything"
+                  placeholder="Tell me everything..."
                   name="message"
                 />
               </div>
-              <div className="col-8 form-group mx-auto">
-                <input
-                  type="submit"
-                  className="btn btn-info"
-                  value="Send Message"
-                ></input>
+              <div className="input">
+                <button className="button">
+                  <span>Send</span>
+                </button>
               </div>
             </div>
           </form>
