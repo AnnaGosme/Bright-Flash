@@ -6,10 +6,7 @@ export default function About() {
   return (
     <div className="container-about">
       <div className="container-title">
-        <img
-          className="about-us"
-          src="https://res.cloudinary.com/dnefeccae/image/upload/v1619042510/helenpictures/about_qwcnhh.png"
-        />
+
         <div className="us-cards1">
           <img
             className="Anna"
@@ -38,6 +35,11 @@ export default function About() {
         </div>
       </div>
       <div className="container-biography">
+      <div className="container-title">
+        <img
+          className="about-us"
+          src="https://res.cloudinary.com/dnefeccae/image/upload/v1619042510/helenpictures/about_qwcnhh.png"
+        />
         {/* <div className="biography"> */}
         <p className="biography">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -49,6 +51,7 @@ export default function About() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
         {/* </div> */}
+        </div>
       </div>
     </div>
   );
