@@ -5,13 +5,8 @@ export const MenuItems = [
 		cName: "nav-links",
 	},
 	{
-		title: "Select a level",
-		url: "/introgame",
-		cName: "nav-links",
-	},
-	{
 		title: "Memory Game",
-		url: "/memory",
+		url: "/introgame",
 		cName: "nav-links",
 	},
 	{

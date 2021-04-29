@@ -2,6 +2,9 @@
 
 .Game {
   text-align: center;
+  background-image: url("https://i.imgur.com/25ehEmx.jpg");
+
+  background-repeat: cover;
 }
 
 .Game-header {
@@ -19,11 +22,21 @@
   padding: 10px 30px 10px;
   margin: 10px 0 10px 0;
   font-family: "Oswald";
-  color: #ac4e69;
+  color: #b95c77;
   font-weight: bolder;
   display: inline-flex;
   background-color: #eedf5b;
-  /* -webkit-border-radius: 30px; */
+  border-radius: 30px;
+}
+.gameComplete {
+  padding: 10px 30px 10px;
+  margin: 10px 0 10px 0;
+  font-family: "Oswald";
+  color: #59805c;
+  font-weight: bolder;
+  display: inline-flex;
+  background-color: #eedf5b;
+  border-radius: 30px;
 }
 
 .Game-intro {

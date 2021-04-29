@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* <FormspreeProvider project="1661932041131785320" /> */}
+
       {isLoading ? ( //while is loading the data, show this label
         <div>Loading ...</div>
       ) : (
@@ -44,27 +44,27 @@ function App() {
           <div>
             <Header />
             <Switch>
-              <Route path='/memory/:level'>
+              <Route path="/memory/:level">
                 <Memory data={data} />
               </Route>
               <Route
-                path='/introgame'
+                path="/introgame"
                 render={() => <GameIntroPage data={data} />}
               />
               <Route
-                path='/women/:id'
+                path="/women/:id"
                 render={(routeProps) => (
                   <WomanDetails routeProps={routeProps} data={data} />
                 )}
               />
               <Route
                 exact
-                path='/women'
+                path="/women"
                 render={() => <WomenList data={data} />}
               />
-              <Route path='/about' component={About} />
-              <Route path='/contact' component={Contact} />
-              <Route exact path='/' component={Home} />
+              <Route path="/about" component={About} />
+              <Route path="/contact" component={Contact} />
+              <Route exact path="/" component={Home} />
             </Switch>
             <Footer info={data} />
           </div>
