@@ -10,7 +10,8 @@ import Home from "./components/Home/Home";
 import GameIntroPage from "./components/GameIntroPage";
 import Memory from "./components/Memory/Memory";
 import About from "./components/About";
-import ListOfWomen from "./components/ListOfWomen";
+import WomenList from "./components/Women-Info/WomenList";
+import WomanDetails from "./components/Women-Info/WomanDetails";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer/Footer";
 
@@ -43,17 +44,27 @@ function App() {
           <div>
             <Header />
             <Switch>
-              <Route path="/memory/:level"> {/* level added as parameter in the path */}
-                <Memory data={data} /> 
+              <Route path='/memory/:level'>
+                <Memory data={data} />
               </Route>
               <Route
-                path="/introgame"
+                path='/introgame'
                 render={() => <GameIntroPage data={data} />}
               />
-              <Route path="/women" component={ListOfWomen} />
-              <Route path="/about" component={About} />
-              <Route path="/contact" component={Contact} />
-              <Route exact path="/" component={Home} />
+              <Route
+                path='/women/:id'
+                render={(routeProps) => (
+                  <WomanDetails routeProps={routeProps} data={data} />
+                )}
+              />
+              <Route
+                exact
+                path='/women'
+                render={() => <WomenList data={data} />}
+              />
+              <Route path='/about' component={About} />
+              <Route path='/contact' component={Contact} />
+              <Route exact path='/' component={Home} />
             </Switch>
             <Footer info={data} />
           </div>
