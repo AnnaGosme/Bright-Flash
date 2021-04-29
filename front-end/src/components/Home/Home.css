@@ -28,6 +28,10 @@ span {
 	z-index: 2;
 }
 
+.mobile-pic {
+	display: none;
+}
+
 .test-mobile {
 	display: none;
 }
