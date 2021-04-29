@@ -43,7 +43,7 @@ function App() {
           <div>
             <Header />
             <Switch>
-              <Route path='/memory'>
+              <Route path='/memory/:level'>
                 <Memory data={data} />
               </Route>
               <Route
