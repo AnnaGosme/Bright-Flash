@@ -1,10 +1,12 @@
+<<<<<<< HEAD
+=======
 import React from "react";
 import Header from "./Header/Header";
 import Footer from "../Footer";
 import Home from "./Home/Home";
+>>>>>>> 01d24326daf4c9d1767933ff0aeaca11f72ddfe0
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import "./GameIntroPage.css";
-// import css
 
 function GameIntroPage() {
   return (
