@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { FormspreeProvider } from "@formspree/react";
+// import { FormspreeProvider } from "@formspree/react";
 
 import "./index.css";
 
@@ -34,8 +34,8 @@ function App() {
   useEffect(getData, []);
 
   return (
-    <div className='App'>
-      <FormspreeProvider project='1661932041131785320' />
+    <div className="App">
+      {/* <FormspreeProvider project="1661932041131785320" /> */}
       {isLoading ? ( //while is loading the data, show this label
         <div>Loading ...</div>
       ) : (

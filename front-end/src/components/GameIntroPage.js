@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
 import React from "react";
 import Header from "./Header/Header";
 import Footer from "../Footer";
 import Home from "./Home/Home";
->>>>>>> 01d24326daf4c9d1767933ff0aeaca11f72ddfe0
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import "./GameIntroPage.css";
 
@@ -12,7 +9,7 @@ function GameIntroPage() {
   return (
     <div className="page-gameintro">
       <div className="selection-lev">
-        <h5>PLEASE SELECT ONE LEVEL</h5>
+        <h5>PLEASE SELECT A LEVEL</h5>
       </div>
       <div className="mt-3">
         <Link to="/memory/1">

@@ -198,7 +198,7 @@ const women = [
     years: "1881-1975",
     nationality: "American",
     image: "https://i.imgur.com/vB2g9H9.jpg",
-    quote: "In the poverty of your imagination it is easier to believe that the printed word is gospel truth. I went beyond the realms of your perceptions",
+    quote: "In the poverty of your imagination it is easier to believe that the printed word is gospel truth. I went beyond the realms of your perceptions.",
   },
   {
     id: 17,

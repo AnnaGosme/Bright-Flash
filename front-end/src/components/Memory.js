@@ -17,12 +17,21 @@ function Memory() {
           Play again
         </button>
 
+<<<<<<< HEAD
+				<button className="button" id="go-on" type="button">
+					Next Level
+				</button>
+			</div>
+		</div>
+	);
+=======
         <button className="button" id="go-on" type="button">
           Next Level
         </button>
       </div>
     </div>
   );
+>>>>>>> 2b50eec444bc4be0c334cbd1458b0ad2193bcdd8
 }
 
 export default Memory;

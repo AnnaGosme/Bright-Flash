@@ -24,7 +24,7 @@ function Memory({ data }) {
         </button>
 
         <button className="button" id="go-on" type="button">
-          Go On
+          Play
         </button>
       </div>
     </div>
