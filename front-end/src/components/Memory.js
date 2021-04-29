@@ -18,7 +18,7 @@ function Memory() {
 				</button>
 
 				<button className="button" id="go-on" type="button">
-					Go On
+					Next Level
 				</button>
 			</div>
 		</div>

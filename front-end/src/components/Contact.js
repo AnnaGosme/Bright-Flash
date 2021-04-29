@@ -31,7 +31,7 @@ export default function Contact() {
       <div className="container">
         <div className="image-container">
           <img
-            src="https://res.cloudinary.com/octavian2111/image/upload/v1619646356/contact_jxt00y.jpg"
+            src="https://res.cloudinary.com/dg5lakmem/image/upload/v1619095195/Bright%20Flash/Contact-cropped_eg41xz.jpg"
             alt=""
             className="contact-image"
           />
@@ -91,6 +91,7 @@ export default function Contact() {
             </div>
           </form>
         </div>
+        
       </div>
     </div>
   );

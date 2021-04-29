@@ -14,8 +14,6 @@ function Footer({ data }) {
         <footer className='main-footer'>
           <h1 className='quotes'>
             {data.quote}
-            "When uniques voices are united in a common cause, they make
-            history"
           </h1>
           <div className='container'>
             <a target='_blank' href='https://www.instagram.com/brightflash.bf/'>

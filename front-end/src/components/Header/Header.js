@@ -24,13 +24,13 @@ export default function Header() {
 	const [isHome, setIsHome] = useState(false);
 
 	const showHide = () => setMenuList(!menuList);
-	let location = useLocation();
+	//let location = useLocation();
 
-	useEffect(() => {
-		if (location.pathname === "/") {
-			setIsHome(true);
-		}
-	}, []);
+	// useEffect(() => {
+	// 	if (location.pathname === "/") {
+	// 		setIsHome(true);
+	// 	}
+	// }, []);
 
 	return (
 		<nav className={isHome ? "hide" : "navbar-items"}>
