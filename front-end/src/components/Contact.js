@@ -1,5 +1,3 @@
-import Header from "./Header/Header";
-import Footer from "../Footer";
 import { useForm, ValidationError } from "@formspree/react";
 
 import "./Contact.css";
@@ -7,21 +5,21 @@ import "./Contact.css";
 export default function Contact() {
 	const [state, handleSubmit] = useForm("1661932041131785320");
 	if (state.succeeded) {
-		return <p>"Thanks for writing us!"</p>;
+		return <p>"Thanks for writing to us! We'll get back to you very soon!"</p>;
 	}
 
 	return (
 		<div className="form-page">
 			<div className="image-container">
 				<img
-					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1619095195/Bright%20Flash/Contact-cropped_eg41xz.jpg"
+					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1619095195/Bright%20Flash/Contact-cropped_eg41xz.jpg" alt=""
 					className="contact-image"
 				/>
 			</div>
 			<></>
 			<div className="form-container">
 				<img
-					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618995903/Bright%20Flash/Contact-us_wazpuz.png"
+					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618995903/Bright%20Flash/Contact-us_wazpuz.png" alt=""
 					className="contact-caption"
 				/>
 				<div className="text-container">

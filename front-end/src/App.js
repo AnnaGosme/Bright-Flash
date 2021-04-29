@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { FormspreeProvider } from "@formspree/react";
 
@@ -13,8 +13,8 @@ import About from "./components/About";
 import WomenList from "./components/Women-Info/WomenList";
 import WomanDetails from "./components/Women-Info/WomanDetails";
 import Contact from "./components/Contact";
-import Footer from "./Footer";
-import { AiFillWindows } from "react-icons/ai";
+import Footer from "./components/Footer/Footer";
+
 
 function App() {
   //State is defined here
@@ -26,6 +26,7 @@ function App() {
       .then((res) => res.json())
       .then((data) => {
         setData(data);
+        console.log("hi");
         setIsLoading(false);
       });
   };
@@ -65,7 +66,7 @@ function App() {
               <Route path='/contact' component={Contact} />
               <Route exact path='/' component={Home} />
             </Switch>
-            <Footer data={data} />
+            <Footer info={data} />
           </div>
         </Router>
       )}
