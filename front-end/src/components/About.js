@@ -6,10 +6,6 @@ export default function About() {
   return (
     <div className="container-about">
       <div className="container-title">
-        <img
-          className="about-us"
-          src="https://res.cloudinary.com/dnefeccae/image/upload/v1619042510/helenpictures/about_qwcnhh.png"
-        />
         <div className="us-cards1">
           <img
             className="Anna"
@@ -38,6 +34,11 @@ export default function About() {
         </div>
       </div>
       <div className="container-biography">
+      <div className="container-title">
+        <img
+          className="about-us"
+          src="https://res.cloudinary.com/dnefeccae/image/upload/v1619042510/helenpictures/about_qwcnhh.png"
+        />
         {/* <div className="biography"> */}
         <p className="biography">
           “There are times in our lives when we have to realize our past is
@@ -56,6 +57,7 @@ export default function About() {
           contributions of these pioneering women.
         </p>
         {/* </div> */}
+        </div>
       </div>
     </div>
   );
