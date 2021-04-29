@@ -1,6 +1,6 @@
 import Card from "../Card";
 import Header from "../Header/Header";
-import Footer from "../../Footer";
+import Footer from "../Footer/Footer";
 import "./Memory.css";
 import Game from "./Game";
 import {
@@ -24,7 +24,7 @@ function Memory({ data }) {
         </button>
 
         <button className="button" id="go-on" type="button">
-          Go On
+          Play
         </button>
       </div>
     </div>
