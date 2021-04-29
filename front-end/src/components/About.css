@@ -15,12 +15,22 @@
     height: auto;
     padding: 18px;
   }
+  .us-cards1 {
+    display: flex;
+    /* justify-self: center; */
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150%;
+  }
 
-  .us-cards {
+  .us-cards2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    width: 150%;
   }
 
   .Anna {
@@ -45,7 +55,8 @@
     width: 321px;
     height: 210px;
 
-    top: 689px;
+    top: 750px;
+    margin-right: 25px;
 
     font-family: Roboto;
     font-style: normal;
