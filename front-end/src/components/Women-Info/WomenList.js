@@ -5,12 +5,14 @@ import "./womenInfo.css";
 
 export default function WomenList({ data }) {
 	return (
-		<div className="women-card-container">
-			{data.map((img) => (
-				<Link to={`/women/${img.id}`}>
-					<WomanCard key={img.id} {...img} />
-				</Link>
-			))}
+		<div className="all-women">
+			<div className="card-container">
+				{data.map((img) => (
+					<Link to={`/women/${img.id}`}>
+						<WomanCard key={img.id} {...img} />
+					</Link>
+				))}
+			</div>
 		</div>
 	);
 }
