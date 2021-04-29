@@ -129,14 +129,8 @@ class Game extends Component {
       // the game ends once you match all the cards
       //if you match all the cards
       gameStatus = (
-        <div className="Game-status">
-          <div>GAME COMPLETE!</div>
-          <div>You used {turnNo - 1} turns</div>
-          <div>
-            <button className="playAgain" onClick={this.onPlayAgain}>
-              Play again?
-            </button>
-          </div>
+        <div className="gameComplete">
+    		<div>GAME COMPLETE! You used {turnNo - 1} turns</div>
         </div>
       );
     }
