@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ImageMap } from "@qiuz/react-image-map";
 
 import Header from "../Header/Header";
-import Footer from "../../Footer";
+import Footer from "../Footer/Footer";
 
 import LandingPageMenu from "./LandingPageMenu";
 
