@@ -18,12 +18,12 @@ function Footer({ data }) {
             history"
           </h1>
           <div className="container">
-            <Link to="https://www.instagram.com/brightflash.bf/">
+            <a target="_blank" href="https://www.instagram.com/brightflash.bf/">
               <img
                 className="icon"
                 src="https://res.cloudinary.com/dnefeccae/image/upload/v1618531048/Bright%20flash/instagram-logo_eqmuft.png"
               />
-            </Link>
+            </a>
             <Link to="/contact">
               <img
                 className="icon"

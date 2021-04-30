@@ -119,9 +119,7 @@ class Game extends Component {
     const cardViews = this.getCardViews();
     let gameStatus = (
       <div className="Game-status">
-        <div>TURN: {turnNo} </div>
-
-        <div>PAIRS FOUND: {pairsFound}</div>
+        <div>TURN: {turnNo} • PAIRS FOUND: {pairsFound}</div>
       </div>
     );
 

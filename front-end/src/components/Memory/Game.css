@@ -27,6 +27,7 @@
   display: inline-flex;
   background-color: #eedf5b;
   border-radius: 30px;
+  /* text-shadow: -1px 0px yellowgreen; */
 }
 .gameComplete {
   padding: 10px 30px 10px;
