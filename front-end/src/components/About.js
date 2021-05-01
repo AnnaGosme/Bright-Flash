@@ -34,11 +34,12 @@ export default function About() {
           className="title"
           src="https://res.cloudinary.com/dnefeccae/image/upload/v1619042510/helenpictures/about_qwcnhh.png"
         />
-        <p className="text">
+        <div className="text">
+        <p>
           “There are times in our lives when we have to realize our past is
           precisely what it is, and we cannot change it. But we can change the
           story we tell ourselves about it, and by doing that, we can change the
-          future.”( Eleanor Brown, The Weird Sisters). <br></br>
+          future.” <br></br>( Eleanor Brown, The Weird Sisters). <br></br>
           <br></br>The contributions of women to the advancement of science, the
           improvement of society and the care of our communities have always
           been there. Too often they are forgotten or overlooked in history
@@ -51,6 +52,7 @@ export default function About() {
           will learn about and remember the names and contributions of these
           pioneering women.
         </p>
+        </div>
       </div>
     </div>
   );
