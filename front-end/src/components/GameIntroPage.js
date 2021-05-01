@@ -12,7 +12,8 @@ function GameIntroPage() {
       <div className="selection-lev">
         <h5>PLEASE SELECT ONE LEVEL</h5>
       </div>
-      <div className="mt-3">
+      <div className="buttonsGroup">
+        <div className="mt-3">
         <Link to="/memory/1">
           <button className="btn-one">LEVEL 1</button>
         </Link>
@@ -31,6 +32,7 @@ function GameIntroPage() {
             <button className="btn-four">LEVEL 4</button>
           </Link>
         </div>
+      </div>
       </div>
       <div></div>
     </div>

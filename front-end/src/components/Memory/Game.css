@@ -31,14 +31,18 @@
   /* text-shadow: -1px 0px yellowgreen; */
 }
 .gameComplete {
-  padding: 10px 30px 10px;
-  margin: 10px 0 10px 0;
+  padding: 15px 30px 10px;
+  margin: 20px 0 20px 0;
+  height: 60px;
   font-family: "Oswald";
+  font-size: 20px;
   color: #59805c;
   font-weight: bolder;
   display: inline-flex;
   background-color: #eedf5b;
   border-radius: 30px;
+  box-shadow: 1px 1px 8px 3px rgb(255, 243, 75);
+  
 }
 
 .Game-intro {

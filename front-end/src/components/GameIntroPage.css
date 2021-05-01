@@ -1,7 +1,8 @@
 @media screen and (max-width: 600px) {
+  
   .page-gameintro {
     position: relative;
-    height: 15vh;
+    height: 100vh;
     background-image: url("https://i.imgur.com/25ehEmx.jpg");
   }
 
@@ -79,11 +80,6 @@
   }
 }
 
-.page-gameintro {
-  position: relative;
-  height: 100vh;
-  background-image: url("https://i.imgur.com/25ehEmx.jpg");
-}
 
 .selection-lev {
   position: relative;
@@ -91,6 +87,7 @@
   height: 128px;
   align-items: center;
   margin: auto;
+  padding-top: 10px;
   top: 100px;
   background: #f1df68;
   border-radius: 21px;
@@ -157,6 +154,12 @@ h5 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 }
+
+.buttonsGroup {
+  margin: 0 200px 0 30px;
+}
+
+
 /*-------desktop version----------*/
 @media (min-width: 1281px) {
   .page-gameintro {
