@@ -7,16 +7,30 @@
 	padding: 0;
 }
 
+.bright-women {
+	font-size: 3rem;
+	align-self: center;
+	justify-self: center;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Oswald;
+	font-weight: bolder;
+	text-shadow: -4px 0 #eedf5b;
+	color: #b95c77;
+	padding: 2rem;
+}
+
 .all-women {
 	display: grid;
 	justify-content: center;
 	align-items: center;
 	margin-top: 10px;
+	text-align: -webkit-center;
 }
 
 .card-container {
 	display: grid;
-	grid-template-columns: repeat(4, auto);
+	grid-template-columns: auto auto auto auto;
 }
 
 .women-cards {
@@ -54,6 +68,14 @@
 	height: auto;
 	justify-self: center;
 	align-self: center;
+}
+
+.women-name,
+.women-title,
+.women-years,
+.women-nationality,
+.women-contribution {
+	padding: 0.3rem;
 }
 
 .women-title {
@@ -98,11 +120,33 @@
 }
 
 @media screen and (max-width: 600px) {
+	.bright-women {
+		font-size: 2rem;
+	}
+
 	.card-container {
-		grid-template-columns: repeat(2, auto);
+		grid-template-columns: auto auto;
 	}
 
 	.women-cards {
 		margin: 5px;
+	}
+
+	.woman-page {
+		grid-template-columns: auto;
+		margin: 1rem;
+	}
+
+	.second-column {
+		grid-column-start: 1;
+		padding: 1rem;
+	}
+
+	.women-name,
+	.women-title,
+	.women-years,
+	.women-nationality,
+	.women-contribution {
+		padding: 0.5rem;
 	}
 }
