@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { ImageMap } from "@qiuz/react-image-map";
+import { useMediaQuery } from "react-responsive";
 
 import Header from "../Header/Header";
-import Footer from "../../Footer";
+import Footer from "../Footer/Footer";
 
 import LandingPageMenu from "./LandingPageMenu";
 
@@ -41,26 +42,34 @@ const HomePage = () => {
 			{/* MOBILE VERSION. Desktop CSS all the display are = none. They are activated again in mediaquery. */}
 
 			<div>
-				<Header />
+				{/* <Header /> */}
 				<img
 					className="mobile-pic"
-					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618422713/Bright%20Flash/Women-bright-flash_ozg2mg.jpg" alt=""
+					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618422713/Bright%20Flash/Women-bright-flash_ozg2mg.jpg"
+					alt=""
 				/>
 			</div>
 			<h1 className="mobile-title">MOBILE TITLE</h1>
 			<p className="mobile-intro">
-			The contributions of women to the advancement of science, the improvement of society and the care of our communities have always been there. Too often they are forgotten or overlooked in history books. The statement may be silent, but the effect is loud: our children are still being raised with an internalised impression than men can achieve more than women. 
-
+				The contributions of women to the advancement of science, the
+				improvement of society and the care of our communities have always been
+				there. Too often they are forgotten or overlooked in history books. The
+				statement may be silent, but the effect is loud: our children are still
+				being raised with an internalised impression than men can achieve more
+				than women.
 			</p>
 			<br />
 			<p className="mobile-intro">
-			The goal of this website is to give women back their rightful place in history. We have selected just a few amongst many pioneers, and would love to receive contributions to grow our list. 
-By playing a game of memory cards, we hope that you will learn about and remember the names and contributions of these pioneering women.
+				The goal of this website is to give women back their rightful place in
+				history. We have selected just a few amongst many pioneers, and would
+				love to receive contributions to grow our list. By playing a game of
+				memory cards, we hope that you will learn about and remember the names
+				and contributions of these pioneering women.
 			</p>
 			<div className="button-container">
 				<button className="play-now">Play Memory Game</button>
 			</div>
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 };

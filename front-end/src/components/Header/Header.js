@@ -6,24 +6,18 @@ import { Link, useLocation } from "react-router-dom";
 
 import "./header.css";
 
-import Memory from "../Memory/Memory";
-import Home from "../Home/Home";
-import WomenList from "../Women-Info/WomenList";
-import About from "../About";
-import Contact from "../Contact";
-
 export default function Header() {
 	const [menuList, setMenuList] = useState(false);
 	const [isHome, setIsHome] = useState(false);
 
 	const showHide = () => setMenuList(!menuList);
-	let location = useLocation();
+	// let location = useLocation();
 
-	useEffect(() => {
-		if (location.pathname === "/") {
-			setIsHome(true);
-		}
-	}, []);
+	// useEffect(() => {
+	// 	if (location.pathname === "/") {
+	// 		setIsHome(true);
+	// 	}
+	// }, []);
 
 	return (
 		<nav className={isHome ? "hide" : "navbar-items"}>
