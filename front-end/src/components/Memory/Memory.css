@@ -11,7 +11,7 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-gap: 30px;
+  /* grid-gap: 30px; */
 }
 
 .button {
