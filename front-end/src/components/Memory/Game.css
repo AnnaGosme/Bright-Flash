@@ -55,7 +55,7 @@
   border-style: solid;
   margin-bottom: 15px;
   margin-left: 15px;
-  width: 115px;
+  width: 100px;
   box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -64,15 +64,14 @@
 }
 
 .CardContainer {
+  /* display: grid;
+  justify-content: center;
+  align-items: center;
+  grid: 120px /auto auto; */
+  
   display: inline-block;
   max-width: 950px;
   margin: "20px auto";
 }
 
-img {
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-  /* user-drag: none; */
-}
+

@@ -38,12 +38,18 @@
 
 .gameContainer {
   background-image: url("https://i.imgur.com/25ehEmx.jpg");
-  background-position: center; 
-  background-size:contain
+  background-position: center;
+  background-size: contain;
 }
 
-@media screen and (max-width: 600px) {
-  body {
-    background-image: url("https://res.cloudinary.com/dg5lakmem/image/upload/v1618912507/Bright%20Flash/background.jpg");
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .gameContainer {
+    background-image: url("https://i.imgur.com/d62Jtrf.jpg");
+  }
+}
+
+@media (min-width: 1281px) {
+  .gameContainer {
+    background-image: url("https://i.imgur.com/d62Jtrf.jpg");
   }
 }
