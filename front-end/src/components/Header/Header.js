@@ -2,13 +2,7 @@ import { useState, useEffect } from "react";
 import * as GoIcons from "react-icons/go";
 import * as AiIcons from "react-icons/ai";
 import { MenuItems } from "./MenuItems";
-import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	Link,
-	useLocation,
-} from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import "./header.css";
 
@@ -19,18 +13,17 @@ import About from "../About";
 import Contact from "../Contact";
 
 export default function Header() {
-
 	const [menuList, setMenuList] = useState(false);
 	const [isHome, setIsHome] = useState(false);
 
 	const showHide = () => setMenuList(!menuList);
-	//let location = useLocation();
+	let location = useLocation();
 
-	// useEffect(() => {
-	// 	if (location.pathname === "/") {
-	// 		setIsHome(true);
-	// 	}
-	// }, []);
+	useEffect(() => {
+		if (location.pathname === "/") {
+			setIsHome(true);
+		}
+	}, []);
 
 	return (
 		<nav className={isHome ? "hide" : "navbar-items"}>

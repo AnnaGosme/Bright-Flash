@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 // import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import { FormspreeProvider } from "@formspree/react";
 
 import "./index.css";
 
@@ -15,63 +14,61 @@ import WomanDetails from "./components/Women-Info/WomanDetails";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer/Footer";
 
-
 function App() {
-  //State is defined here
-  const [data, setData] = useState([]);
-  const [isLoading, setIsLoading] = useState(false); // add a new variable in the state to check if the data is loading
-  const getData = () => {
-    setIsLoading(true); // change the state: data is loading
-    fetch("http://localhost:5000/")
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data);
-        console.log("hi");
-        setIsLoading(false);
-      });
-  };
+	//State is defined here
+	const [data, setData] = useState([]);
+	const [isLoading, setIsLoading] = useState(false); // add a new variable in the state to check if the data is loading
+	const getData = () => {
+		setIsLoading(true); // change the state: data is loading
+		fetch("http://localhost:5000/")
+			.then((res) => res.json())
+			.then((data) => {
+				setData(data);
+				console.log("hi");
+				setIsLoading(false);
+			});
+	};
 
-  useEffect(getData, []);
+	useEffect(getData, []);
 
-  return (
-    <div className="App">
-
-      {isLoading ? ( //while is loading the data, show this label
-        <div>Loading ...</div>
-      ) : (
-        //when the data is loaded
-        <Router>
-          <div>
-            <Header />
-            <Switch>
-              <Route path="/memory/:level">
-                <Memory data={data} />
-              </Route>
-              <Route
-                path="/introgame"
-                render={() => <GameIntroPage data={data} />}
-              />
-              <Route
-                path="/women/:id"
-                render={(routeProps) => (
-                  <WomanDetails routeProps={routeProps} data={data} />
-                )}
-              />
-              <Route
-                exact
-                path="/women"
-                render={() => <WomenList data={data} />}
-              />
-              <Route path="/about" component={About} />
-              <Route path="/contact" component={Contact} />
-              <Route exact path="/" component={Home} />
-            </Switch>
-            <Footer info={data} />
-          </div>
-        </Router>
-      )}
-    </div>
-  );
+	return (
+		<div className="App">
+			{isLoading ? ( //while is loading the data, show this label
+				<div>Loading ...</div>
+			) : (
+				//when the data is loaded
+				<Router>
+					<div>
+						<Header />
+						<Switch>
+							<Route path="/memory/:level">
+								<Memory data={data} />
+							</Route>
+							<Route
+								path="/introgame"
+								render={() => <GameIntroPage data={data} />}
+							/>
+							<Route
+								path="/women/:id"
+								render={(routeProps) => (
+									<WomanDetails routeProps={routeProps} data={data} />
+								)}
+							/>
+							<Route
+								exact
+								path="/women"
+								render={() => <WomenList data={data} />}
+							/>
+							<Route path="/about" component={About} />
+							<Route path="/contact" component={Contact} />
+							<Route exact path="/" component={Home} />
+						</Switch>
+						<Footer info={data} />
+					</div>
+				</Router>
+			)}
+		</div>
+	);
 }
 
 export default App;
