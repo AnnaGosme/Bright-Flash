@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 
 .Game {
+  /* background-image: url("https://i.imgur.com/25ehEmx.jpg"); */
   text-align: center;
-  background-image: url("https://i.imgur.com/25ehEmx.jpg");
-
-  background-repeat: cover;
+  /* background-position: center; */
+  /* background-size:cover */
+  /* background-repeat: cover; */
 }
 
 .Game-header {
@@ -20,23 +21,27 @@
 
 .Game-status {
   padding: 10px 30px 10px;
-  margin: 10px 0 10px 0;
+  margin: 20px 0 20px 0;
   font-family: "Oswald";
   color: #b95c77;
   font-weight: bolder;
   display: inline-flex;
   background-color: #eedf5b;
   border-radius: 30px;
+  /* text-shadow: -1px 0px yellowgreen; */
 }
 .gameComplete {
-  padding: 10px 30px 10px;
-  margin: 10px 0 10px 0;
+  padding: 15px 30px 10px;
+  margin: 20px 0 20px 0;
+  height: 60px;
   font-family: "Oswald";
-  color: #59805c;
+  font-size: 20px;
+  color: #b95c77;
   font-weight: bolder;
   display: inline-flex;
   background-color: #eedf5b;
   border-radius: 30px;
+  box-shadow: 1px 1px 8px 3px rgb(255, 243, 75);
 }
 
 .Game-intro {
@@ -50,7 +55,7 @@
   border-style: solid;
   margin-bottom: 15px;
   margin-left: 15px;
-  width: 115px;
+  width: 100px;
   box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -59,15 +64,16 @@
 }
 
 .CardContainer {
+  /* display: grid;
+  justify-content: center;
+  align-items: center;
+  grid: 120px /auto auto; */
+
   display: inline-block;
   max-width: 950px;
   margin: "20px auto";
-}
 
-img {
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-  /* user-drag: none; */
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: center; */
 }

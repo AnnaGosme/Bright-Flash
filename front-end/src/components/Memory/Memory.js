@@ -3,15 +3,13 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./Memory.css";
 import Game from "./Game";
-import {
-  useParams
-} from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 function Memory({ data }) {
   const { level } = useParams(); // get the parameters from the router path
   return (
-    <div>
-      <Game data={data} level={level}/> {/* send level as props */}
+    <div className="gameContainer">
+      <Game data={data} level={level} /> {/* send level as props */}
       <br />
       <div className="button-container">
         <button

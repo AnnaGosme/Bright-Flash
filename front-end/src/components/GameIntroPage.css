@@ -1,8 +1,9 @@
 @media screen and (max-width: 600px) {
+  
   .page-gameintro {
     position: relative;
-    height: 15vh;
-    background-image: url("https://res.cloudinary.com/dg5lakmem/image/upload/v1618912507/Bright%20Flash/background.jpg");
+    height: 100vh;
+    background-image: url("https://i.imgur.com/25ehEmx.jpg");
   }
 
   .selection-lev {
@@ -43,6 +44,7 @@
     background: #f1eaea;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
+    border: none;
   }
   .btn-two {
     position: absolute;
@@ -50,10 +52,10 @@
     height: 53px;
     left: 70px;
     top: 450px;
-
     background: #f0edea;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
+    border: none;
   }
   .btn-three {
     position: absolute;
@@ -61,10 +63,10 @@
     height: 53px;
     left: 70px;
     top: 550px;
-
     background: #f0edea;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
+    border: none;
   }
   .btn-four {
     position: absolute;
@@ -72,17 +74,16 @@
     height: 53px;
     left: 70px;
     top: 650px;
-
     background: #f0edea;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
+    border: none;
   }
 }
 
-.page-gameintro {
-  position: relative;
-  height: 100vh;
-  background-image: url("https://res.cloudinary.com/dg5lakmem/image/upload/v1618912507/Bright%20Flash/background.jpg");
+.instructions {
+  background-color: #f1df68;
+  
 }
 
 .selection-lev {
@@ -91,6 +92,7 @@
   height: 128px;
   align-items: center;
   margin: auto;
+  padding-top: 10px;
   top: 100px;
   background: #f1df68;
   border-radius: 21px;
@@ -157,6 +159,12 @@ h5 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 }
+
+.buttonsGroup {
+  margin: 0 200px 0 30px;
+}
+
+
 /*-------desktop version----------*/
 @media (min-width: 1281px) {
   .page-gameintro {
@@ -166,7 +174,7 @@ h5 {
     grid-auto-flow: dense;
     position: relative;
     height: 100vh;
-    background-image: url("https://res.cloudinary.com/dg5lakmem/image/upload/v1618912507/Bright%20Flash/background.jpg");
+    background-image: url("https://i.imgur.com/25ehEmx.jpg");
   }
 
   .selection-lev {
