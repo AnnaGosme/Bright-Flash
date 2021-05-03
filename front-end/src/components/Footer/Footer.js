@@ -1,22 +1,30 @@
 import { Link, useLocation } from "react-router-dom";
-import Header from "./components/Header/Header";
-import { useEffect, data } from "react";
-
+import { useState, useEffect } from "react";
+import FooterQuote from "./FooterQuote";
 import "./Footer.css";
-import About from "./components/About";
-//import css
 
-function Footer({ data }) {
+export default function Footer({ info }) {
+  const [allInfo, setAllInfo] = useState({});
+
+  const randomInfo = () => {
+    if (info !== undefined && info.length > 0) {
+      const foundInfo = info[Math.floor(Math.random() * info.length)];
+      setAllInfo(foundInfo);
+    } else {
+      setAllInfo({});
+    }
+  };
+
+  useEffect(randomInfo, []);
+
   let location = useLocation();
   return (
     location.pathname !== "/" && (
       <div className="footerpage-container">
         <footer className="main-footer">
-          <h1 className="quotes">
-            {data.quote}
-            "When uniques voices are united in a common cause, they make
-            history"
-          </h1>
+          <div class="quote">
+            <FooterQuote quote={allInfo.quote} name={allInfo.name} />
+          </div>
           <div className="container">
             <a target="_blank" href="https://www.instagram.com/brightflash.bf/">
               <img
@@ -41,5 +49,3 @@ function Footer({ data }) {
     )
   );
 }
-
-export default Footer;

@@ -1,3 +1,3 @@
 export default function WomanCard({ image, name }) {
-	return <img src={image} alt={`${name} picture`} />;
+	return <img className="women-cards" src={image} alt={`${name}`} />;
 }

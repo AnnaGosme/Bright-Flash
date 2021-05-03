@@ -12,11 +12,6 @@ import {
 
 import "./header.css";
 
-import Memory from "../Memory/Memory";
-import Home from "../Home/Home";
-import WomenList from "../Women-Info/WomenList";
-import About from "../About";
-import Contact from "../Contact";
 
 export default function Header() {
 

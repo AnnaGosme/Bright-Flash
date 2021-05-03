@@ -1,7 +1,6 @@
 import Card from "../Card";
 import Header from "../Header/Header";
-import Footer from "../../Footer";
-import { Link } from "react-router-dom";
+import Footer from "../Footer/Footer";
 import "./Memory.css";
 import Game from "./Game";
 import { useParams } from "react-router-dom";
@@ -22,11 +21,9 @@ function Memory({ data }) {
           RESET
         </button>
 
-        <Link to="2">
-          <button className="button" id="go-on" type="button">
-            Next
-          </button>
-        </Link>
+        <button className="button" id="go-on" type="button">
+          Play
+        </button>
       </div>
     </div>
   );

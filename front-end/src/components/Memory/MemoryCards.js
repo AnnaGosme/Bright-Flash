@@ -1,5 +1,4 @@
 import shuffle from "shuffle-array";
-import App from "../../App";
 
 class MemoryCards {
   constructor(data, selectedLevel) { // new parameter in the constructor
@@ -15,11 +14,11 @@ class MemoryCards {
     //
     this.cards = [];
    
-  if(this.level == 2){ // set number images depending on the level
+  if(this.level === 2){ // set number images depending on the level
       this.NUM_IMAGES += 2
-    }else if(this.level == 3) {
+    }else if(this.level ===3) {
       this.NUM_IMAGES += 5
-    }else if(this.level == 4) {
+    }else if(this.level === 4) {
       this.NUM_IMAGES += 10
     }
     
