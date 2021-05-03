@@ -175,7 +175,10 @@ h5 {
     grid-auto-flow: dense;
     position: relative;
     height: 100vh;
-    background-image: url("https://i.imgur.com/25ehEmx.jpg");
+    background-image: url("https://i.imgur.com/d62Jtrf.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .selection-lev {
@@ -265,3 +268,13 @@ h5 {
     border-radius: 30px;
   }
 }
+
+/*-------iPad version----------*/
+/* 
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .page-gameintro {
+    background-image: url("https://i.imgur.com/25ehEmx.jpg");
+    background-position: center;
+    background-size: cover;
+  } 
+} */

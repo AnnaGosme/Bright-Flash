@@ -128,7 +128,7 @@ class Game extends Component {
 			// the game ends once you match all the cards
 			//if you match all the cards
 			gameStatus = (
-				<div className="Game-status">
+				<div className="gameComplete">
 					<div>GAME COMPLETE!</div>
 					<div>You used {turnNo - 1} turns</div>
 					<div>
