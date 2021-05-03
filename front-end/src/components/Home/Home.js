@@ -1,9 +1,5 @@
 import { useState } from "react";
 import { ImageMap } from "@qiuz/react-image-map";
-import { useMediaQuery } from "react-responsive";
-
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
 
 import LandingPageMenu from "./LandingPageMenu";
 
