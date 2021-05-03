@@ -73,6 +73,8 @@
 
 	.hide {
 		display: block;
+		background-color: #b95c77;
+		padding: 40px;
 	}
 
 	.nav-menu {

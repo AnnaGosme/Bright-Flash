@@ -2,19 +2,11 @@ import { useState, useEffect } from "react";
 import * as GoIcons from "react-icons/go";
 import * as AiIcons from "react-icons/ai";
 import { MenuItems } from "./MenuItems";
-import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	Link,
-	useLocation,
-} from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import "./header.css";
 
-
 export default function Header() {
-
 	const [menuList, setMenuList] = useState(false);
 	const [isHome, setIsHome] = useState(false);
 
