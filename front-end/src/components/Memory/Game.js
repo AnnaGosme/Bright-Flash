@@ -1,8 +1,7 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import "./Game.css";
 import CardView from "./CardView";
 import MemoryCards from "./MemoryCards";
-import axios from "axios";
 
 class Game extends Component {
 	state = {}; //the state stores the info about the player actions

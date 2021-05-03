@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import "./Game.css";
-//import logo from "./images/card-logo.jpg"
 
 class CardView extends Component {
 	constructor(props) {

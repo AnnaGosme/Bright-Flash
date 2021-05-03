@@ -1,6 +1,3 @@
-import Card from "../Card";
-import Header from "../Header/Header";
-
 import "./Memory.css";
 import Game from "./Game";
 import { useParams } from "react-router-dom";

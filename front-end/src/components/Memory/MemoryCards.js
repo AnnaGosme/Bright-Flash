@@ -1,5 +1,4 @@
 import shuffle from "shuffle-array";
-import App from "../../App";
 
 class MemoryCards {
 	constructor(data, selectedLevel) {
