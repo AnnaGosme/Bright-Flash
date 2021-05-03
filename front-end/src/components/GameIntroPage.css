@@ -26,14 +26,6 @@
     letter-spacing: 0em;
     text-align: center;
     color: #c56379;
-
-    /*font-family: Oswald;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 53px;
-    text-align: center;
-    color: #c56379;*/
   }
 
   .btn-one {
@@ -82,11 +74,6 @@
   }
 }
 
-.instructions {
-  background-color: #f1df68;
-  
-}
-
 .selection-lev {
   position: relative;
   width: 277px;
@@ -107,14 +94,6 @@ h5 {
   letter-spacing: 0em;
   text-align: center;
   color: #c56379;
-
-  /*font-family: Oswald;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 53px;
-  text-align: center;
-  color: #c56379;*/
 }
 
 .btn-one {
@@ -123,6 +102,7 @@ h5 {
   height: 53px;
   left: 70px;
   top: 350px;
+  border: none;
   background: #f1eaea;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
@@ -133,7 +113,7 @@ h5 {
   height: 53px;
   left: 70px;
   top: 450px;
-
+  border: none;
   background: #f0edea;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
@@ -144,7 +124,7 @@ h5 {
   height: 53px;
   left: 70px;
   top: 550px;
-
+  border: none;
   background: #f0edea;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
@@ -155,7 +135,7 @@ h5 {
   height: 53px;
   left: 70px;
   top: 650px;
-
+  border: none;
   background: #f0edea;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
@@ -202,14 +182,6 @@ h5 {
     letter-spacing: 0em;
     text-align: center;
     color: #c56379;
-
-    /*font-family: Oswald;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 53px;
-  text-align: center;
-  color: #c56379;*/
   }
 
   .btn-one {
@@ -221,6 +193,7 @@ h5 {
     height: 53px;
     left: 70px;
     top: 200px;
+    border: none;
     background: #f1eaea;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -234,7 +207,7 @@ h5 {
     height: 53px;
     left: 70px;
     top: 300px;
-
+    border: none;
     background: #f0edea;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -248,7 +221,7 @@ h5 {
     height: 53px;
     left: 70px;
     top: 400px;
-
+    border: none;
     background: #f0edea;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -262,7 +235,7 @@ h5 {
     height: 53px;
     left: 70px;
     top: 500px;
-
+    border: none;
     background: #f0edea;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
