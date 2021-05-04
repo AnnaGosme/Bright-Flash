@@ -12,7 +12,7 @@ export default function Menu() {
 							alt="Home"
 						/>
 					</a>
-					<a href="./memory">
+					<a href="./introgame">
 						<img
 							className="item-image"
 							src="https://res.cloudinary.com/octavian2111/image/upload/v1618563337/memory_dki5bx.png"
