@@ -3,29 +3,31 @@ import "./About.css";
 export default function About() {
 	return (
 		<div className="wrapper">
+			<div className="img-wrapper">
 			<img
-				className="Anna"
+				className="img"
 				src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110721/helenpictures/anna_ke0ith.png"
 				alt="Anna"
 			/>
 
 			<img
-				className="Alessandra"
+				className="img"
 				src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110720/helenpictures/alessandra_ty7yg5.png"
 				alt="Alessandra"
 			/>
 
 			<img
-				className="Helen"
+				className="img"
 				src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110725/helenpictures/helen_owvi3i.png"
 				alt="Helen"
 			/>
 
 			<img
-				className="Silvia"
+				className="img"
 				src="https://res.cloudinary.com/dnefeccae/image/upload/v1619110728/helenpictures/silvia_gxz7wh.png"
 				alt="Silvia"
 			/>
+			</div>
 
 			<div className="text-container">
 				<img
