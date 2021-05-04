@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import * as GoIcons from "react-icons/go";
 import * as AiIcons from "react-icons/ai";
 import { MenuItems } from "./MenuItems";
-import { Link, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 import "./header.css";
 
@@ -36,13 +36,19 @@ export default function Header() {
 					{MenuItems.map((item, index) => {
 						return (
 							<li key={index}>
-								<Link
+								<NavLink
 									to={item.url}
 									className={item.cName}
+									isActive={(match, location) => {
+										// console.log(location);
+										if (location.pathname === "/") {
+											setIsHome(true);
+										}
+									}}
 									onClick={() => showHide(menuList)}
 								>
 									{item.title}
-								</Link>
+								</NavLink>
 							</li>
 						);
 					})}
