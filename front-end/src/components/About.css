@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 /* for desktop */
+
 .wrapper {
   margin-left: 50px;
   display: flex;
@@ -13,14 +14,16 @@
 }
 
 .img {
-  height: 350px;
+  height: auto;
+  max-height: 350px;
   width: auto;
   margin: 10px;
 }
 
 .text-container {
   display: grid;
-
+  grid-template-columns: auto;
+  grid-template-rows: 200px 2fr;
   margin-left: 70px;
   margin-right: 30px;
 }
@@ -28,23 +31,22 @@
 .title {
   height: 10vw;
   width: auto;
- 
-  margin-bottom: -100px;
-  margin-left: 10px;
+  margin-left: 5vw;
+  grid-column-start: 2;
 }
 
 .text {
-
+  grid-column-start: 2;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 1.5vw;
+  font-size: 1vw;
   font-style: normal;
   font-weight: 300;
   line-height: 1.6;
   letter-spacing: 0em;
-  text-align: left;
-  /* text-align is justifed left for accessibility purposes - centered or jsutified text is a lot less readable */
+  text-align: justify;
 }
+
 /* for mobile */
 @media screen and (max-width: 600px) {
   .wrapper {
