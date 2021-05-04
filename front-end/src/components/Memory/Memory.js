@@ -10,7 +10,7 @@ function Memory({ data }) {
 			<br />
 			<div className="button-container">
 				<button
-					className="button"
+					className="button-game"
 					id="replay"
 					type="button"
 					onClick={() => window.location.reload(false)}
@@ -18,7 +18,7 @@ function Memory({ data }) {
 					RESET
 				</button>
 
-				<button className="button" id="go-on" type="button">
+				<button className="button-game" id="go-on" type="button">
 					Go On
 				</button>
 			</div>

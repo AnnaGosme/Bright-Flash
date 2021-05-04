@@ -20,7 +20,7 @@
   grid-gap: 30px;
 }
 
-.button {
+.button-game {
   border-radius: 2rem;
   width: 150px;
   height: 35px;
@@ -35,7 +35,7 @@
   cursor: pointer;
 }
 
-.button:hover {
+.button-game:hover {
   background-color: #eedf5b;
   box-shadow: 0px 15px 20px rgba(238, 233, 91, 0.4);
   color: white;
