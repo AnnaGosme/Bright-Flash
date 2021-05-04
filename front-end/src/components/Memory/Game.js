@@ -118,9 +118,7 @@ class Game extends Component {
 		const cardViews = this.getCardViews();
 		let gameStatus = (
 			<div className="Game-status">
-				<div>TURN: {turnNo} </div>
-
-				<div>PAIRS FOUND: {pairsFound}</div>
+				<div>TURN: {turnNo} · PAIRS FOUND: {pairsFound}</div>
 			</div>
 		);
 
@@ -128,12 +126,8 @@ class Game extends Component {
 			// the game ends once you match all the cards
 			//if you match all the cards
 			gameStatus = (
-				<div className="Game-status">
-					<div>GAME COMPLETE!</div>
-					<div>You used {turnNo - 1} turns</div>
-					<div>
-						<button onClick={this.onPlayAgain}>Play again?</button>
-					</div>
+				<div className="gameComplete">
+					<div>GAME COMPLETE! You used {turnNo - 1} turns</div>
 				</div>
 			);
 		}
