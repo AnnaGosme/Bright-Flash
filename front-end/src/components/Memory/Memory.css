@@ -7,6 +7,12 @@
   padding: 0;
 }
 
+.gameContainer {
+  background-image: url("https://i.imgur.com/25ehEmx.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 .button-container {
   display: grid;
   justify-content: center;
@@ -14,7 +20,7 @@
   grid-gap: 30px;
 }
 
-.button {
+.button-game {
   border-radius: 2rem;
   width: 150px;
   height: 35px;
@@ -29,15 +35,17 @@
   cursor: pointer;
 }
 
-.button:hover {
+.button-game:hover {
   background-color: #eedf5b;
   box-shadow: 0px 15px 20px rgba(238, 233, 91, 0.4);
   color: white;
   transform: translateY(-7px);
 }
 
-@media screen and (max-width: 600px) {
-  body {
-    background-image: url("https://res.cloudinary.com/dg5lakmem/image/upload/v1618912507/Bright%20Flash/background.jpg");
+@media (min-width: 1281px) {
+  .gameContainer {
+    background-image: url("https://i.imgur.com/d62Jtrf.jpg");
+    background-position: center;
+    background-size: cover;
   }
 }
