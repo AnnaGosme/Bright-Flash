@@ -1,252 +1,79 @@
-@media screen and (max-width: 600px) {
-  .page-gameintro {
-    position: relative;
-    height: 100vh;
-    background-image: url("https://i.imgur.com/25ehEmx.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-
-  .selection-lev {
-    position: relative;
-    width: 277px;
-    height: 128px;
-    align-items: center;
-    margin: auto;
-    top: 100px;
-    background: #f1df68;
-    border-radius: 21px;
-  }
-  h5 {
-    font-family: Oswald;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 53px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #c56379;
-  }
-
-  .btn-one {
-    /* position: absolute; */
-    width: 240px;
-    height: 53px;
-    /* left: 70px;
-    top: 350px; */
-    background: #f1eaea;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    border: none;
-  }
-  .btn-two {
-    /* position: absolute; */
-    width: 240px;
-    height: 53px;
-    /* left: 70px;
-    top: 450px; */
-    background: #f0edea;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    border: none;
-  }
-  .btn-three {
-    /* position: absolute; */
-    width: 240px;
-    height: 53px;
-    /* left: 70px;
-    top: 550px; */
-    background: #f0edea;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    border: none;
-  }
-  .btn-four {
-    /* position: absolute; */
-    width: 240px;
-    height: 53px;
-    /* left: 70px;
-    top: 650px; */
-    background: #f0edea;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    border: none;
-  }
+body {
+  background: url("https://res.cloudinary.com/octavian2111/image/upload/v1620120519/d62Jtrf_b4jbaq.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr repeat(4, auto) 1fr;
+  grid-template-rows: 4fr repeat(4, auto) 1fr;
+  grid-gap: 20px;
 }
 
-.selection-lev {
-  position: relative;
-  width: 277px;
-  height: 128px;
-  align-items: center;
-  margin: auto;
-  padding-top: 10px;
-  top: 100px;
-  background: #f1df68;
-  border-radius: 21px;
-}
-h5 {
-  font-family: Oswald;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 53px;
-  letter-spacing: 0em;
+.level-select-text {
+  border-radius: 1rem;
+  width: 350px;
+  height: 70px;
+  background-color: #eedf5b;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.5rem;
+  border: none;
+  box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  grid-area: 3 / 2 / 4 / 4;
+  justify-self: center;
   text-align: center;
-  color: #c56379;
+  padding: 20px;
 }
 
-.btn-one {
-  position: absolute;
-  width: 240px;
-  height: 53px;
-  left: 70px;
-  top: 350px;
-  border: none;
-  background: #f1eaea;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
-}
-.btn-two {
-  position: absolute;
-  width: 240px;
-  height: 53px;
-  left: 70px;
-  top: 450px;
-  border: none;
-  background: #f0edea;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
-}
-.btn-three {
-  position: absolute;
-  width: 240px;
-  height: 53px;
-  left: 70px;
-  top: 550px;
-  border: none;
-  background: #f0edea;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
-}
-.btn-four {
-  position: absolute;
-  width: 240px;
-  height: 53px;
-  left: 70px;
-  top: 650px;
-  border: none;
-  background: #f0edea;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
+.level-select-container {
+  grid-area: 5 / 2 / 6 / 4;
+  justify-self: center;
 }
 
-.buttonsGroup {
-  margin: 0 200px 0 30px;
+.level-button {
+  border-radius: 2rem;
+  width: 150px;
+  height: 35px;
+  background-color: #efedea;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  border: none;
+  box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  margin: 20px;
 }
 
-/*-------desktop version----------*/
-@media (min-width: 1281px) {
-  .page-gameintro {
-    display: grid;
-    align-items: center;
-    justify-content: space-evenly;
-    grid-auto-flow: dense;
-    position: relative;
-    height: 100vh;
-    background-image: url("https://i.imgur.com/d62Jtrf.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+.level-button:hover {
+  background-color: #eedf5b;
+  box-shadow: 0px 15px 20px rgba(238, 233, 91, 0.4);
+  color: white;
+  transform: translateY(-7px);
+}
 
-  .selection-lev {
-    display: grid;
-    grid-template-columns: 1;
-    position: absolute;
-    width: 277px;
-    height: 128px;
-    align-items: center;
-    margin: 150px;
-    top: 100px;
-    background: #f1df68;
-    border-radius: 21px;
-  }
-  h5 {
-    font-family: Oswald;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 53px;
-    letter-spacing: 0em;
+@media screen and (max-width: 600px) {
+  .level-select-text {
+    width: 333px;
+    height: 80px;
+    justify-self: center;
     text-align: center;
-    color: #c56379;
+    padding: 20px;
   }
 
-  .btn-one {
-    display: grid;
-    grid-column-start: 2;
-    align-items: center;
-    position: absolute;
-    width: 240px;
-    height: 53px;
-    left: 70px;
-    top: 200px;
-    border: none;
-    background: #f1eaea;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-  }
-  .btn-two {
-    display: grid;
-    grid-column-start: 2;
-    align-items: center;
-    position: absolute;
-    width: 240px;
-    height: 53px;
-    left: 70px;
-    top: 300px;
-    border: none;
-    background: #f0edea;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-  }
-  .btn-three {
-    display: grid;
-    grid-column-start: 2;
-    align-items: center;
-    position: absolute;
-    width: 240px;
-    height: 53px;
-    left: 70px;
-    top: 400px;
-    border: none;
-    background: #f0edea;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-  }
-  .btn-four {
-    display: grid;
-    grid-column-start: 2;
-    align-items: center;
-    position: absolute;
-    width: 240px;
-    height: 53px;
-    left: 70px;
-    top: 500px;
-    border: none;
-    background: #f0edea;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
+  .level-select-container {
+    /* grid-area: 5 / 3 / 6 / 3;
+    justify-self: start; */
+    display: flex;
+    flex-direction: column;
   }
 }
-
-/*-------iPad version----------*/
-/* 
-@media (min-width: 1025px) and (max-width: 1280px) {
-  .page-gameintro {
-    background-image: url("https://i.imgur.com/25ehEmx.jpg");
-    background-position: center;
-    background-size: cover;
-  } 
-} */

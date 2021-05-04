@@ -3,31 +3,29 @@ import "./GameIntroPage.css";
 
 function GameIntroPage() {
   return (
-    <div className="page-gameintro">
-      <div className="selection-lev">
-        <h5>PLEASE SELECT ONE LEVEL</h5>
-      </div>
-      <div className="mt-3">
+    <div className="page-wrapper">
+      <h5 className="level-select-text">PLEASE SELECT A LEVEL</h5>
+
+      <div className="level-select-container">
         <Link to="/memory/1">
-          <button className="btn-one">LEVEL 1</button>
+          <button className="level-button">LEVEL 1</button>
         </Link>
-        <div>
-          <Link to="/memory/2">
-            <button className="btn-two">LEVEL 2</button>
-          </Link>
-        </div>
-        <div>
-          <Link to="/memory/3">
-            <button className="btn-three">LEVEL 3</button>
-          </Link>
-        </div>
-        <div>
-          <Link to="/memory/4">
-            <button className="btn-four">LEVEL 4</button>
-          </Link>
-        </div>
+
+        <Link to="/memory/2">
+          <button className="level-button">LEVEL 2</button>
+        </Link>
+
+        <Link to="/memory/3">
+          <button className="level-button">LEVEL 3</button>
+        </Link>
+
+        <Link to="/memory/4">
+          <button className="level-button">LEVEL 4</button>
+        </Link>
+
       </div>
-    </div>
+      </div>
+    
   );
 }
 export default GameIntroPage;
