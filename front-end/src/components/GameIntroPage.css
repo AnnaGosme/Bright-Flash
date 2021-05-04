@@ -1,10 +1,10 @@
 body {
   background: url("https://res.cloudinary.com/octavian2111/image/upload/v1620120519/d62Jtrf_b4jbaq.jpg")
-    no-repeat center center fixed;
+    /* no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 .page-wrapper {
   display: grid;
@@ -23,10 +23,8 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.5rem;
-  border: none;
+  border: 1px solid #efedea;
   box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
   grid-area: 3 / 2 / 4 / 4;
   justify-self: center;
   text-align: center;
@@ -47,8 +45,8 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  border: none;
-  box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+  border: 1px solid #eedf5b;
+  box-shadow: 0px 8px 15px rgb(0 0 0 / 20%);
   transition: all 0.3s ease 0s;
   cursor: pointer;
   margin: 20px;
