@@ -14,7 +14,7 @@
 }
 
 .img {
-  height: auto;
+  height: 300px;
   width: auto;
   margin: 20px;
   margin-right: -10px;
@@ -78,6 +78,7 @@
     height: auto;
     width: auto;
     justify-content: center;
+    margin: 5px;
   }
 
   .title {
