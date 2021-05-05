@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
+body {
+  background: url("https://res.cloudinary.com/octavian2111/image/upload/v1620120519/d62Jtrf_b4jbaq.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* for desktop */
 
 .wrapper {
@@ -8,7 +17,7 @@
 }
 
 .img-wrapper {
-  margin: 20px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -52,6 +61,7 @@
   line-height: 1.6;
   letter-spacing: 0em;
   text-align: justify;
+ 
 }
 
 /* for mobile */

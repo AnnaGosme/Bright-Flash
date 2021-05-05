@@ -9,7 +9,7 @@ const HomePage = () => {
 	const [showMenu, setShowMenu] = useState(false);
 
 	const img =
-		"https://res.cloudinary.com/dg5lakmem/image/upload/v1619255445/Bright%20Flash/collage-menu_bnx0n7.jpg";
+		"https://i.imgur.com/Mol6ysu.jpg";
 	const mapArea = [
 		{
 			width: "23.448625180897245%",

@@ -18,7 +18,7 @@ function Memory({ data }) {
 					RESET
 				</button>
 
-				<button className="button-game" id="go-on" type="button">
+				<button className="button-game2" id="go-on" type="button">
 					Go On
 				</button>
 			</div>
