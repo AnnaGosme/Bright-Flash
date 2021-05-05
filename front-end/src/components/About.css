@@ -1,13 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
+body {
+  background: url("https://res.cloudinary.com/octavian2111/image/upload/v1620120519/d62Jtrf_b4jbaq.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* for desktop */
 .wrapper {
-  margin-left: 50px;
   display: flex;
 }
 
 .img-wrapper {
+  margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -15,26 +24,25 @@
 .img {
   height: 350px;
   width: auto;
-  margin: 10px;
+  margin: 20px;
+  margin-right: -10px;
 }
 
 .text-container {
-  display: grid;
-
-  margin-left: 70px;
-  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 2vw;
 }
 
 .title {
   height: 10vw;
   width: auto;
- 
-  margin-bottom: -100px;
-  margin-left: 10px;
+
+  margin-left: 150px;
+  align-self: center;
 }
 
 .text {
-
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.5vw;
@@ -42,14 +50,21 @@
   font-weight: 300;
   line-height: 1.6;
   letter-spacing: 0em;
-  text-align: left;
-  /* text-align is justifed left for accessibility purposes - centered or jsutified text is a lot less readable */
+  text-align: justify;
+ 
 }
+
 /* for mobile */
 @media screen and (max-width: 600px) {
   .wrapper {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .img-wrapper {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .img {
@@ -61,21 +76,21 @@
   }
 
   .text-container {
-    align-items: center safe;
-    justify-content: center safe;
-    margin-right: -60px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    justify-content: center;
   }
 
   .title {
-    margin-left: -140px;
-    margin-top: 5px;
+    height: 13vh;
   }
 
   .text {
-    margin-right: 130px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 4vw;
+    font-size: 5vw;
     font-style: normal;
     font-weight: 300;
     line-height: 1.6;
