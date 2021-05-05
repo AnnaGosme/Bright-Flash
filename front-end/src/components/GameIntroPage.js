@@ -3,7 +3,12 @@ import "./GameIntroPage.css";
 
 function GameIntroPage() {
   return (
-    <div className="page-wrapper">
+    <div className="intro-page-wrapper">
+      <style>
+        document.body.style.backgroundImage =
+        "url('https://res.cloudinary.com/octavian2111/image/upload/v1620120519/d62Jtrf_b4jbaq.jpg')"
+      </style>
+      <h1 className="game-intro-title">Memory Game</h1>
       <span className="game-rules">
         Learn about some of the women who have made and are still making
         significant contributions to society through a game of memory. Click on
@@ -14,7 +19,6 @@ function GameIntroPage() {
         and learn about the stories behind the faces that are now so familiar to
         you?
       </span>
-      {/* <h5 className="level-select-text">PLEASE SELECT A LEVEL</h5> */}
 
       <div className="level-select-container">
         <Link to="/memory/1">
