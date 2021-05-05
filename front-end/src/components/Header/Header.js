@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import * as GoIcons from "react-icons/go";
 import * as AiIcons from "react-icons/ai";
 import { MenuItems } from "./MenuItems";
-import { Link, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 import "./header.css";
 
@@ -22,11 +22,11 @@ export default function Header() {
 	return (
 		<nav className={isHome ? "hide" : "navbar-items"}>
 			<div className="navbar-logo">
-				<img
+				<a href="/"><img
 					id="logo"
 					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618495596/Bright%20Flash/Bright-Flash-logo_vxoimo.png"
 					alt="bright-flash-logo"
-				/>
+				/></a>
 			</div>
 			<div className="menu-icon" onClick={showHide}>
 				{!menuList ? <GoIcons.GoThreeBars /> : <AiIcons.AiOutlineClose />}
@@ -36,13 +36,19 @@ export default function Header() {
 					{MenuItems.map((item, index) => {
 						return (
 							<li key={index}>
-								<Link
+								<NavLink
 									to={item.url}
 									className={item.cName}
+									isActive={(match, location) => {
+										// console.log(location);
+										if (location.pathname === "/") {
+											setIsHome(true);
+										}
+									}}
 									onClick={() => showHide(menuList)}
 								>
 									{item.title}
-								</Link>
+								</NavLink>
 							</li>
 						);
 					})}

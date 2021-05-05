@@ -27,11 +27,11 @@ export default function Footer({ info }) {
 
 	return (
 		<div className="footerpage-container">
-			<footer className={isHome ? "hide" : "main-footer"}>
+			<footer className={isHome ? "hide" : "footer-wrapper"}>
 				<div class="quote">
 					<FooterQuote quote={allInfo.quote} name={allInfo.name} />
 				</div>
-				<div className="container">
+				<div className="icon-container">
 					<a target="_blank" href="https://www.instagram.com/brightflash.bf/">
 						<img
 							className="icon"
@@ -44,7 +44,7 @@ export default function Footer({ info }) {
 							src="https://res.cloudinary.com/dnefeccae/image/upload/v1618531084/Bright%20flash/email-logo_q0ectn.png"
 						/>
 					</Link>
-					<div className="nav_about">
+					<div className="icon">
 						<Link to="/about">
 							<h2>ABOUT US</h2>
 						</Link>

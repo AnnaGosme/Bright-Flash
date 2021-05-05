@@ -31,17 +31,13 @@ export default function Contact() {
       <div className="contact-container">
         <div className="image-container">
           <img
-            src="https://res.cloudinary.com/dg5lakmem/image/upload/v1619095195/Bright%20Flash/Contact-cropped_eg41xz.jpg"
-            alt=""
+            src="https://res.cloudinary.com/dnefeccae/image/upload/v1620209207/helenpictures/card-yellow-contact_xtq3o5.jpg"
+            alt="imgcontactus"
             className="contact-image"
           />
         </div>
         <div className="form-page">
-          <img
-            src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618995903/Bright%20Flash/Contact-us_wazpuz.png"
-            alt=""
-            className="contact-caption"
-          />
+          <h1 className="contact-us">CONTACT US</h1>   
           <h2 className="contact-text">
             Share your thoughts, tell us about inspiring women you know, or just
             say hi!
@@ -61,7 +57,7 @@ export default function Contact() {
                 <input
                   type="email"
                   className="form-control"
-                  placeholder="What's your email superstar??"
+                  placeholder="What's your email superstar?"
                   name="email"
                 />
               </div>
