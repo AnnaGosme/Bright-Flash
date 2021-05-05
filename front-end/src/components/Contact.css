@@ -21,7 +21,8 @@
 
 .contact-image {
   justify-content: center;
-  width: 90vh;
+  width: 70%;
+  padding:40px;
 }
 
 .form-page {
@@ -31,12 +32,22 @@
   justify-content: space-between;
 }
 
-.contact-caption {
+.contact-us {
   justify-content: center;
   align-self: center;
-  width: 30vh;
   height: auto;
   padding: 18px;
+  font-size: 3rem;
+	align-self: center;
+	justify-self: center;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Oswald;
+	font-weight: bolder;
+	text-shadow: -4px 0 #eedf5b;
+	color: #b95c77;
+	padding: 2px;
+  white-space: nowrap;
 }
 
 .contact-text {
@@ -67,7 +78,7 @@ input {
   justify-items: center;
   padding: 16px;
   font-size: 1rem;
-  text-align: center;
+  text-align: left;
   width: 300px;
   height: 1em;
 }
@@ -76,6 +87,8 @@ textarea {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   width: 300px;
   font-size: medium;
+  text-align:left;
+  padding:15px;
 }
 
 #name,
@@ -134,6 +147,7 @@ textarea {
   .form-page {
     justify-content: center;
     align-items: center;
+    
   }
 
   .image-container {
@@ -157,10 +171,21 @@ textarea {
     font-size: 17px;
   }
 
-  .contact-caption {
+  .contact-us {
     width: 70%;
     height: auto;
     padding: 18px 18px 0px 18px;
+    font-size: 3rem;
+	align-self: center;
+	justify-self: center;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Oswald;
+	font-weight: bolder;
+	text-shadow: -4px 0 #eedf5b;
+	color: #b95c77;
+	padding: 2rem;
+
   }
 
   .form-container {
