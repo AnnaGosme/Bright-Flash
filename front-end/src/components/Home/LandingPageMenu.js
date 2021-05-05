@@ -3,8 +3,8 @@ import "./Home.css";
 export default function Menu() {
 	return (
 		<div>
-			<div class="menu-wrapper">
-				<div class="dropdown-menu">
+			<div className="menu-wrapper">
+				<div className="dropdown-menu">
 					<a href="./">
 						<img
 							className="item-image"
