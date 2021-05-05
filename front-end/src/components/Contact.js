@@ -2,29 +2,30 @@ import emailjs from "emailjs-com";
 import "./Contact.css";
 
 export default function Contact() {
-  function sendEmail(e) {
-    e.preventDefault();
+	function sendEmail(e) {
+		e.preventDefault();
 
-    emailjs
-      .sendForm("gmail", "bright_flash", e.target, "user_tiJzqT1DSJDfcaGluuKTG")
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  }
+		emailjs
+			.sendForm("gmail", "bright_flash", e.target, "user_tiJzqT1DSJDfcaGluuKTG")
+			.then(
+				(result) => {
+					console.log(result.text);
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			);
+	}
 
-  function Clicked() {
-    function confirmEmail(e) {
-      e.preventDefault();
-    }
-    alert(
-      "Yay! Your email was sent! We will get back to you as soon as possible!"
-    );
-  }
+	function Clicked() {
+		function confirmEmail(e) {
+			e.preventDefault();
+		}
+		alert(
+			"Yay! Your email was sent! We will get back to you as soon as possible!"
+		);
+	}
+
 
   return (
     <div>
@@ -39,7 +40,7 @@ export default function Contact() {
         <div className="form-page">
           <h1 className="contact-us">CONTACT US</h1>   
           <h2 className="contact-text">
-            Share your thoughts, tell us about inspiring women you know, or just
+             Tell us about inspiring women you know, or just
             say hi!
           </h2>
           <br></br>
@@ -90,4 +91,4 @@ export default function Contact() {
       </div>
     </div>
   );
-}
+  }

@@ -30,10 +30,8 @@ export default function About() {
 			</div>
 
 			<div className="text-container">
-				<img
-					className="title"
-					src="https://res.cloudinary.com/dnefeccae/image/upload/v1619042510/helenpictures/about_qwcnhh.png"
-				/>
+				
+			<h1 className="about-us">About us</h1>
 				<div className="text">
 					<p>
 						“There are times in our lives when we have to realize our past is
