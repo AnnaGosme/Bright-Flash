@@ -9,8 +9,8 @@ export default function WomenList({ data }) {
 			<h1 className="bright-women">Bright Women</h1>
 			<div className="card-container">
 				{data.map((img) => (
-					<Link to={`/women/${img.id}`}>
-						<WomanCard key={img.id} {...img} />
+					<Link to={`/women/${img.id}`} key={img.id}>
+						<WomanCard {...img} />
 					</Link>
 				))}
 			</div>

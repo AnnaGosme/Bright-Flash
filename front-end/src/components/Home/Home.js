@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ImageMap } from "@qiuz/react-image-map";
+import { Link } from "react-router-dom";
 
 import LandingPageMenu from "./LandingPageMenu";
 
@@ -8,14 +9,13 @@ import "./Home.css";
 const HomePage = () => {
 	const [showMenu, setShowMenu] = useState(false);
 
-	const img =
-		"https://i.imgur.com/Mol6ysu.jpg";
+	const img = "https://i.imgur.com/Mol6ysu.jpg";
 	const mapArea = [
 		{
-			width: "23.448625180897245%",
-			height: "23.615541922290383%",
-			left: "22.431259044862518%",
-			top: "4.498977505112485%",
+			width: "18.238784370477568%",
+			height: "18.169665809768638%",
+			left: "17.076700434153395%",
+			top: "13.83033419023136%",
 		},
 	];
 	const onMapClick = () => {
@@ -40,7 +40,7 @@ const HomePage = () => {
 			<div>
 				<img
 					className="mobile-pic"
-					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1618422713/Bright%20Flash/Women-bright-flash_ozg2mg.jpg"
+					src="https://res.cloudinary.com/dg5lakmem/image/upload/v1620209265/Bright%20Flash/collage-webMob-version-2_l4l3u5.jpg"
 					alt=""
 				/>
 			</div>
@@ -62,7 +62,9 @@ const HomePage = () => {
 				and contributions of these pioneering women.
 			</p>
 			<div className="button-container">
-				<button className="play-now">Play Memory Game</button>
+				<Link to="/introgame">
+					<button className="play-now">Play Memory Game</button>
+				</Link>
 			</div>
 		</div>
 	);

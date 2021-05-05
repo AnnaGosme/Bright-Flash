@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./index.css";
@@ -24,7 +23,6 @@ function App() {
 			.then((res) => res.json())
 			.then((data) => {
 				setData(data);
-				console.log("hi");
 				setIsLoading(false);
 			});
 	};
