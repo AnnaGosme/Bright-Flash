@@ -11,18 +11,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin:80px;
 }
 .image-container {
   display: flex;
   justify-self: center;
-  padding-top: 3px;
-  margin-left: 3px;
+
 }
 
 .contact-image {
   justify-content: center;
-  width: 70%;
-  padding:40px;
+  width: 80%;
 }
 
 .form-page {
@@ -37,7 +36,7 @@
   align-self: center;
   height: auto;
   padding: 18px;
-  font-size: 3rem;
+  font-size: 2.5rem;
 	align-self: center;
 	justify-self: center;
 	text-align: center;
@@ -46,7 +45,7 @@
 	font-weight: bolder;
 	text-shadow: -4px 0 #eedf5b;
 	color: #b95c77;
-	padding: 2px;
+	padding: 1rem;
   white-space: nowrap;
 }
 
@@ -54,7 +53,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 35px;
+  padding: 1rem;
   /*grid-column-start: 2;*/
 }
 
@@ -69,6 +68,7 @@
   justify-content: center;
   padding: 16px;
   font-size: 1rem;
+  
 }
 input {
   display: flex;
@@ -81,6 +81,7 @@ input {
   text-align: left;
   width: 300px;
   height: 1em;
+  border-radius: 0.8rem;
 }
 textarea {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -89,6 +90,7 @@ textarea {
   font-size: medium;
   text-align:left;
   padding:15px;
+  border-radius: 0.8rem;
 }
 
 #name,
@@ -142,6 +144,7 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin:0px;
   }
 
   .form-page {
@@ -174,8 +177,7 @@ textarea {
   .contact-us {
     width: 70%;
     height: auto;
-    padding: 18px 18px 0px 18px;
-    font-size: 3rem;
+    font-size: 2.5rem;
 	align-self: center;
 	justify-self: center;
 	text-align: center;
@@ -184,7 +186,7 @@ textarea {
 	font-weight: bolder;
 	text-shadow: -4px 0 #eedf5b;
 	color: #b95c77;
-	padding: 2rem;
+	padding: 1rem;
 
   }
 

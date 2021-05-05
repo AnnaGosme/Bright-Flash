@@ -20,15 +20,13 @@ export default function Contact() {
           console.log(error.text);
         }
       );
+    e.target.reset();
   }
 
   function Clicked() {
     function confirmEmail(e) {
       e.preventDefault();
-    }
-    alert(
-      "Yay! Your email was sent! We will get back to you as soon as possible!"
-    );
+    } 
   }
 
   return (
@@ -44,8 +42,7 @@ export default function Contact() {
         <div className="form-page">
           <h1 className="contact-us">CONTACT US</h1>
           <h2 className="contact-text">
-            Share your thoughts, tell us about inspiring women you know, or just
-            say hi!
+            Tell us about inspiring women you know, or just say hi!
           </h2>
           <br></br>
           <form onSubmit={sendEmail}>
@@ -85,7 +82,7 @@ export default function Contact() {
                 />
               </div>
               <div className="input-form">
-                <input type="submit" value="Send" onClick={Clicked}></input>
+                <input className="button-contact" type="submit" value="Send" onClick={Clicked}></input>
               </div>
             </div>
           </form>
