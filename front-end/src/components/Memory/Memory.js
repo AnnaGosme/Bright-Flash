@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 function Memory({ data }) {
+
   const { level } = useParams(); // get the parameters from the router path
   return (
     <div className="gameContainer">

@@ -40,7 +40,7 @@ export default function Contact() {
         <div className="form-page">
           <h1 className="contact-us">CONTACT US</h1>   
           <h2 className="contact-text">
-            Share your thoughts, tell us about inspiring women you know, or just
+             Tell us about inspiring women you know, or just
             say hi!
           </h2>
           <br></br>
@@ -91,3 +91,5 @@ export default function Contact() {
       </div>
     </div>
   );
+  }
+
