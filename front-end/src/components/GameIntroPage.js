@@ -3,7 +3,7 @@ import "./GameIntroPage.css";
 
 function GameIntroPage() {
   return (
-    <div className="page-wrapper">
+    <div className="intro-page-wrapper">
       <style>
         document.body.style.backgroundImage =
         "url('https://res.cloudinary.com/octavian2111/image/upload/v1620120519/d62Jtrf_b4jbaq.jpg')"
