@@ -2,49 +2,50 @@ import emailjs from "emailjs-com";
 import "./Contact.css";
 
 export default function Contact() {
-	function sendEmail(e) {
-		e.preventDefault();
+  function sendEmail(e) {
+    e.preventDefault();
 
-		emailjs
-			.sendForm("gmail", "bright_flash", e.target, "user_tiJzqT1DSJDfcaGluuKTG")
-			.then(
-				(result) => {
-					console.log(result.text);
-				},
-				(error) => {
-					console.log(error.text);
-				}
-			);
-	}
+    emailjs
+      .sendForm(
+        "service_eck0j67",
+        "bright_flash",
+        e.target,
+        "user_tiJzqT1DSJDfcaGluuKTG"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
 
-	function Clicked() {
-		function confirmEmail(e) {
-			e.preventDefault();
-		}
-		alert(
-			"Yay! Your email was sent! We will get back to you as soon as possible!"
-		);
-	}
-
+  function Clicked() {
+    function confirmEmail(e) {
+      e.preventDefault();
+    } 
+  }
 
   return (
     <div>
       <div className="contact-container">
         <div className="image-container">
           <img
-            src="https://res.cloudinary.com/dnefeccae/image/upload/v1620209207/helenpictures/card-yellow-contact_xtq3o5.jpg"
+            src="https://res.cloudinary.com/octavian2111/image/upload/v1620217706/card-yellow-contact_gxf6fg.jpg"
             alt="imgcontactus"
             className="contact-image"
           />
         </div>
         <div className="form-page">
-          <h1 className="contact-us">CONTACT US</h1>   
+          <h1 className="contact-us">CONTACT US</h1>
           <h2 className="contact-text">
-             Tell us about inspiring women you know, or just
-            say hi!
+            Tell us about inspiring women you know, or just say hi!
           </h2>
           <br></br>
-          <form onSubmit={Contact} onSubmit={Clicked}>
+          <form onSubmit={sendEmail}>
             <div className="row pt-5 mx-auto">
               <div className="input-form">
                 <input
@@ -81,9 +82,7 @@ export default function Contact() {
                 />
               </div>
               <div className="input-form">
-                <button className="button-contact">
-                  <span>Send</span>
-                </button>
+                <input className="button-contact" type="submit" value="Send" onClick={Clicked}></input>
               </div>
             </div>
           </form>
@@ -91,5 +90,4 @@ export default function Contact() {
       </div>
     </div>
   );
-  }
-
+}
