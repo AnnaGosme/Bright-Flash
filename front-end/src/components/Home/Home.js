@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ImageMap } from "@qiuz/react-image-map";
+import { Link } from "react-router-dom";
 
 import LandingPageMenu from "./LandingPageMenu";
 
@@ -61,7 +62,9 @@ const HomePage = () => {
 				and contributions of these pioneering women.
 			</p>
 			<div className="button-container">
-				<button className="play-now">Play Memory Game</button>
+				<Link to="/introgame">
+					<button className="play-now">Play Memory Game</button>
+				</Link>
 			</div>
 		</div>
 	);
