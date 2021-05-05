@@ -43,13 +43,13 @@ const HomePage = () => {
 					alt=""
 				/>
 			</div>
-			<h1 className="mobile-title">MOBILE TITLE</h1>
+			<h1 className="mobile-title">BRIGHT FLASH</h1>
 			<p className="mobile-intro">
 				The contributions of women to the advancement of science, the
 				improvement of society and the care of our communities have always been
 				there. Too often they are forgotten or overlooked in history books. The
 				statement may be silent, but the effect is loud: our children are still
-				being raised with an internalised impression than men can achieve more
+				being raised with an internalised conviction that men can achieve more
 				than women.
 			</p>
 			<br />

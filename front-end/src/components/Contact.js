@@ -28,7 +28,7 @@ export default function Contact() {
 
 	return (
 		<div>
-			<div className="footer-container">
+			<div className="contact-container">
 				<div className="image-container">
 					<img
 						src="https://res.cloudinary.com/dg5lakmem/image/upload/v1619095195/Bright%20Flash/Contact-cropped_eg41xz.jpg"
@@ -49,7 +49,7 @@ export default function Contact() {
 					<br></br>
 					<form onSubmit={Contact} onSubmit={Clicked}>
 						<div className="row pt-5 mx-auto">
-							<div className="input">
+							<div className="input-form">
 								<input
 									type="text"
 									className="form-control"
@@ -57,7 +57,7 @@ export default function Contact() {
 									name="name"
 								/>
 							</div>
-							<div className="input">
+							<div className="input-form">
 								<input
 									type="email"
 									className="form-control"
@@ -65,7 +65,7 @@ export default function Contact() {
 									name="email"
 								/>
 							</div>
-							<div className="input">
+							<div className="input-form">
 								<input
 									type="text"
 									className="form-control"
@@ -73,7 +73,7 @@ export default function Contact() {
 									name="subject"
 								/>
 							</div>
-							<div className="input">
+							<div className="input-form">
 								<textarea
 									className="form-control"
 									id=""
@@ -83,8 +83,8 @@ export default function Contact() {
 									name="message"
 								/>
 							</div>
-							<div className="input">
-								<button className="button">
+							<div className="input-form">
+								<button className="button-contact">
 									<span>Send</span>
 								</button>
 							</div>

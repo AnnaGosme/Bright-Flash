@@ -24,7 +24,7 @@ export default function WomanDetails({ routeProps, data }) {
 
 				<p className="women-years">{card.years}</p>
 
-				<p className="women-nationality">Nationality: {card.nationality}</p>
+				<p className="women-nationality">{card.nationality}</p>
 
 				<p className="women-contribution">{card.contribution}</p>
 			</div>
