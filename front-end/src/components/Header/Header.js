@@ -21,7 +21,7 @@ export default function Header() {
 	}, [location.pathname]);
 
 	return (
-		<nav className={isHome ? "hide" : "navbar-items"}>
+		<nav className={isHome ? "nav-hide" : "navbar-items"}>
 			<div className="navbar-logo">
 				<a href="/">
 					<img
