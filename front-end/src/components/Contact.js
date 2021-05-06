@@ -21,12 +21,8 @@ export default function Contact() {
         }
       );
     e.target.reset();
-  }
-
-  function Clicked() {
-    function confirmEmail(e) {
-      e.preventDefault();
-    } 
+  
+   
   }
 
   return (
@@ -82,7 +78,7 @@ export default function Contact() {
                 />
               </div>
               <div className="input-form">
-                <input className="button-contact" type="submit" value="Send" onClick={Clicked}></input>
+                <input className="button-contact" type="submit" value="Send"></input>
               </div>
             </div>
           </form>
