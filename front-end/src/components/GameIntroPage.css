@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
 
   background-image: url("https://res.cloudinary.com/octavian2111/image/upload/v1620122941/25ehEmx_rfvxwu.jpg");
 }
@@ -106,6 +107,7 @@
     justify-self: center;
     text-align: justify;
     padding: 20px;
+    margin: 10px;
   }
 
   .level-select-text {

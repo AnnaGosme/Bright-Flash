@@ -16,7 +16,7 @@ const women = [
     name: "Alexandria Ocasio-Cortez",
     title: "Politician - the Prodigious Child from the Bronx",
     contribution:
-      "Growing up in New York's Bronx, politician Alexandria Ocasio-Cortez has experienced from a young age the city's income inequality, which motivated her to organise her community. She run for office in 2019, becoming the youngest woman ever to be elected in the US Congress.",
+      "Growing up in New York's Bronx, politician Alexandria Ocasio-Cortez experienced  the city's income inequality from a young age, which motivated her to organise her community. She run for office in 2019, becoming the youngest woman ever to be elected in the US Congress.",
     years: "1989",
     nationality: "American",
     image: "https://i.imgur.com/GXO0tdK.jpg",
@@ -40,7 +40,7 @@ const women = [
     name: "Tsai Ing-wen",
     title: "Taiwan's First Female Leader",
     contribution:
-      "Tsai Ing-wen is the first women to be elected president of Taiwan, Republic of China (2016). During her mandate she endorsed LGBT rights, making Taiwan the first country in Asia to legalise same-sex marriage in 2019.",
+      "Tsai Ing-wen is the first woman to be elected president of Taiwan, Republic of China (2016). During her mandate she endorsed LGBT rights, making Taiwan the first country in Asia to legalise same-sex marriage in 2019.",
     years: "1956",
     nationality: "Taiwanese",
     image: "https://i.imgur.com/WrZ7mlx.jpg",
@@ -75,7 +75,7 @@ const women = [
     name: "Maryam Mirzakhani",
     title: "Pioneering Mathematician and Winner of the Fields Medal",
     contribution:
-      "A mathematician and a professor of Mathematics at Stanford University, Maryam Mirzakhani's phD solved two unsolvable mathematical problems. In 2014 Mirzakhani was awarded with the Fields Medal, the most prestigious awards in mathematics, becoming the first and only woman to be honored with the award.",
+      "Maryam Mirzakhani was a mathematician and professor of Mathematics at Stanford University. In her phD, she solved two util-then unsolvable mathematical problems. In 2014 Mirzakhani received the Fields Medal, the most prestigious award in mathematics, becoming the first and only woman to be honored with the award.",
     years: "1977-2017",
     nationality: "Iranian",
     image: "https://i.imgur.com/5y1QSRR.jpg",
@@ -87,7 +87,7 @@ const women = [
     name: "Kamala Harris",
     title: "From Prosecutor to Politician",
     contribution:
-      "Besides being the first female Vice-President, Kamala Harris is also the first African American and first Asian American to be elected vice president of the United States in 2020.",
+      "Besides being the first female Vice-President, Kamala Harris was also the first African-American and first Asian-American to be elected vice-president of the United States in 2020.",
     years: "1964",
     nationality: "American",
     image: "https://i.imgur.com/QZRpfYK.jpg",
@@ -99,7 +99,7 @@ const women = [
     name: "Margherita Hack",
     title: "Astrophysicist and Scientific Disseminator",
     contribution:
-      "Active also in the social and political field, Margherita Hack has been the first Italian woman to administrate the Trieste Astronomical Observatory from 1964 to 1987.",
+      "While also being active also in the social and political fields, Margherita Hack is renowned for being the first Italian woman to administrate the Trieste Astronomical Observatory from 1964 to 1987.",
     years: "1923-2013",
     nationality: "Italian",
     image: "https://i.imgur.com/0PhZakI.jpg",
@@ -112,7 +112,7 @@ const women = [
     title:
       "Record-holder for the Longest Uninterrupted Spaceflight by a European Astronaut",
     contribution:
-      "Samantha Cristoforetti is the first Italian women in space, participating to 2014's European Space Agency expedition. She is scheduled to return to the International Space Station in 2022. She holds the record for the longest uninterrupted spaceflight by a European astronaut (199 days, 16 hours).",
+      "Samantha Cristoforetti was the first Italian women in space, participating in the 2014 European Space Agency expedition. She is scheduled to return to the International Space Station in 2022. She holds the record for the longest uninterrupted spaceflight by a European astronaut (199 days, 16 hours).",
     years: "1977",
     nationality: "Italian",
     image: "https://i.imgur.com/b4cACZY.jpg",
@@ -124,7 +124,7 @@ const women = [
     name: "Katherine Johnson",
     title: "A NASA heroine of the USA",
     contribution:
-      "Katherine Johnson's calculations of orbital mechanics as a NASA employee were critical to the success of the first and subsequent U.S. crewed spaceflights. During her 33-year career at NASA and its predecessor, she earned a reputation for mastering complex manual calculations and helped pioneer the use of computers to perform the tasks. The space agency noted her 'historical role as one of the first African-American women to work as a NASA scientist.",
+      "Katherine Johnson's calculations of orbital mechanics as a NASA employee were critical to the success of the first, and subsequent, U.S. crewed spaceflights. During her 33-year career at NASA and its predecessor, she earned a reputation for mastering complex manual calculations and helped pioneer the use of computers to perform the tasks. The space agency noted her 'historical role as one of the first African-American women to work as a NASA scientist.",
     years: "1918-2020",
     nationality: "American",
     image: "https://i.imgur.com/6raWJ9y.jpg",
@@ -182,7 +182,7 @@ const women = [
     name: "Reshma Saujani",
     title: "Education Activist",
     contribution:
-      "Reshma Saujani is the author of 'Brave, Not Perfect' and founder of Girls Who Code, the international nonprofit organization working to close the gender gap in technology and change the image of what a computer programmer looks like and does.Reshma’s TED talk, “Teach girls, bravery not perfection,” has more than four million views and has sparked a worldwide conversation about how we’re raising our girls.",
+      "Reshma Saujani is the author of 'Brave, Not Perfect' and founder of Girls Who Code, the international nonprofit organization working to close the gender gap in technology and change the image of what a computer programmer looks like and does.Reshma’s TED talk, “Teach girls bravery not perfection” has more than four million views and has sparked a worldwide conversation about how we’re raising our girls.",
     years: "1975",
     nationality: "American",
     image: "https://i.imgur.com/PEFn1Ky.jpg",
@@ -206,7 +206,7 @@ const women = [
     name: "Wangari Maathai",
     title: "Mama Trees",
     contribution:
-      "'It’s the little things citizens do. That’s what will make the difference. My little thing is planting trees.' Founder of the Green Belt Movement, Wangari Maathai was called Mama Miti ,which means Mama Trees, by many people in Kenya Africa. She was the first African women to win a Nobel Peace Prize, in 2004 for her contribution to sustainable development, democracy, and peace. To this day the Green Belt Movement is planting trees and protects the 2nd largest tropical forest in the world.",
+      "'It’s the little things citizens do. That’s what will make the difference. My little thing is planting trees.' Founder of the Green Belt Movement, Wangari Maathai was called Mama Miti, which means Mama Trees, by many people in Kenya, Africa. She was the first African women to win a Nobel Peace Prize in 2004, for her contribution to sustainable development, democracy, and peace. To this day the Green Belt Movement is planting trees and protects the 2nd largest tropical forest in the world.",
     years: "1940-2011",
     nationality: "Kenyan",
     image: "https://i.imgur.com/rLmZgSe.jpg",
@@ -230,12 +230,12 @@ const women = [
     name: "Sylvia Earle",
     title: "Explorer of Oceans",
     contribution:
-      "Sylvia Earle is the first female chief scientist of the U.S. National Oceanic and Atmospheric Administration, and was named by Time Magazine as its first Hero for the Planet in 1998. She is also part of the group Ocean Elders, which is dedicated to protecting the ocean and its wildlife.",
+      "Sylvia Earle was the first female chief scientist of the U.S. National Oceanic and Atmospheric Administration, and was named by Time Magazine as its first Hero for the Planet in 1998. She is also part of the group Ocean Elders, which is dedicated to protecting the ocean and its wildlife.",
     years: "1935",
     nationality: "American",
     image: "https://i.imgur.com/Dx2hMbl.jpg",
     quote:
-      "I suggestesd to everyone: Look in the mirror. Ask yourself: Who are you? What are your talents? Use them and do what you love.",
+      "I suggest to everyone: Look in the mirror. Ask yourself: Who are you? What are your talents? Use them and do what you love.",
   },
   {
     id: 20,
@@ -253,19 +253,19 @@ const women = [
     name: "Maya Angelou",
     title: "Afro-American Human Rights activist",
     contribution:
-      " American poet, memoirist, and civil rights activist she's the author of `I Know Why the Caged Bird Sings`, published in 1969 , is one of her awarded work. Her international recognition and acclaim are labeled to many of her autobiographical books. From the age of seventeen , Angelou had to face string of odd jobs .  She was respected for being a defence of Black Culture but mostly for women rights identity.",
+      " Mayab Angelou is an American poet, memoirist, and civil rights activist. She authored `I Know Why the Caged Bird Sings`, published in 1969. Her international recognition and acclaim are labeled to many of her autobiographical books. From the age of seventeen, Maya Angelou had to face string of odd jobs.  She was respected not only for being a defender of Black Culture but also as a crusader for women's rights.",
     years: "1928 – 2014",
     nationality: "American",
     image: "https://i.imgur.com/swOmY5l.jpg",
     quote:
-      " American poet, memoirist, and civil rights activist she's the author of `I Know Why the Caged Bird Sings`, published in 1969 , is one of her awarded work. Her international recognition and acclaim are labeled to many of her autobiographical books. From the age of seventeen , Angelou had to face string of odd jobs .  She was respected for being a defence of Black Culture but mostly for women rights identity.",
+      " If you're always trying to be normal, you'll never know how amazing you can be.",
   },
   {
     id: 22,
     name: "Ada Lovelace",
     title: "World’s First Computer Programmer",
     contribution:
-      "`That brain of mine is something more than merely mortal, as time will show`.Referred to as 'prophet of the computer age, Ada Lovelace was a brilliant mathematician . The significance of her work lies in the fact that she was the first to write a computer programme, an algorithm to calculate a sequence of Bernoulli numbers, intended to be carried out by Charles Babbage's Analytical Engine. Great contribution considering year 1842.",
+      "`That brain of mine is something more than merely mortal, as time will show`. Referred to as 'prophet of the computer age, Ada Lovelace was a brilliant mathematician . Ada Lovelace was the first to write a computer programme, an algorithm to calculate a sequence of Bernoulli numbers, intended to be carried out by Charles Babbage's Analytical Engine. This is a great contribution considering she wrote this algorithm in the year 1842.",
     years: "1815 – 1852",
     nationality: "English",
     image: "https://i.imgur.com/BQNNPlz.jpg",
@@ -274,9 +274,9 @@ const women = [
   {
     id: 23,
     name: "Amelia Earhart",
-    title: "First Female Aviator",
+    title: "First Female Aviator and author",
     contribution:
-      "'Women must try to do things as men have tried. When they fail, their failure must be but a challenge to others'. Amelia Eahart was the first woman to fly across the Atlantic and the Pacific Ocean in 1928",
+      "'Women must try to do things as men have tried. When they fail, their failure must be but a challenge to others'. Amelia Eahart was the first woman to fly solo across the Atlantic and the Pacific Ocean in 1928. She set many other records, wrote best-selling books about her flying experiences, and was instrumental in the formation of The Ninety-Nines, an organization for female pilots. Amelia Earhart disppeared during once of her flits on July 2, 1937, and was officially declared dead on January 5, 1939.",
     years: "1897 – 1939",
     nationality: "American",
     image: "https://i.imgur.com/92w687D.jpg",
@@ -312,7 +312,7 @@ const women = [
     name: "Peg Hughes",
     title: "First Professional Actress in the Western World",
     contribution:
-      "Peg Hughes is often credited as the first professional actress on the English stage on 8 December 1660.During the Renaissance women had been virtually banned from appearing as actresses on the stage. So under a male name and role, leading females as  professional actress for the following  centuries !.",
+      "Peg Hughes is often credited as the first professional actress on the English stage on 8 December 1660. During the Renaissance women had been virtually banned from appearing as actresses on the stage. So under a male name and role, leading females worked as professional actresses for centuries!",
     years: "1645 – 1719",
 
     nationality: "English",
@@ -325,7 +325,7 @@ const women = [
     name: "Annie Londonderry",
     title: "Adventurer on a Bicycle",
     contribution:
-      "Annie Londonderry was first woman to cycle around the world. On June 27, 1894, is the date of her departure, 11:00 am was  the time. A gun, a change of clothes and some travel books accompany her for the duration of the effort.The challenge started from Boston city  and goes through New York, Ohio, Illinois. But not only: it also touches France – Paris Lyon, Marseille.Alexandria of Egypt. From Israel to Yemen, from Sri Lanka to Singapore, from Vietnam to China. On 24 September 1895,she returns home, wining this arduous journey out of any expectation.",
+      "Annie Londonderry was first woman to cycle around the world. Her journey began on June 27, 1894. All she took with her was a gun, a change of clothes and some travel books. The challenge started from Boston city all the way to New York, then Ohio. Annie Londonderry then ventured even further, she went through France – Paris Lyon, Marseille. Then onto Alexandria in Egypt, from Israel to Yemen, from Sri Lanka to Singapore, from Vietnam to China. On 24 September 1895, she returned home, having proven herself beyond anybody's expectation.",
     years: "1870 – 1947",
     nationality: "Latvian",
     image: "https://i.imgur.com/Zbbz7Kh.jpg",
@@ -349,7 +349,7 @@ const women = [
     name: "Billie Holiday",
     title: "Lady Day",
     contribution:
-      "Jazz singer and performer. Holiday had an innovative influence on jazz music. Her vocal style, strongly inspired by jazz instrumentalists, pioneered a new way of manipulating phrasing and tempo that would lead to the pop music gender. She was known for her vocal delivery and improvisational skills too...",
+      "Billie Holiday had an innovative influence on jazz music. Her vocal style, strongly inspired by jazz instrumentalists, pioneered a new way of manipulating phrasing and tempo that would lead to the pop music genre. She was also famous for her vocal delivery and improvisational skills.",
     years: "1915 – 1959",
     nationality: "American",
     image: "https://i.imgur.com/2Cagwj7.jpg",
@@ -361,7 +361,7 @@ const women = [
     name: "Jeanne Paquin",
     title: "Leading French Fashion Designer",
     contribution:
-      "Jeanne Paquin was a leading French fashion designer, known for her resolutely modern and innovative designs. She was the first major female couturier and one of the pioneers of the modern fashion business",
+      "Jeanne Paquin was a leading French fashion designer, known for her resolutely modern and innovative designs. She was the first major female couturier and one of the pioneers of the modern fashion business.",
     years: "1869–1936",
     nationality: "French",
     image: "https://i.imgur.com/rrHNwSt.jpg",
@@ -373,7 +373,7 @@ const women = [
     name: "Frida Kahlo",
     title: "Rebel Artist, Mexican Legend",
     contribution:
-      "Inspired by the country's popular culture, Frida Kahlo employed a naïve folk art style to explore questions of identity, postcolonialism, gender, class, and race in Mexican society.",
+      "Inspired by her country's popular culture, Frida Kahlo employed a naïve folk art style to explore questions of identity, postcolonialism, gender, class, and race in Mexican society.",
     years: "1907-1954",
     nationality: "Mexican",
     image: "https://i.imgur.com/WGYlUKw.jpg",
@@ -385,7 +385,7 @@ const women = [
     name: "Marie Curie",
     title: "A Woman Dedicated to Science",
     contribution:
-      "Marie Curie was a pioneer Scientist in radioactivity. she was the first woman to win a Nobel Prize, the first and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields.",
+      "Marie Curie was a pioneering scientist in radioactivity. She was the first woman to win a Nobel Prize, the first and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two scientific fields.",
     years: "1867-1934",
     nationality: "Polish",
     image: "https://i.imgur.com/Dz4lQaZ.jpg",
@@ -396,7 +396,7 @@ const women = [
     name: "Virginia Woolf",
     title: "Writer, Savant, Philosopher",
     contribution:
-      "Virginia Woolf was considered one of the most important modernist 20th-century authors and also a pioneer in the use of stream of consciousness as a narrative device.",
+      "Virginia Woolf was considered one of the most important modernist 20th-century authors. She was also a pioneer in the use of stream of consciousness as a narrative device.",
     years: "1982-1941",
     nationality: "English",
     image: "https://i.imgur.com/5Imnvoq.jpg",
@@ -408,7 +408,7 @@ const women = [
     name: "Artemisia Gentileschi",
     title: "First Feminist Icon in Western History",
     contribution:
-      "In an era when women had few opportunities to pursue artistic training or work as professional artists, Gentileschi was the first woman to become a member of the Accademia di Arte del Disegno in Florence.",
+      "In an era when women had few opportunities to pursue artistic training or work as professional artists, Artemisia Gentileschi was the first woman to become a member of the Accademia di Arte del Disegno in Florence.",
     years: "1593-1656",
     nationality: "Italian",
     image: "https://i.imgur.com/aBipi2M.jpg",
@@ -419,7 +419,7 @@ const women = [
     name: "Chimamanda Ngozi Adichie",
     title: "Writer and Feminist Icon",
     contribution:
-      "Chimamanda Ngozi Adichie has helped inspire new, cross-generational communication about the Biafran war. She seeks to instill dignity into the finest details of each character, whether poor, middle class or rich.",
+      "Chimamanda Ngozi Adichie has helped inspire new, cross-generational communication about the Biafran war. She seeks to instill dignity into the finest details of each character in her books, whether poor, middle class or rich.",
     years: "1977",
     nationality: "Nigerian",
     image: "https://i.imgur.com/p4bVRXo.jpg",
@@ -431,7 +431,7 @@ const women = [
     name: "Margaret Thatcher",
     title: "First Female Prime Minister of the United Kingdom",
     contribution:
-      "Margaret Thatcher was the longest-serving British prime minister of the 20th century and the first woman to hold that office.",
+      "Margaret Thatcher was the longest-serving British prime minister of the 20th century, and the first woman to hold that office.",
     years: "1920-2013",
     nationality: "English",
     image: "https://i.imgur.com/lP7y4Lk.jpg",
@@ -456,7 +456,7 @@ const women = [
     title:
       "Creator of the Montessori Method and First Italian Woman to Ever receive a Degree in Medicine.",
     contribution:
-      "Best known for the philosophy of education that bears her name, and her writing on scientific pedagogy.Her educational method is in use today in many public and private schools globally.",
+      "Maria Montessori is best known for the philosophy of education that bears her name, and her writing on scientific pedagogy. Her educational method is still in use today in many public and private schools all around the world.",
     years: "1870-1952",
     nationality: "Italian",
     image: "https://i.imgur.com/FqNW7am.jpg",
@@ -468,7 +468,7 @@ const women = [
     name: "Audre Lorde",
     title: "Author and Creator of the 'Theory of Difference'",
     contribution:
-      "Audre Lorde explored female identity and life as a Black lesbian and wrote about issues that affected women across the country during the height Civil Rights movement. All of her work was based on her 'theory of difference', which we refer to as 'intersectionality' today.",
+      "Audre Lorde explored female identity and life as a Black lesbian. She mainly wrote about issues that affected women across the country during the height Civil Rights movement. All of her work is based on her 'theory of difference', which we refer to as 'intersectionality' today.",
     years: "1934-1992",
     nationality: "American",
     image: "https://i.imgur.com/FRWTTzv.jpg",
@@ -480,7 +480,7 @@ const women = [
     name: "Mae Jemison",
     title: "First Afro-American Astronaut in Space",
     contribution:
-      "In addition to being the first Black woman to travel into space aboard space shuttle Endeavour, Mae Jemison was the first Black woman to be admitted to the NASA astronaut training program. After her career with NASA, she founded a consulting firm she named The Jemison Group Inc., which focuses on sociocultural issues in the STEM field and now holds 10 honorary doctorates.",
+      "In addition to being the first Black woman to travel into space aboard in the space shuttle Endeavour, Mae Jemison was the first Black woman to be admitted to the NASA astronaut training program. After her career with NASA, she founded a consulting firm she named The Jemison Group Inc., which focuses on sociocultural issues in the STEM field and now holds 10 honorary doctorates.",
     years: "1956",
     nationality: "American",
     image: "https://i.imgur.com/VkYWvLz.jpg",
@@ -503,12 +503,12 @@ const women = [
     name: "Gloria Steinem",
     title: "Feminist Icon",
     contribution:
-      "In 1969, Steinem published an article, 'After Black Power, Women's Liberation', which brought her to national fame as a feminist leader. In 1971, she co-founded the National Women's Political Caucus which provides training and support for women who seek elected and appointed offices in government. Also in 1971, she co-founded the Women's Action Alliance which, until 1997, provided support to a network of feminist activists and worked to advance feminist causes and legislation. In the 1990s, Steinem helped establish Take Our Daughters to Work Day, an occasion for young girls to learn about future career opportunities.",
+      "In 1969, Gloria Steinem published an article, 'After Black Power, Women's Liberation', which brought her to national fame as a feminist leader. In 1971, she co-founded the National Women's Political Caucus which provides training and support for women who seek elected and appointed offices in government. Also in 1971, she co-founded the Women's Action Alliance which, until 1997, provided support to a network of feminist activists and worked to advance feminist causes and legislation. In the 1990s, Steinem helped establish 'Take Our Daughters to Work Day', an occasion for young girls to learn about future career opportunities.",
     years: "1934",
     nationality: "American",
     image: "https://i.imgur.com/JihlvUZ.jpg",
     quote:
-      "Don't think about making women fit the world‬—‪think about making the world fit women.",
+      "Don't think about making women fit the world‬— ‪think about making the world fit women.",
   },
   {
     id: 44,

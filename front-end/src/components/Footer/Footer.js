@@ -27,7 +27,7 @@ export default function Footer({ info }) {
 
 	return (
 		<div className="footerpage-container">
-			<footer className={isHome ? "hide" : "footer-wrapper"}>
+			<footer className={isHome ? "footer-hide" : "footer-wrapper"}>
 				<div className="quote">
 					<FooterQuote quote={allInfo.quote} name={allInfo.name} />
 				</div>
