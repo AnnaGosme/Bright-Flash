@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import FooterQuote from "./FooterQuote";
 import "./Footer.css";
 
@@ -7,27 +7,23 @@ export default function Footer({ info }) {
 	const [allInfo, setAllInfo] = useState({});
 	const [isHome, setIsHome] = useState(false);
 
-	const randomInfo = () => {
+	const randomInfo = useCallback(() => {
 		if (info !== undefined && info.length > 0) {
 			const foundInfo = info[Math.floor(Math.random() * info.length)];
 			setAllInfo(foundInfo);
 		} else {
 			setAllInfo({});
 		}
-	};
+	}, [info]);
 
 	let location = useLocation();
 
-	useEffect(
-		() => {
-			randomInfo();
-			if (location.pathname === "/") {
-				setIsHome(true);
-			}
-		},
-		[location.pathname],
-		[location.pathname]
-	);
+	useEffect(() => {
+		randomInfo();
+		if (location.pathname === "/") {
+			setIsHome(true);
+		}
+	}, [randomInfo, location.pathname]);
 
 	return (
 		<div className="footerpage-container">
