@@ -8,8 +8,8 @@ function GameIntroPage() {
         document.body.style.backgroundImage =
         "url('https://res.cloudinary.com/octavian2111/image/upload/v1620120519/d62Jtrf_b4jbaq.jpg')"
       </style>
-      <h1 className="game-intro-title">Memory Game</h1>
       <span className="game-rules">
+      <h1 className="game-intro-title">Memory Game</h1>
         Learn about some of the women who have made and are still making
         significant contributions to society through a game of memory. Click on
         a first card, then try to find the card’s match. The counter will keep

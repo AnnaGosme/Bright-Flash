@@ -1,8 +1,10 @@
 .intro-page-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-content: center;
-  min-height: 100vh;
+  height: 100vh;
+
   background-image: url("https://res.cloudinary.com/octavian2111/image/upload/v1620122941/25ehEmx_rfvxwu.jpg");
 }
 
@@ -13,10 +15,10 @@
   text-align: center;
   text-transform: uppercase;
   font-family: Oswald;
-  font-weight: bolder;
+  font-weight: 400px;
   text-shadow: -4px 0 #eedf5b;
   color: #b95c77;
-  padding: 2rem;
+  padding-bottom: 20px;
 }
 
 .game-rules {
@@ -33,7 +35,7 @@
   align-self: center;
   text-align: justify;
   padding: 20px;
-  margin: 20px;
+  margin-bottom: 100px;
 }
 
 .level-select-text {
