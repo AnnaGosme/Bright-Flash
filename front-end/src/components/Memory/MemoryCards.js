@@ -6,7 +6,7 @@ class MemoryCards {
     this.cards = [];
     this.data = data;
     this.level = selectedLevel; // level as object property
-    this.NUM_IMAGES = 4; // default level 1 number of images
+    this.NUM_IMAGES = 6; // default level 1 number of images
   }
 
   generateCardSetData() {
@@ -17,11 +17,11 @@ class MemoryCards {
 
     if (this.level === "2") {
       // set number images depending on the level
-      this.NUM_IMAGES += 2;
+      this.NUM_IMAGES += 6;
     } else if (this.level === "3") {
-      this.NUM_IMAGES += 5;
+      this.NUM_IMAGES += 6;
     } else if (this.level === "4") {
-      this.NUM_IMAGES += 10;
+      this.NUM_IMAGES += 12;
     }
 
     if (this.data && this.data.length > 0) {
