@@ -325,7 +325,7 @@ const women = [
     name: "Annie Londonderry",
     title: "Adventurer on a Bicycle",
     contribution:
-      "Annie Londonderry was first woman to cycle around the world.On June 27, 1894, is the date of her departure, 11:00 am was  the time. A gun, a change of clothes and some travel books accompany her for the duration of the effort.The challenge started from Boston city  and goes through New York, Ohio, Illinois. But not only: it also touches France – Paris Lyon, Marseille.Alexandria of Egypt. From Israel to Yemen, from Sri Lanka to Singapore, from Vietnam to China. On 24 September 1895,she returns home, wining this arduous journey out of any expectation.",
+      "Annie Londonderry was first woman to cycle around the world. On June 27, 1894, is the date of her departure, 11:00 am was  the time. A gun, a change of clothes and some travel books accompany her for the duration of the effort.The challenge started from Boston city  and goes through New York, Ohio, Illinois. But not only: it also touches France – Paris Lyon, Marseille.Alexandria of Egypt. From Israel to Yemen, from Sri Lanka to Singapore, from Vietnam to China. On 24 September 1895,she returns home, wining this arduous journey out of any expectation.",
     years: "1870 – 1947",
     nationality: "Latvian",
     image: "https://i.imgur.com/Zbbz7Kh.jpg",
