@@ -198,7 +198,8 @@ const women = [
     years: "1881-1975",
     nationality: "American",
     image: "https://i.imgur.com/vB2g9H9.jpg",
-    quote: "In the poverty of your imagination it is easier to believe that the printed word is gospel truth. I went beyond the realms of your perceptions.",
+    quote:
+      "In the poverty of your imagination it is easier to believe that the printed word is gospel truth. I went beyond the realms of your perceptions.",
   },
   {
     id: 17,
@@ -252,20 +253,20 @@ const women = [
     name: "Maya Angelou",
     title: "Afro-American Human Rights activist",
     contribution:
-      "Author of 'I Know Why the Caged Bird Sings'. American poet, memoirist, and civil rights activist.",
-    year: "1928 – 2014",
+      " American poet, memoirist, and civil rights activist she's the author of `I Know Why the Caged Bird Sings`, published in 1969 , is one of her awarded work. Her international recognition and acclaim are labeled to many of her autobiographical books. From the age of seventeen , Angelou had to face string of odd jobs .  She was respected for being a defence of Black Culture but mostly for women rights identity.",
+    years: "1928 – 2014",
     nationality: "American",
     image: "https://i.imgur.com/swOmY5l.jpg",
     quote:
-      "If you don't like something, change it. If you can't change it, change your attitude.",
+      " American poet, memoirist, and civil rights activist she's the author of `I Know Why the Caged Bird Sings`, published in 1969 , is one of her awarded work. Her international recognition and acclaim are labeled to many of her autobiographical books. From the age of seventeen , Angelou had to face string of odd jobs .  She was respected for being a defence of Black Culture but mostly for women rights identity.",
   },
   {
     id: 22,
     name: "Ada Lovelace",
     title: "World’s First Computer Programmer",
     contribution:
-      "Ada Lovelace was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine",
-    year: "1815 – 1852",
+      "`That brain of mine is something more than merely mortal, as time will show`.Referred to as 'prophet of the computer age, Ada Lovelace was a brilliant mathematician . The significance of her work lies in the fact that she was the first to write a computer programme, an algorithm to calculate a sequence of Bernoulli numbers, intended to be carried out by Charles Babbage's Analytical Engine. Great contribution considering year 1842.",
+    years: "1815 – 1852",
     nationality: "English",
     image: "https://i.imgur.com/BQNNPlz.jpg",
     quote: "Your best and wisest refuge from all troubles is in your science.",
@@ -275,8 +276,8 @@ const women = [
     name: "Amelia Earhart",
     title: "First Female Aviator",
     contribution:
-      "Women must try to do things as men have tried. When they fail, their failure must be but a challenge to others.",
-    year: "1897 – 1939",
+      "'Women must try to do things as men have tried. When they fail, their failure must be but a challenge to others'. Amelia Eahart was the first woman to fly across the Atlantic and the Pacific Ocean in 1928",
+    years: "1897 – 1939",
     nationality: "American",
     image: "https://i.imgur.com/92w687D.jpg",
     quote:
@@ -288,7 +289,7 @@ const women = [
     title: "Forgotten Pionneer of DNA",
     contribution:
       "Rosalind Franklin was a research associate at King’s College in London who became notable for her work on X-ray diffraction images of DNA which would eventually lead to the discovery of the DNA double helix.",
-    year: "1928 – 2014",
+    years: "1928 – 2014",
     nationality: "English",
     image: "https://i.imgur.com/67JqoVS.jpg",
     quote: "Science and everyday life cannot and should not be separated.",
@@ -300,7 +301,7 @@ const women = [
       "Feminist activist and Reformer for the Welfare of Prostitutes and Other Vulnerable Women",
     contribution:
       "Josephine Butler campaigned for women's suffrage, the right of women to better education, the end of coverture in British law, the abolition of child prostitution, and an end to human trafficking of young women and children into European prostitution.",
-    year: "1828 – 1906",
+    years: "1828 – 1906",
     nationality: "English",
     image: "https://i.imgur.com/oekARR6.jpg",
     quote:
@@ -311,8 +312,9 @@ const women = [
     name: "Peg Hughes",
     title: "First Professional Actress in the Western World",
     contribution:
-      "Peg Hughes is often credited as the first professional actress on the English stage on 8 December 1660",
-    year: "1645 – 1719",
+      "Peg Hughes is often credited as the first professional actress on the English stage on 8 December 1660.During the Renaissance women had been virtually banned from appearing as actresses on the stage. So under a male name and role, leading females as  professional actress for the following  centuries !.",
+    years: "1645 – 1719",
+
     nationality: "English",
     image: "https://i.imgur.com/GxNVt53.jpg",
     quote:
@@ -323,8 +325,8 @@ const women = [
     name: "Annie Londonderry",
     title: "Adventurer on a Bicycle",
     contribution:
-      "Annie Londonderry was first woman to cycle around the world.",
-    year: "1870 – 1947",
+      "Annie Londonderry was first woman to cycle around the world.On June 27, 1894, is the date of her departure, 11:00 am was  the time. A gun, a change of clothes and some travel books accompany her for the duration of the effort.The challenge started from Boston city  and goes through New York, Ohio, Illinois. But not only: it also touches France – Paris Lyon, Marseille.Alexandria of Egypt. From Israel to Yemen, from Sri Lanka to Singapore, from Vietnam to China. On 24 September 1895,she returns home, wining this arduous journey out of any expectation.",
+    years: "1870 – 1947",
     nationality: "Latvian",
     image: "https://i.imgur.com/Zbbz7Kh.jpg",
     quote:
@@ -336,7 +338,7 @@ const women = [
     title: "The first Woman to Conquer Mount Everest",
     contribution:
       "Junko Tabei was the first woman to scale Mount Everest, on May 16, 1975. During 1990–91, Tabei reached the summit of Mt. Vinson, Antarctica's highest mountain.",
-    year: "1939 – 2019",
+    years: "1939 – 2019",
     nationality: "Japanese",
     image: "https://i.imgur.com/KGB6BYi.jpg",
     quote:
@@ -346,8 +348,9 @@ const women = [
     id: 29,
     name: "Billie Holiday",
     title: "Lady Day",
-    contribution: "Jazz singer and performer",
-    year: "1915 – 1959",
+    contribution:
+      "Jazz singer and performer. Holiday had an innovative influence on jazz music. Her vocal style, strongly inspired by jazz instrumentalists, pioneered a new way of manipulating phrasing and tempo that would lead to the pop music gender. She was known for her vocal delivery and improvisational skills too...",
+    years: "1915 – 1959",
     nationality: "American",
     image: "https://i.imgur.com/2Cagwj7.jpg",
     quote:
@@ -359,7 +362,7 @@ const women = [
     title: "Leading French Fashion Designer",
     contribution:
       "Jeanne Paquin was a leading French fashion designer, known for her resolutely modern and innovative designs. She was the first major female couturier and one of the pioneers of the modern fashion business",
-    year: "1869–1936",
+    years: "1869–1936",
     nationality: "French",
     image: "https://i.imgur.com/rrHNwSt.jpg",
     quote:
@@ -371,6 +374,7 @@ const women = [
     title: "Rebel Artist, Mexican Legend",
     contribution:
       "Inspired by the country's popular culture, Frida Kahlo employed a naïve folk art style to explore questions of identity, postcolonialism, gender, class, and race in Mexican society.",
+    years: "1907-1954",
     nationality: "Mexican",
     image: "https://i.imgur.com/WGYlUKw.jpg",
     quote:
