@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import * as GoIcons from "react-icons/go";
 import * as AiIcons from "react-icons/ai";
 import { MenuItems } from "./MenuItems";
-import { NavLink } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import "./header.css";
 
@@ -12,11 +12,13 @@ export default function Header() {
 
 	const showHide = () => setMenuList(!menuList);
 
-	const navigation = (match, location) => {
+	let location = useLocation();
+
+	useEffect(() => {
 		if (location.pathname === "/") {
 			setIsHome(true);
 		}
-	};
+	}, [location.pathname]);
 
 	return (
 		<nav className={isHome ? "hide" : "navbar-items"}>
@@ -37,14 +39,13 @@ export default function Header() {
 					{MenuItems.map((item, index) => {
 						return (
 							<li key={index}>
-								<NavLink
+								<Link
 									to={item.url}
 									className={item.cName}
-									isActive={(match, location) => navigation(match, location)}
 									onClick={() => showHide(menuList)}
 								>
 									{item.title}
-								</NavLink>
+								</Link>
 							</li>
 						);
 					})}

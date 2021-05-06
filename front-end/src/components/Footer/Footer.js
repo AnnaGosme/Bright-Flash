@@ -18,12 +18,16 @@ export default function Footer({ info }) {
 
 	let location = useLocation();
 
-	useEffect(() => {
-		randomInfo();
-		if (location.pathname === "/") {
-			setIsHome(true);
-		}
-	}, []);
+	useEffect(
+		() => {
+			randomInfo();
+			if (location.pathname === "/") {
+				setIsHome(true);
+			}
+		},
+		[location.pathname],
+		[location.pathname]
+	);
 
 	return (
 		<div className="footerpage-container">
