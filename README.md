@@ -8,8 +8,10 @@
 ## The goal of this website is to give women back their rightful place in history. We have selected just a few amongst many pioneers, and wouldlove to receive contributions to grow our list. By playing a game of memory cards, we hope that you will learn about and remember the names and contributions of these pioneering women.
 
 
-> This project was created in React with the goal of using an API. Because there were no APIs of women who made history, we created one ourselves. 
-Getting Started with Create React App
+> This project was created in React with the goal of using an API. Because there were no APIs of women who made history, we created one ourselves.
+
+
+## Getting Started with Create React App
 This project was bootstrapped with Create React App.
 
 Available Scripts
