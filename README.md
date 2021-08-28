@@ -8,7 +8,7 @@ The contributions of women to the advancement of science, the improvement of soc
 The goal of this website is to give women back their rightful place in history. We have selected just a few amongst many pioneers, and wouldlove to receive contributions to grow our list. By playing a game of memory cards, we hope that you will learn about and remember the names and contributions of these pioneering women.
 
 
-> This project was created in React with the goal of using an API. Because there were no APIs of women who made history, we created one ourselves.
+> This project was created in React with the goal of using an API. Because there were no APIs of women who made history, we created one ourselves. You can take a look at it [here](https://github.com/AlessandraPettinato/Back-end-bright-flash). The deployed version of Bright Flash, instead, can be found [here](https://github.com/AlessandraPettinato/Front-end-bright-flash). 
 
 
-##### Created with ❤️ by Silvia Cabello, Anna Gosme, Helen Ndiaye and Alessandra Pettinato
+##### Created with ❤️ by [Silvia Cabello](https://github.com/SilviaCabello), [Anna Gosme](https://github.com/AnnaGosme), [Helen Ndiaye](https://github.com/HELENTRISHA) and [Alessandra Pettinato](https://github.com/AlessandraPettinato).
